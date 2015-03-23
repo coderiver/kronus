@@ -1,0 +1,357 @@
+/* pieces detail */
+.relative .abs-img {position:absolute; /*top:0;left:0*/}
+.fix-left {margin-left:-60px}
+
+
+/* 01 */
+
+#piece2 { height:350px}
+#piece2 .anim1-img {
+    top:0;
+    left:0;
+}
+#pieces-list-wrap {
+    height:100px;
+    width:450px;
+    overflow:hidden;
+    font-size:9pt;
+}
+ul#pieces-list {
+    position:relative;
+    height: 90px;
+    width:450px;
+}
+ul#pieces-list li {
+    list-style: none;
+    background: url("/images/kronus/link-arrow-right.png") 0 50% no-repeat;
+    width:138px;
+    padding-left:10px;
+    float:left
+}
+
+
+/* 02 */
+
+#piece3 .piece-bg {
+    height:282px;   /*320*/
+    background: url(/images/kronus/img-pallet-collars-folded.png) 0 50% no-repeat;
+}
+#piece3 p {margin-top:-15px;padding-bottom:12px}
+#piece3 img {margin:8px 0 0 40px;}
+#piece3 .minigray {
+    color:#999;
+    font-size: 8pt;
+}
+.callout-l {
+    background:url("/images/kronus/anim/callout-line.png") 100% 100% no-repeat;
+    padding:0 17px 17px 0;
+}
+#piece3 .minigray.callout-l {
+}
+#piece3 .minigray.callout-r {
+    text-align: right;
+    background:url("/images/kronus/anim/callout-line2.png") -5px 100% no-repeat;
+    padding:0 17px 17px;
+}
+
+
+/* 03 */
+
+#piece4 h2 {text-align: center}
+#piece4 p, #piece4 .p {text-align:center;margin:0 -60px;color:#999; font-size:11pt; padding:30px 0 30px}
+#piece4 .p > p {padding:0;}
+p#anim3-equal { margin:-35px 0 0; font-size:160px;line-height:180px; /*font-weight:bolder*/;padding: 0;color:lightgray}
+#anim3-truck { position:absolute; width:100%;z-index:10;padding-bottom:0;line-height: 14px;}
+#piece4 img {float:left}
+#piece4 img.right {float:right;padding-right: 60px}
+#piece4 .green-tag {
+    background:url("/images/kronus/anim/03/capacity-tag.png") 0 0 no-repeat;
+    width: 97px;
+    height: 34px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    font-size: 90%;
+    font-weight:bold;
+    position: absolute;
+}
+#piece4 .green-tag sup {font-weight:300}
+#anim3-callout {
+    color: #999;
+    margin:0 0 -10px -30px;
+    font-size:10pt;
+    display:inline-block;
+}
+
+
+/* 04 */
+
+#piece5 #anim4-wrap div {
+    color:#999;
+    font-size: 11pt;
+}
+#anim4-wrap {
+    margin-top: 10px;
+    width: 620px;
+    height:232px;
+    overflow:hidden;
+}
+#anim4-wrap>div {
+    position:absolute;bottom:0;right:0;
+    width:615px;
+    height:229px;
+    line-height:58px;
+}
+#anim4-wrap p {font-size:11pt}
+#collar-h1 { background:url("/images/kronus/anim/04/collar-height-01.png") 100% 0 no-repeat;}
+#collar-h2 { background:url("/images/kronus/anim/04/collar-height-02.png") 100% 0 no-repeat;}
+#collar-h3 { background:url("/images/kronus/anim/04/collar-height-03.png") 100% 0 no-repeat;}
+#collar-h4 { background:url("/images/kronus/anim/04/collar-height-04.png") 100% 0 no-repeat;}
+#collar-h1>p { padding:0 0 0 170px}
+#collar-h2>p { padding:58px 0 0 110px}
+#collar-h3>p { padding:116px 0 0 55px}
+#collar-h4>p { padding:174px 0 0 0}
+
+
+/* 05 Collar size */
+
+/* 06 Dividers*/
+
+/* 07 Customization */
+#piece9 p {padding-bottom:15px}
+#customization {
+    padding: 0 0 20px;
+    font-size: 11pt;
+}
+#customization tr {height: 40px}
+#customization tr td:first-child {
+    width: 140px;
+    color: #3A75C4;
+}
+#customization-img {
+    margin-top:-38px;
+    margin-left: -60px;
+    width: 480px;
+    height: 350px;
+    background: url("/images/kronus/anim/07/custom-pallet.png") 0 0 no-repeat;
+}
+#customization-img>div { position:absolute; top:0; left:0; width:100%; height: 100%}
+#customization-img .collar.blue     { background:url("/images/kronus/anim/07/custom-collar-blue.png") 0 0 no-repeat }
+#customization-img .collar.orange   { background:url("/images/kronus/anim/07/custom-collar-orange.png") 0 0 no-repeat }
+#customization-img .collar.pink     { background:url("/images/kronus/anim/07/custom-collar-pink.png") 0 0 no-repeat }
+#customization-img .hinges.black{ background:url("/images/kronus/anim/07/custom-hinges-black.png") 0 0 no-repeat }
+#customization-img .hinges.blue { background:url("/images/kronus/anim/07/custom-hinges-blue.png") 0 0 no-repeat }
+#customization-img .hinges.green{ background:url("/images/kronus/anim/07/custom-hinges-green.png") 0 0 no-repeat }
+#customization-img .hinges.red  { background:url("/images/kronus/anim/07/custom-hinges-red.png") 0 0 no-repeat }
+#customization-img .logo.black  { background:url("/images/kronus/anim/07/custom-logo-black.png") 0 0 no-repeat }
+#customization-img .logo.color  { background:url("/images/kronus/anim/07/custom-logo-color.png") 0 0 no-repeat }
+
+
+/* 08 Distance keeper */
+
+#piece8 .piece-bg {
+    height:262px;   /*320*/
+    background: url(/images/kronus/anim/08/img-distance-keeper.png) 100% 50% no-repeat;
+}
+
+
+/* 09 6 hinges */
+
+#piece10 h2 { margin-right:-20px;}
+#piece10 p  { padding-bottom: 15px}
+#piece10 #anim-holder-6 { margin-top:-38px;}
+
+
+/* 10 Collar materials */
+
+#piece11 .piece-bg {
+    height:262px;   /*320*/
+    /*background: url(/images/kronus/anim/10/collar-materials-osb.png) 100% 50% no-repeat;*/
+}
+#piece11 .anim10-img {
+    width:440px;
+    height:300px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+/* 11 Corners */
+
+#piece12 .piece-bg {
+    height:262px;   /*320*/
+    background: url(/images/kronus/anim/11/img-corner-closeup.png) 0 50% no-repeat;
+}
+
+/* 12 Doors and lids */
+
+#piece13 .anim12-img {margin-top:-15px}
+
+
+/* 13 Label holders */
+
+#piece14 {
+/* 	background-image: url("/images/kronus/img-label-holders.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+ */
+	height: 308px;
+ }
+#piece14 p,#piece14 .p {
+    /* 
+	text-align: center;
+    color: #3A75C4;
+    opacity:.4;
+    text-transform:uppercase;
+    font-size:32pt;
+	float: none;
+	 */
+}
+
+#piece14 .anim13-0-img,
+#piece14 .anim13-1-img,
+#piece14 .anim13-2-img,
+#piece14 .anim13-3-img {
+    width:500px;
+    height:741px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+#piece14 .anim13-2-img {
+    top:-700px;
+}
+#piece14 .anim13-3-img {
+    top:-433px;
+    right:-1000px;
+}
+
+#holder-labels {
+	width:500px;
+	margin-left:-60px;
+	margin-top:-38px;
+	overflow:hidden;
+	height:308px;
+}
+
+
+
+/* skew menu (via images) */
+
+ul.lime3 {
+    clear:both;
+    height:22px;
+    line-height:22px;
+    padding-left:11px;
+    position: relative;
+}
+ul.lime3.center {
+    display:inline-block;   /*make text-align work*/
+}
+ul.lime3 li {
+    height:22px;
+    width:128px;
+    padding:0 11px; /* -1 to overlap */
+    margin:0 -12px;
+    background:url("/images/kronus/button-green.png") 0 100% no-repeat;
+    display:inline-block;
+    float:left;
+    font-size:9pt;
+    text-align:center;
+    text-shadow:0 -1px 1px #444;
+}
+.lime3 li.active, .lime3 li:active {
+    background-position:0 0;
+}
+.lime3 li a {
+    width:100%;
+    display:block;
+    color:white;
+    text-decoration:none;
+}
+
+
+/* customization buttons */
+
+.hinge-black {background:url(/images/kronus/anim/07/but-customize-hinge-black.png) 0 0 no-repeat}
+.hinge-blue  {background:url(/images/kronus/anim/07/but-customize-hinge-blue.png) 0 0 no-repeat}
+.hinge-green {background:url(/images/kronus/anim/07/but-customize-hinge-green.png) 0 0 no-repeat}
+.hinge-red   {background:url(/images/kronus/anim/07/but-customize-hinge-red.png) 0 0 no-repeat}
+.wood-blue   {background:url(/images/kronus/anim/07/but-customize-wood-blue.png) 0 0 no-repeat}
+.wood-pink   {background:url(/images/kronus/anim/07/but-customize-wood-pink.png) 0 0 no-repeat}
+.wood-yellow {background:url(/images/kronus/anim/07/but-customize-wood-yellow.png) 0 0 no-repeat}
+.wood-green {background:url(/images/kronus/anim/07/button-custom-green.png) 0 0 no-repeat}
+
+ul.clr88,ul.clr109 {
+    clear:both;
+    height:22px;
+    line-height:22px;
+    padding-left:11px;
+}
+ul.clr88 li { width: 66px}  /*88*/
+ul.clr109 li{ width: 87px}  /*109*/
+ul.clr88 li,ul.clr109 li {
+    height:22px;
+    padding:0 11px; /* -1 to overlap */
+    margin:0 -11px;
+    background-position:0 100%;
+    display:inline-block;
+    float:left;
+}
+.clr88 li.active, .clr88 li:active,
+.clr109 li.active, .clr109 li:active {
+    background-position:0 0;
+}
+.clr88 li a, .clr109 li a {
+    width:100%;
+    display:block;
+    color:white;
+    text-decoration:none;
+}
+
+
+/* materials */
+
+.btn-desk   {background:url(/images/kronus/anim/10/but-desk.png) 0 0 no-repeat}
+.btn-desk2  {background:url(/images/kronus/anim/10/but-doubledesk.png) 0 0 no-repeat}
+.btn-osb    {background:url(/images/kronus/anim/10/but-osb.png) 0 0 no-repeat}
+.btn-plastic{background:url(/images/kronus/anim/10/but-plastic.png) 0 0 no-repeat}
+.btn-plywood{background:url(/images/kronus/anim/10/but-plywood.png) 0 0 no-repeat}
+
+ul#material {
+    clear:both;
+    height:58px;
+    line-height:58px;
+    padding-left:29px;
+    font-size:9pt;
+}
+ul#material li {
+    width: 75px;
+    padding:0 29px;
+    margin:0 -29px;
+    background-position:0 100%;
+    display:inline-block;
+    float:left;
+    text-align:center;
+}
+#material li.active, #material li:active {
+    background-position:0 0;
+}
+#material li a {
+    width:100%;
+    display:block;
+    color:white;
+    text-decoration:none;
+}
+#material li span.title {
+    position:relative;
+    top:-40px;
+    left:29px;
+    visibility: hidden;
+	margin: 0 -20px;
+}
+#material li.hover span.title,
+#material li.active span.title {
+    color:#999;
+    visibility: visible;
+}

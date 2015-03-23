@@ -1,0 +1,22 @@
+
+#ie8-fix-right-img-select {
+    text-align:inherit;
+}
+#ie8-fix-right-img-select img.active {
+    margin:0 !important;
+}
+footer {
+    display:block;
+}
+#bottom {
+    min-height: 200px;
+    background: url("/images/kronus/inlay-bg-tile.jpg");
+}
+#bottom .dropdown-menu, #top .dropdown-menu {
+	background: url("/images/kronus/inlay-bg-tile.jpg") 0 100% repeat-x;
+}
+#bottom .dropdown-menu li > a:hover, #top .dropdown-menu li > a:hover,
+#bottom .dropdown-menu li > a:focus, #top .dropdown-menu li > a:focus
+ {
+	filter: none;
+ }

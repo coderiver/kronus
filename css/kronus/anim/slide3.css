@@ -1,0 +1,1069 @@
+#anim-slide3 .full
+{
+    width: 980px;
+    height: 460px;
+    position: absolute;
+}
+
+#anim-slide3 .title-text-3
+{
+    padding-top: 50px;
+    padding-left: 400px;
+    color: #000;
+    opacity: 0;
+
+    text-transform: uppercase;
+    font-family: Conv_EGR45__,sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+
+}
+
+#anim-slide3.active .title-text-3
+{
+    -webkit-transition: opacity 200ms ease-out 1200ms, padding-left 440ms ease 11400ms;
+    -moz-transition: opacity 200ms ease-out 1200ms, padding-left 440ms ease 11400ms;
+    -o-transition: opacity 200ms ease-out 1200ms, padding-left 440ms ease 11400ms;
+    transition: opacity 200ms ease-out 1200ms, padding-left 440ms ease 11400ms;
+    opacity: 1;
+    padding-left: 40px;
+}
+
+#anim-slide3 #explore-3
+{
+    color: #5182bd;
+    font-size: 14px;
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    left: 400px;
+    bottom: 60px;
+    opacity: 0;
+    z-index: 1000;
+
+    text-transform: uppercase;
+    font-family: Conv_EGR45__, sans-serif;
+    font-size: 19px;
+}
+
+#anim-slide3.active #explore-3
+{
+    opacity: 1;
+    visibility: visible;
+    left: 40px;
+
+    -webkit-transition: opacity 0.2s ease-out 5920ms, visibility 0.2s ease-out 5920ms, left 440ms ease 11400ms;
+    -moz-transition: opacity 0.2s ease-out 5920ms, visibility 0.2s ease-out 5920ms, left 440ms ease 11400ms;
+    -o-transition: opacity 0.2s ease-out 5920ms, visibility 0.2s ease-out 5920ms, left 440ms ease 11400ms;
+    transition: opacity 0.2s ease-out 5920ms, visibility 0.2s ease-out 5920ms, left 440ms ease 11400ms;
+}
+
+#anim-slide3 .tags_3
+{
+    position: absolute;
+    padding-left: 400px;
+    color: #000;
+    margin: 0;
+    font-size: 15px;
+    list-style: none;
+
+    top: 110px;
+}
+
+#anim-slide3.active .tags_3
+{
+    -webkit-transition: padding-left 440ms ease 11400ms;
+    -moz-transition: padding-left 440ms ease 11400ms;
+    -o-transition: padding-left 440ms ease 11400ms;
+    transition: padding-left 440ms ease 11400ms;
+    padding-left: 40px;
+}
+
+#anim-slide3 .tags_3_2 li
+{
+    margin: 7px 0;
+    padding-left: 10px;
+    background: url(img2/bullet.png) left top no-repeat;
+    opacity: 1;
+}
+
+#anim-slide3 .tags_3 li
+{
+    margin: 7px 0;
+    padding-left: 10px;
+    background: url(img2/bullet.png) left top no-repeat;
+    opacity: 0;
+}
+
+#anim-slide3.active .tags_3 #tag_3_1
+{
+    opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 2080ms;
+    -moz-transition: all 0.2s ease-out 2080ms;
+    -o-transition: all 0.2s ease-out 2080ms;
+    transition: all 0.2s ease-out 2080ms;
+}
+
+#anim-slide3.active .tags_3 #tag_3_2
+{
+    opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 3040ms;
+    -moz-transition: all 0.2s ease-out 3040ms;
+    -o-transition: all 0.2s ease-out 3040ms;
+    transition: all 0.2s ease-out 3040ms;
+}
+
+#anim-slide3.active .tags_3 #tag_3_3
+{
+    opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 3760ms;
+    -moz-transition: all 0.2s ease-out 3760ms;
+    -o-transition: all 0.2s ease-out 3760ms;
+    transition: all 0.2s ease-out 3760ms;
+}
+
+#anim-slide3.active .tags_3 #tag_3_4
+{
+    opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 4480ms;
+    -moz-transition: all 0.2s ease-out 4480ms;
+    -o-transition: all 0.2s ease-out 4480ms;
+    transition: all 0.2s ease-out 4480ms;
+}
+
+#anim-slide3.active .tags_3 #tag_3_5
+{
+    opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 5020ms;
+    -moz-transition: all 0.2s ease-out 5020ms;
+    -o-transition: all 0.2s ease-out 5020ms;
+    transition: all 0.2s ease-out 5020ms;
+}
+
+#anim-slide3 .pallet
+{
+    background: url(img3/pallet.png);
+}
+
+#anim-slide3.active .pallet
+{
+    opacity: 0;
+
+    -webkit-transition: opacity 320ms ease-in 11120ms;
+    -moz-transition: opacity 320ms ease-in 11120ms;
+    -o-transition: opacity 320ms ease-in 11120ms;
+    transition: opacity 320ms ease-in 11120ms;
+}
+
+#anim-slide3 .collar-bg-4
+{
+    background: url(img3/collar.png);
+    z-index: 4;
+}
+
+#anim-slide3.active .collar-bg-4
+{
+    opacity: 0;
+
+    -webkit-transition: opacity 320ms ease-in 11120ms;
+    -moz-transition: opacity 320ms ease-in 11120ms;
+    -o-transition: opacity 320ms ease-in 11120ms;
+    transition: opacity 320ms ease-in 11120ms;
+}
+
+#anim-slide3 .collar-bg-3
+{
+    background: url(img3/collar.png);
+    bottom: 50px;
+    z-index: 3;
+}
+
+#anim-slide3.active .collar-bg-3
+{
+    bottom: 510px;
+
+    -webkit-transition: bottom 600ms ease-in 8160ms;
+    -moz-transition: bottom 600ms ease-in 8160ms;
+    -o-transition: bottom 600ms ease-in 8160ms;
+    transition: bottom 600ms ease-in 8160ms;
+}
+
+#anim-slide3 .collar-bg-2
+{
+    background: url(img3/collar.png);
+    bottom: 100px;
+    z-index: 2;
+}
+
+#anim-slide3.active .collar-bg-2
+{
+    bottom: 560px;
+
+    -webkit-transition: bottom 600ms ease-in 5000ms;
+    -moz-transition: bottom 600ms ease-in 5000ms;
+    -o-transition: bottom 600ms ease-in 5000ms;
+    transition: bottom 600ms ease-in 5000ms;
+}
+
+
+#anim-slide3 .collar-bg-1
+{
+    background: url(img3/collar.png);
+    bottom: 150px;
+    z-index: 1;
+}
+
+#anim-slide3.active .collar-bg-1
+{
+    bottom: 610px;
+
+    -webkit-transition: bottom 600ms ease-in 2400ms;
+    -moz-transition: bottom 600ms ease-in 2400ms;
+    -o-transition: bottom 600ms ease-in 2400ms;
+    transition: bottom 600ms ease-in 2400ms;
+}
+
+#anim-slide3 .collar-front
+{
+    background: url(img3/collars-wall.png);
+    z-index: 200;
+}
+
+#anim-slide3.active .collar-front
+{
+    opacity: 0;
+
+    -webkit-transition: all 400ms linear 1400ms;
+    -moz-transition: all 400ms linear 1400ms;
+    -o-transition: all 400ms linear 1400ms;
+    transition: all 400ms linear 1400ms;
+}
+
+#anim-slide3 .c-box-1
+{
+    background: url(img3/box_1_2.png);
+    z-index: 111;
+    bottom: 0;
+}
+
+#anim-slide3.active .c-box-1
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 3200ms;
+    -moz-transition: bottom 600ms ease-in 3200ms;
+    -o-transition: bottom 600ms ease-in 3200ms;
+    transition: bottom 600ms ease-in 3200ms;
+}
+
+#anim-slide3 .c-box-2
+{
+    background: url(img3/box_2_2.png);
+    z-index: 112;
+    bottom: 0;
+}
+
+#anim-slide3.active .c-box-2
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 3600ms;
+    -moz-transition: bottom 600ms ease-in 3600ms;
+    -o-transition: bottom 600ms ease-in 3600ms;
+    transition: bottom 600ms ease-in 3600ms;
+}
+
+#anim-slide3 .c-box-3
+{
+    background: url(img3/box_3_2.png);
+    z-index: 113;
+    bottom: 0;
+}
+
+#anim-slide3.active .c-box-3
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 5800ms;
+    -moz-transition: bottom 600ms ease-in 5800ms;
+    -o-transition: bottom 600ms ease-in 5800ms;
+    transition: bottom 600ms ease-in 5800ms;
+}
+
+#anim-slide3 .c-box-4
+{
+    background: url(img3/box_4_2.png);
+    z-index: 114;
+    bottom: 0;
+}
+
+#anim-slide3.active .c-box-4
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 6200ms;
+    -moz-transition: bottom 600ms ease-in 6200ms;
+    -o-transition: bottom 600ms ease-in 6200ms;
+    transition: bottom 600ms ease-in 6200ms;
+}
+
+#anim-slide3 .c-box-7
+{
+    background: url(img3/box_7_2.png);
+    z-index: 104;
+    bottom: 0;
+}
+
+#anim-slide3.active .c-box-7
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 6600ms;
+    -moz-transition: bottom 600ms ease-in 6600ms;
+    -o-transition: bottom 600ms ease-in 6600ms;
+    transition: bottom 600ms ease-in 6600ms;
+}
+
+#anim-slide3 .c-box-5
+{
+    background: url(img3/box_5_2.png);
+    z-index: 115;
+    bottom: 0;
+}
+
+#anim-slide3.active .c-box-5
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 9000ms;
+    -moz-transition: bottom 600ms ease-in 9000ms;
+    -o-transition: bottom 600ms ease-in 9000ms;
+    transition: bottom 600ms ease-in 9000ms;
+}
+
+#anim-slide3 .c-box-6
+{
+    background: url(img3/box_6_2.png);
+    z-index: 116;
+    bottom: 0;
+}
+
+#anim-slide3.active .c-box-6
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 9400ms;
+    -moz-transition: bottom 600ms ease-in 9400ms;
+    -o-transition: bottom 600ms ease-in 9400ms;
+    transition: bottom 600ms ease-in 9400ms;
+}
+
+#anim-slide3 .c-box-8
+{
+    background: url(img3/box_8.png);
+    z-index: 106;
+    bottom: 0;
+}
+
+#anim-slide3.active .c-box-8
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 9800ms;
+    -moz-transition: bottom 600ms ease-in 9800ms;
+    -o-transition: bottom 600ms ease-in 9800ms;
+    transition: bottom 600ms ease-in 9800ms;
+}
+
+#anim-slide3 .wooden-box-bg
+{
+    background: url(img3/wooden-box.png);
+    z-index: 300;
+}
+
+#anim-slide3 .wooden-box-front
+{
+    background: url(img3/boxes-wall.png);
+    z-index: 400;
+}
+
+#anim-slide3.active .wooden-box-front
+{
+    opacity: 0;
+
+    -webkit-transition: all 400ms linear 1400ms;
+    -moz-transition: all 400ms linear 1400ms;
+    -o-transition: all 400ms linear 1400ms;
+    transition: all 400ms linear 1400ms;
+}
+
+#anim-slide3 .w-box-1
+{
+    background: url(img3/box_1.png);
+    z-index: 311;
+    bottom: 0;
+}
+
+#anim-slide3.active .w-box-1
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 3200ms;
+    -moz-transition: bottom 600ms ease-in 3200ms;
+    -o-transition: bottom 600ms ease-in 3200ms;
+    transition: bottom 600ms ease-in 3200ms;
+}
+
+#anim-slide3 .w-box-2
+{
+    background: url(img3/box_2.png);
+    z-index: 312;
+    bottom: 0;
+}
+
+#anim-slide3.active .w-box-2
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 3600ms;
+    -moz-transition: bottom 600ms ease-in 3600ms;
+    -o-transition: bottom 600ms ease-in 3600ms;
+    transition: bottom 600ms ease-in 3600ms;
+}
+
+#anim-slide3 .w-box-3
+{
+    background: url(img3/box_3.png);
+    z-index: 313;
+    bottom: 0;
+}
+
+#anim-slide3.active .w-box-3
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 5800ms;
+    -moz-transition: bottom 600ms ease-in 5800ms;
+    -o-transition: bottom 600ms ease-in 5800ms;
+    transition: bottom 600ms ease-in 5800ms;
+}
+
+#anim-slide3 .w-box-4
+{
+    background: url(img3/box_4.png);
+    z-index: 314;
+    bottom: 0;
+}
+
+#anim-slide3.active .w-box-4
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 6200ms;
+    -moz-transition: bottom 600ms ease-in 6200ms;
+    -o-transition: bottom 600ms ease-in 6200ms;
+    transition: bottom 600ms ease-in 6200ms;
+}
+
+#anim-slide3 .w-box-7
+{
+    background: url(img3/box_7.png);
+    z-index: 304;
+    bottom: 0;
+}
+
+#anim-slide3.active .w-box-7
+{
+    bottom: 460px;
+
+    -webkit-transition: bottom 600ms ease-in 6600ms;
+    -moz-transition: bottom 600ms ease-in 6600ms;
+    -o-transition: bottom 600ms ease-in 6600ms;
+    transition: bottom 600ms ease-in 6600ms;
+}
+
+#anim-slide3 .w-box-5
+{
+    background: url(img3/box_5.png);
+    z-index: 315;
+}
+
+#anim-slide3 .w-box-6
+{
+    background: url(img3/box_6.png);
+    z-index: 316;
+}
+
+#anim-slide3 .hand-still
+{
+    background: url(img3/arm-blue.png);
+    opacity: 0;
+    z-index: 320;
+    visibility: visible;
+}
+
+#anim-slide3.active .hand-still
+{
+    opacity: 1;
+    visibility: hidden;
+
+    -webkit-transition: opacity 240ms ease-in 7680ms, visibility 0s ease-in 8440ms;
+    -moz-transition: opacity 240ms ease-in 7680ms, visibility 0s ease-in 8440ms;
+    -o-transition: opacity 240ms ease-in 7680ms, visibility 0s ease-in 8440ms;
+    transition: opacity 240ms ease-in 7680ms, visibility 0s ease-in 8440ms;
+}
+
+#anim-slide3 .arm-sequence > *
+{
+    opacity: 0;
+    z-index: 320;
+}
+
+#anim-slide3 .arm-sequence > img {
+    opacity: 0;
+}
+#anim-slide3.active .arm-sequence > img {
+    opacity: 1;
+}
+
+#anim-slide3.active .arm-frame-2 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00210.png); -webkit-transition: opacity 0s ease-in 8440ms,  visibility 0s ease-in 8480ms; -moz-transition: opacity 0s ease-in 8440ms,  visibility 0s ease-in 8480ms; -o-transition: opacity 0s ease-in 8440ms,  visibility 0s ease-in 8480ms; transition: opacity 0s ease-in 8440ms,  visibility 0s ease-in 8480ms;}
+#anim-slide3.active .arm-frame-3 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00211.png); -webkit-transition: opacity 0s ease-in 8480ms,  visibility 0s ease-in 8520ms; -moz-transition: opacity 0s ease-in 8480ms,  visibility 0s ease-in 8520ms; -o-transition: opacity 0s ease-in 8480ms,  visibility 0s ease-in 8520ms; transition: opacity 0s ease-in 8480ms,  visibility 0s ease-in 8520ms;}
+#anim-slide3.active .arm-frame-4 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00212.png); -webkit-transition: opacity 0s ease-in 8520ms,  visibility 0s ease-in 8560ms; -moz-transition: opacity 0s ease-in 8520ms,  visibility 0s ease-in 8560ms; -o-transition: opacity 0s ease-in 8520ms,  visibility 0s ease-in 8560ms; transition: opacity 0s ease-in 8520ms,  visibility 0s ease-in 8560ms;}
+#anim-slide3.active .arm-frame-5 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00213.png); -webkit-transition: opacity 0s ease-in 8560ms,  visibility 0s ease-in 8600ms; -moz-transition: opacity 0s ease-in 8560ms,  visibility 0s ease-in 8600ms; -o-transition: opacity 0s ease-in 8560ms,  visibility 0s ease-in 8600ms; transition: opacity 0s ease-in 8560ms,  visibility 0s ease-in 8600ms;}
+#anim-slide3.active .arm-frame-6 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00214.png); -webkit-transition: opacity 0s ease-in 8600ms,  visibility 0s ease-in 8640ms; -moz-transition: opacity 0s ease-in 8600ms,  visibility 0s ease-in 8640ms; -o-transition: opacity 0s ease-in 8600ms,  visibility 0s ease-in 8640ms; transition: opacity 0s ease-in 8600ms,  visibility 0s ease-in 8640ms;}
+#anim-slide3.active .arm-frame-7 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00215.png); -webkit-transition: opacity 0s ease-in 8640ms,  visibility 0s ease-in 8680ms; -moz-transition: opacity 0s ease-in 8640ms,  visibility 0s ease-in 8680ms; -o-transition: opacity 0s ease-in 8640ms,  visibility 0s ease-in 8680ms; transition: opacity 0s ease-in 8640ms,  visibility 0s ease-in 8680ms;}
+#anim-slide3.active .arm-frame-8 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00216.png); -webkit-transition: opacity 0s ease-in 8680ms,  visibility 0s ease-in 8720ms; -moz-transition: opacity 0s ease-in 8680ms,  visibility 0s ease-in 8720ms; -o-transition: opacity 0s ease-in 8680ms,  visibility 0s ease-in 8720ms; transition: opacity 0s ease-in 8680ms,  visibility 0s ease-in 8720ms;}
+#anim-slide3.active .arm-frame-9 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00217.png); -webkit-transition: opacity 0s ease-in 8720ms,  visibility 0s ease-in 8760ms; -moz-transition: opacity 0s ease-in 8720ms,  visibility 0s ease-in 8760ms; -o-transition: opacity 0s ease-in 8720ms,  visibility 0s ease-in 8760ms; transition: opacity 0s ease-in 8720ms,  visibility 0s ease-in 8760ms;}
+#anim-slide3.active .arm-frame-10 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00218.png); -webkit-transition: opacity 0s ease-in 8760ms,  visibility 0s ease-in 8800ms; -moz-transition: opacity 0s ease-in 8760ms,  visibility 0s ease-in 8800ms; -o-transition: opacity 0s ease-in 8760ms,  visibility 0s ease-in 8800ms; transition: opacity 0s ease-in 8760ms,  visibility 0s ease-in 8800ms;}
+#anim-slide3.active .arm-frame-11 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00219.png); -webkit-transition: opacity 0s ease-in 8800ms,  visibility 0s ease-in 8840ms; -moz-transition: opacity 0s ease-in 8800ms,  visibility 0s ease-in 8840ms; -o-transition: opacity 0s ease-in 8800ms,  visibility 0s ease-in 8840ms; transition: opacity 0s ease-in 8800ms,  visibility 0s ease-in 8840ms;}
+#anim-slide3.active .arm-frame-12 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00220.png); -webkit-transition: opacity 0s ease-in 8840ms,  visibility 0s ease-in 8880ms; -moz-transition: opacity 0s ease-in 8840ms,  visibility 0s ease-in 8880ms; -o-transition: opacity 0s ease-in 8840ms,  visibility 0s ease-in 8880ms; transition: opacity 0s ease-in 8840ms,  visibility 0s ease-in 8880ms;}
+#anim-slide3.active .arm-frame-13 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00221.png); -webkit-transition: opacity 0s ease-in 8880ms,  visibility 0s ease-in 8920ms; -moz-transition: opacity 0s ease-in 8880ms,  visibility 0s ease-in 8920ms; -o-transition: opacity 0s ease-in 8880ms,  visibility 0s ease-in 8920ms; transition: opacity 0s ease-in 8880ms,  visibility 0s ease-in 8920ms;}
+#anim-slide3.active .arm-frame-14 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00222.png); -webkit-transition: opacity 0s ease-in 8920ms,  visibility 0s ease-in 8960ms; -moz-transition: opacity 0s ease-in 8920ms,  visibility 0s ease-in 8960ms; -o-transition: opacity 0s ease-in 8920ms,  visibility 0s ease-in 8960ms; transition: opacity 0s ease-in 8920ms,  visibility 0s ease-in 8960ms;}
+#anim-slide3.active .arm-frame-15 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00223.png); -webkit-transition: opacity 0s ease-in 8960ms,  visibility 0s ease-in 9000ms; -moz-transition: opacity 0s ease-in 8960ms,  visibility 0s ease-in 9000ms; -o-transition: opacity 0s ease-in 8960ms,  visibility 0s ease-in 9000ms; transition: opacity 0s ease-in 8960ms,  visibility 0s ease-in 9000ms;}
+#anim-slide3.active .arm-frame-16 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00224.png); -webkit-transition: opacity 0s ease-in 9000ms,  visibility 0s ease-in 9040ms; -moz-transition: opacity 0s ease-in 9000ms,  visibility 0s ease-in 9040ms; -o-transition: opacity 0s ease-in 9000ms,  visibility 0s ease-in 9040ms; transition: opacity 0s ease-in 9000ms,  visibility 0s ease-in 9040ms;}
+#anim-slide3.active .arm-frame-17 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00225.png); -webkit-transition: opacity 0s ease-in 9040ms,  visibility 0s ease-in 9080ms; -moz-transition: opacity 0s ease-in 9040ms,  visibility 0s ease-in 9080ms; -o-transition: opacity 0s ease-in 9040ms,  visibility 0s ease-in 9080ms; transition: opacity 0s ease-in 9040ms,  visibility 0s ease-in 9080ms;}
+#anim-slide3.active .arm-frame-18 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00226.png); -webkit-transition: opacity 0s ease-in 9080ms,  visibility 0s ease-in 9120ms; -moz-transition: opacity 0s ease-in 9080ms,  visibility 0s ease-in 9120ms; -o-transition: opacity 0s ease-in 9080ms,  visibility 0s ease-in 9120ms; transition: opacity 0s ease-in 9080ms,  visibility 0s ease-in 9120ms;}
+#anim-slide3.active .arm-frame-19 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00227.png); -webkit-transition: opacity 0s ease-in 9120ms,  visibility 0s ease-in 9160ms; -moz-transition: opacity 0s ease-in 9120ms,  visibility 0s ease-in 9160ms; -o-transition: opacity 0s ease-in 9120ms,  visibility 0s ease-in 9160ms; transition: opacity 0s ease-in 9120ms,  visibility 0s ease-in 9160ms;}
+#anim-slide3.active .arm-frame-20 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00209.png); -webkit-transition: opacity 0s ease-in 9160ms,  visibility 0s ease-in 9400ms; -moz-transition: opacity 0s ease-in 9160ms,  visibility 0s ease-in 9400ms; -o-transition: opacity 0s ease-in 9160ms,  visibility 0s ease-in 9400ms; transition: opacity 0s ease-in 9160ms,  visibility 0s ease-in 9400ms;}
+#anim-slide3.active .arm-frame-21 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00210.png); -webkit-transition: opacity 0s ease-in 9400ms,  visibility 0s ease-in 9440ms; -moz-transition: opacity 0s ease-in 9400ms,  visibility 0s ease-in 9440ms; -o-transition: opacity 0s ease-in 9400ms,  visibility 0s ease-in 9440ms; transition: opacity 0s ease-in 9400ms,  visibility 0s ease-in 9440ms;}
+#anim-slide3.active .arm-frame-22 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00211.png); -webkit-transition: opacity 0s ease-in 9440ms,  visibility 0s ease-in 9480ms; -moz-transition: opacity 0s ease-in 9440ms,  visibility 0s ease-in 9480ms; -o-transition: opacity 0s ease-in 9440ms,  visibility 0s ease-in 9480ms; transition: opacity 0s ease-in 9440ms,  visibility 0s ease-in 9480ms;}
+#anim-slide3.active .arm-frame-23 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00212.png); -webkit-transition: opacity 0s ease-in 9480ms,  visibility 0s ease-in 9520ms; -moz-transition: opacity 0s ease-in 9480ms,  visibility 0s ease-in 9520ms; -o-transition: opacity 0s ease-in 9480ms,  visibility 0s ease-in 9520ms; transition: opacity 0s ease-in 9480ms,  visibility 0s ease-in 9520ms;}
+#anim-slide3.active .arm-frame-24 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00213.png); -webkit-transition: opacity 0s ease-in 9520ms,  visibility 0s ease-in 9560ms; -moz-transition: opacity 0s ease-in 9520ms,  visibility 0s ease-in 9560ms; -o-transition: opacity 0s ease-in 9520ms,  visibility 0s ease-in 9560ms; transition: opacity 0s ease-in 9520ms,  visibility 0s ease-in 9560ms;}
+#anim-slide3.active .arm-frame-25 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00214.png); -webkit-transition: opacity 0s ease-in 9560ms,  visibility 0s ease-in 9600ms; -moz-transition: opacity 0s ease-in 9560ms,  visibility 0s ease-in 9600ms; -o-transition: opacity 0s ease-in 9560ms,  visibility 0s ease-in 9600ms; transition: opacity 0s ease-in 9560ms,  visibility 0s ease-in 9600ms;}
+#anim-slide3.active .arm-frame-26 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00215.png); -webkit-transition: opacity 0s ease-in 9600ms,  visibility 0s ease-in 9640ms; -moz-transition: opacity 0s ease-in 9600ms,  visibility 0s ease-in 9640ms; -o-transition: opacity 0s ease-in 9600ms,  visibility 0s ease-in 9640ms; transition: opacity 0s ease-in 9600ms,  visibility 0s ease-in 9640ms;}
+#anim-slide3.active .arm-frame-27 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00216.png); -webkit-transition: opacity 0s ease-in 9640ms,  visibility 0s ease-in 9680ms; -moz-transition: opacity 0s ease-in 9640ms,  visibility 0s ease-in 9680ms; -o-transition: opacity 0s ease-in 9640ms,  visibility 0s ease-in 9680ms; transition: opacity 0s ease-in 9640ms,  visibility 0s ease-in 9680ms;}
+#anim-slide3.active .arm-frame-28 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00217.png); -webkit-transition: opacity 0s ease-in 9680ms,  visibility 0s ease-in 9720ms; -moz-transition: opacity 0s ease-in 9680ms,  visibility 0s ease-in 9720ms; -o-transition: opacity 0s ease-in 9680ms,  visibility 0s ease-in 9720ms; transition: opacity 0s ease-in 9680ms,  visibility 0s ease-in 9720ms;}
+#anim-slide3.active .arm-frame-29 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00218.png); -webkit-transition: opacity 0s ease-in 9720ms,  visibility 0s ease-in 9760ms; -moz-transition: opacity 0s ease-in 9720ms,  visibility 0s ease-in 9760ms; -o-transition: opacity 0s ease-in 9720ms,  visibility 0s ease-in 9760ms; transition: opacity 0s ease-in 9720ms,  visibility 0s ease-in 9760ms;}
+#anim-slide3.active .arm-frame-30 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00219.png); -webkit-transition: opacity 0s ease-in 9760ms,  visibility 0s ease-in 9800ms; -moz-transition: opacity 0s ease-in 9760ms,  visibility 0s ease-in 9800ms; -o-transition: opacity 0s ease-in 9760ms,  visibility 0s ease-in 9800ms; transition: opacity 0s ease-in 9760ms,  visibility 0s ease-in 9800ms;}
+#anim-slide3.active .arm-frame-31 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00220.png); -webkit-transition: opacity 0s ease-in 9800ms,  visibility 0s ease-in 9840ms; -moz-transition: opacity 0s ease-in 9800ms,  visibility 0s ease-in 9840ms; -o-transition: opacity 0s ease-in 9800ms,  visibility 0s ease-in 9840ms; transition: opacity 0s ease-in 9800ms,  visibility 0s ease-in 9840ms;}
+#anim-slide3.active .arm-frame-32 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00221.png); -webkit-transition: opacity 0s ease-in 9840ms,  visibility 0s ease-in 9880ms; -moz-transition: opacity 0s ease-in 9840ms,  visibility 0s ease-in 9880ms; -o-transition: opacity 0s ease-in 9840ms,  visibility 0s ease-in 9880ms; transition: opacity 0s ease-in 9840ms,  visibility 0s ease-in 9880ms;}
+#anim-slide3.active .arm-frame-33 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00222.png); -webkit-transition: opacity 0s ease-in 9880ms,  visibility 0s ease-in 9920ms; -moz-transition: opacity 0s ease-in 9880ms,  visibility 0s ease-in 9920ms; -o-transition: opacity 0s ease-in 9880ms,  visibility 0s ease-in 9920ms; transition: opacity 0s ease-in 9880ms,  visibility 0s ease-in 9920ms;}
+#anim-slide3.active .arm-frame-34 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00223.png); -webkit-transition: opacity 0s ease-in 9920ms,  visibility 0s ease-in 9960ms; -moz-transition: opacity 0s ease-in 9920ms,  visibility 0s ease-in 9960ms; -o-transition: opacity 0s ease-in 9920ms,  visibility 0s ease-in 9960ms; transition: opacity 0s ease-in 9920ms,  visibility 0s ease-in 9960ms;}
+#anim-slide3.active .arm-frame-35 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00224.png); -webkit-transition: opacity 0s ease-in 9960ms,  visibility 0s ease-in 10000ms; -moz-transition: opacity 0s ease-in 9960ms,  visibility 0s ease-in 10000ms; -o-transition: opacity 0s ease-in 9960ms,  visibility 0s ease-in 10000ms; transition: opacity 0s ease-in 9960ms,  visibility 0s ease-in 10000ms;}
+#anim-slide3.active .arm-frame-36 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00225.png); -webkit-transition: opacity 0s ease-in 10000ms,  visibility 0s ease-in 10040ms; -moz-transition: opacity 0s ease-in 10000ms,  visibility 0s ease-in 10040ms; -o-transition: opacity 0s ease-in 10000ms,  visibility 0s ease-in 10040ms; transition: opacity 0s ease-in 10000ms,  visibility 0s ease-in 10040ms;}
+#anim-slide3.active .arm-frame-37 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00226.png); -webkit-transition: opacity 0s ease-in 10040ms,  visibility 0s ease-in 10080ms; -moz-transition: opacity 0s ease-in 10040ms,  visibility 0s ease-in 10080ms; -o-transition: opacity 0s ease-in 10040ms,  visibility 0s ease-in 10080ms; transition: opacity 0s ease-in 10040ms,  visibility 0s ease-in 10080ms;}
+#anim-slide3.active .arm-frame-38 { opacity: 1; visibility: hidden; background: url(img3/arm-sequence/arm_00227.png); -webkit-transition: opacity 0s ease-in 10080ms,  visibility 0s ease-in 10120ms; -moz-transition: opacity 0s ease-in 10080ms,  visibility 0s ease-in 10120ms; -o-transition: opacity 0s ease-in 10080ms,  visibility 0s ease-in 10120ms; transition: opacity 0s ease-in 10080ms,  visibility 0s ease-in 10120ms;}
+
+#anim-slide3 .hand-still-a-1
+{
+    background: url(img3/arm-blue.png);
+    opacity: 0;
+    z-index: 320;
+    visibility: visible;
+}
+
+#anim-slide3.active .hand-still-a-1
+{
+    opacity: 1;
+    visibility: hidden;
+
+    -webkit-transition: opacity 0s ease-in 10120ms, visibility 0s ease-in 10280ms;
+    -moz-transition: opacity 0s ease-in 10120ms, visibility 0s ease-in 10280ms;
+    -o-transition: opacity 0s ease-in 10120ms, visibility 0s ease-in 10280ms;
+    transition: opacity 0s ease-in 10120ms, visibility 0s ease-in 10280ms;
+}
+
+#anim-slide3 .hand-still-a-red-1
+{
+    background: url(img3/arm-red.png);
+    opacity: 0;
+    z-index: 320;
+    visibility: visible;
+}
+
+#anim-slide3.active .hand-still-a-red-1
+{
+    opacity: 1;
+    visibility: hidden;
+
+    -webkit-transition: opacity 0s ease-in 10280ms, visibility 0s ease-in 10400ms;
+    -moz-transition: opacity 0s ease-in 10280ms, visibility 0s ease-in 10400ms;
+    -o-transition: opacity 0s ease-in 10280ms, visibility 0s ease-in 10400ms;
+    transition: opacity 0s ease-in 10280ms, visibility 0s ease-in 10400ms;
+}
+
+#anim-slide3 .hand-still-a-2
+{
+    background: url(img3/arm-blue.png);
+    opacity: 0;
+    z-index: 320;
+    visibility: visible;
+}
+
+#anim-slide3.active .hand-still-a-2
+{
+    opacity: 1;
+    visibility: hidden;
+
+    -webkit-transition: opacity 0s ease-in 10400ms, visibility 0s ease-in 10520ms;
+    -moz-transition: opacity 0s ease-in 10400ms, visibility 0s ease-in 10520ms;
+    -o-transition: opacity 0s ease-in 10400ms, visibility 0s ease-in 10520ms;
+    transition: opacity 0s ease-in 10400ms, visibility 0s ease-in 10520ms;
+}
+
+#anim-slide3 .hand-still-a-red-2
+{
+    background: url(img3/arm-red.png);
+    opacity: 0;
+    z-index: 320;
+    visibility: visible;
+}
+
+#anim-slide3.active .hand-still-a-red-2
+{
+    opacity: 1;
+    visibility: hidden;
+
+    -webkit-transition: opacity 0s ease-in 10520ms, visibility 0s ease-in 10640ms;
+    -moz-transition: opacity 0s ease-in 10520ms, visibility 0s ease-in 10640ms;
+    -o-transition: opacity 0s ease-in 10520ms, visibility 0s ease-in 10640ms;
+    transition: opacity 0s ease-in 10520ms, visibility 0s ease-in 10640ms;
+}
+
+#anim-slide3 .hand-still-a-3
+{
+    background: url(img3/arm-blue.png);
+    opacity: 0;
+    z-index: 320;
+    visibility: visible;
+}
+
+#anim-slide3.active .hand-still-a-3
+{
+    opacity: 1;
+    visibility: hidden;
+
+    -webkit-transition: opacity 0s ease-in 10640ms, visibility 0s ease-in 10760ms;
+    -moz-transition: opacity 0s ease-in 10640ms, visibility 0s ease-in 10760ms;
+    -o-transition: opacity 0s ease-in 10640ms, visibility 0s ease-in 10760ms;
+    transition: opacity 0s ease-in 10640ms, visibility 0s ease-in 10760ms;
+}
+
+#anim-slide3 .hand-still-a-red-3
+{
+    background: url(img3/arm-red.png);
+    opacity: 0;
+    z-index: 320;
+    visibility: visible;
+}
+
+#anim-slide3.active .hand-still-a-red-3
+{
+    opacity: 1;
+    visibility: hidden;
+
+    -webkit-transition: opacity 0s ease-in 10760ms, visibility 0s ease-in 11000ms;
+    -moz-transition: opacity 0s ease-in 10760ms, visibility 0s ease-in 11000ms;
+    -o-transition: opacity 0s ease-in 10760ms, visibility 0s ease-in 11000ms;
+    transition: opacity 0s ease-in 10760ms, visibility 0s ease-in 11000ms;
+}
+
+#anim-slide3 .hand-still-a-4
+{
+    background: url(img3/arm-blue.png);
+    opacity: 0;
+    z-index: 320;
+}
+
+#anim-slide3.active .hand-still-a-4
+{
+    opacity: 1;
+
+    -webkit-transition: opacity 0s ease-in 11000ms;
+    -moz-transition: opacity 0s ease-in 11000ms;
+    -o-transition: opacity 0s ease-in 11000ms;
+    transition: opacity 0s ease-in 11000ms;
+}
+
+#anim-slide3 .worker
+{
+    background: url(img3/worker.png);
+    opacity: 0;
+    z-index: 320;
+}
+
+#anim-slide3.active .worker
+{
+    opacity: 1;
+
+    -webkit-transition: opacity 280ms ease-in 11640ms;
+    -moz-transition: opacity 280ms ease-in 11640ms;
+    -o-transition: opacity 280ms ease-in 11640ms;
+    transition: opacity 280ms ease-in 11640ms;
+}
+
+#anim-slide3 .pain-circle-1
+{
+    background: url(img3/pain-circle-1.png);
+    opacity: 0;
+    z-index: 330;
+}
+
+#anim-slide3.active .pain-circle-1
+{
+    -webkit-animation: pain-circle-1 2200ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 11800ms;
+    -moz-animation: pain-circle-1 2200ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-delay: 11800ms;
+    -o-animation: pain-circle-1 2200ms;
+    -o-animation-timing-function: linear;
+    -o-animation-delay: 11800ms;
+    animation: pain-circle-1 2200ms;
+    animation-timing-function: linear;
+    animation-delay: 11800ms;
+}
+
+@-webkit-keyframes pain-circle-1 {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    40% {opacity: 0;}
+    60% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes pain-circle-1 {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    40% {opacity: 0;}
+    60% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes pain-circle-1 {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    40% {opacity: 0;}
+    60% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes pain-circle-1 {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    40% {opacity: 0;}
+    60% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#anim-slide3 .pain-circle-2
+{
+    background: url(img3/pain-circle-2.png);
+    opacity: 0;
+    z-index: 330;
+}
+
+#anim-slide3.active .pain-circle-2
+{
+    -webkit-animation: pain-circle-2 2200ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 11800ms;
+    -moz-animation: pain-circle-2 2200ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-delay: 11800ms;
+    -o-animation: pain-circle-2 2200ms;
+    -o-animation-timing-function: linear;
+    -o-animation-delay: 11800ms;
+    animation: pain-circle-2 2200ms;
+    animation-timing-function: linear;
+    animation-delay: 11800ms;
+}
+
+@-webkit-keyframes pain-circle-2 {
+    0% {opacity: 0;}
+    5% {opacity: 0;}
+    25% {opacity: 0.8;}
+    45% {opacity: 0;}
+    65% {opacity: 0.8;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes pain-circle-2 {
+    0% {opacity: 0;}
+    5% {opacity: 0;}
+    25% {opacity: 0.8;}
+    45% {opacity: 0;}
+    65% {opacity: 0.8;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes pain-circle-2 {
+    0% {opacity: 0;}
+    5% {opacity: 0;}
+    25% {opacity: 0.8;}
+    45% {opacity: 0;}
+    65% {opacity: 0.8;}
+    100% {opacity: 0;}
+}
+
+@keyframes pain-circle-2 {
+    0% {opacity: 0;}
+    5% {opacity: 0;}
+    25% {opacity: 0.8;}
+    45% {opacity: 0;}
+    65% {opacity: 0.8;}
+    100% {opacity: 0;}
+}
+
+#anim-slide3 .pain-circle-3
+{
+    background: url(img3/pain-circle-3.png);
+    opacity: 0;
+    z-index: 330;
+}
+
+#anim-slide3.active .pain-circle-3
+{
+    -webkit-animation: pain-circle-3 2200ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 11800ms;
+    -moz-animation: pain-circle-3 2200ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-delay: 11800ms;
+    -o-animation: pain-circle-3 2200ms;
+    -o-animation-timing-function: linear;
+    -o-animation-delay: 11800ms;
+    animation: pain-circle-3 2200ms;
+    animation-timing-function: linear;
+    animation-delay: 11800ms;
+}
+
+@-webkit-keyframes pain-circle-3 {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    30% {opacity: 0.6;}
+    50% {opacity: 0;}
+    70% {opacity: 0.6;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes pain-circle-3 {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    30% {opacity: 0.6;}
+    50% {opacity: 0;}
+    70% {opacity: 0.6;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes pain-circle-3 {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    30% {opacity: 0.6;}
+    50% {opacity: 0;}
+    70% {opacity: 0.6;}
+    100% {opacity: 0;}
+}
+
+@keyframes pain-circle-3 {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    30% {opacity: 0.6;}
+    50% {opacity: 0;}
+    70% {opacity: 0.6;}
+    100% {opacity: 0;}
+}
+
+#anim-slide3 .pain-circle-4
+{
+    background: url(img3/pain-circle-4.png);
+    opacity: 0;
+    z-index: 330;
+}
+
+#anim-slide3.active .pain-circle-4
+{
+    -webkit-animation: pain-circle-4 2200ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 11800ms;
+    -moz-animation: pain-circle-4 2200ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-delay: 11800ms;
+    -o-animation: pain-circle-4 2200ms;
+    -o-animation-timing-function: linear;
+    -o-animation-delay: 11800ms;
+    animation: pain-circle-4 2200ms;
+    animation-timing-function: linear;
+    animation-delay: 11800ms;
+}
+
+@-webkit-keyframes pain-circle-4 {
+    0% {opacity: 0;}
+    15% {opacity: 0;}
+    35% {opacity: 0.4;}
+    55% {opacity: 0;}
+    75% {opacity: 0.4;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes pain-circle-4 {
+    0% {opacity: 0;}
+    15% {opacity: 0;}
+    35% {opacity: 0.4;}
+    55% {opacity: 0;}
+    75% {opacity: 0.4;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes pain-circle-4 {
+    0% {opacity: 0;}
+    15% {opacity: 0;}
+    35% {opacity: 0.4;}
+    55% {opacity: 0;}
+    75% {opacity: 0.4;}
+    100% {opacity: 0;}
+}
+
+@keyframes pain-circle-4 {
+    0% {opacity: 0;}
+    15% {opacity: 0;}
+    35% {opacity: 0.4;}
+    55% {opacity: 0;}
+    75% {opacity: 0.4;}
+    100% {opacity: 0;}
+}
+
+#anim-slide3 .pain-circle-5
+{
+    background: url(img3/pain-circle-5.png);
+    opacity: 0;
+    z-index: 330;
+}
+
+#anim-slide3.active .pain-circle-5
+{
+    -webkit-animation: pain-circle-5 2200ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 11800ms;
+    -moz-animation: pain-circle-5 2200ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-delay: 11800ms;
+    -o-animation: pain-circle-5 2200ms;
+    -o-animation-timing-function: linear;
+    -o-animation-delay: 11800ms;
+    animation: pain-circle-5 2200ms;
+    animation-timing-function: linear;
+    animation-delay: 11800ms;
+}
+
+@-webkit-keyframes pain-circle-5 {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    40% {opacity: 0.2;}
+    50% {opacity: 0;}
+    80% {opacity: 0.2;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes pain-circle-5 {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    40% {opacity: 0.2;}
+    50% {opacity: 0;}
+    80% {opacity: 0.2;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes pain-circle-5 {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    40% {opacity: 0.2;}
+    50% {opacity: 0;}
+    80% {opacity: 0.2;}
+    100% {opacity: 0;}
+}
+
+@keyframes pain-circle-5 {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    40% {opacity: 0.2;}
+    50% {opacity: 0;}
+    80% {opacity: 0.2;}
+    100% {opacity: 0;}
+}
+
+#anim-slide3 .pain-circle-6
+{
+    background: url(img3/pain-circle-6.png);
+    opacity: 0;
+    z-index: 330;
+}
+
+#anim-slide3.active .pain-circle-6
+{
+    -webkit-animation: pain-circle-6 2200ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 11800ms;
+    -moz-animation: pain-circle-6 2200ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-delay: 11800ms;
+    -o-animation: pain-circle-6 2200ms;
+    -o-animation-timing-function: linear;
+    -o-animation-delay: 11800ms;
+    animation: pain-circle-6 2200ms;
+    animation-timing-function: linear;
+    animation-delay: 11800ms;
+}
+
+@-webkit-keyframes pain-circle-6 {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    45% {opacity: 0.1;}
+    65% {opacity: 0;}
+    85% {opacity: 0.1;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes pain-circle-6 {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    45% {opacity: 0.1;}
+    65% {opacity: 0;}
+    85% {opacity: 0.1;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes pain-circle-6 {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    45% {opacity: 0.1;}
+    65% {opacity: 0;}
+    85% {opacity: 0.1;}
+    100% {opacity: 0;}
+}
+
+@keyframes pain-circle-6 {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    45% {opacity: 0.1;}
+    65% {opacity: 0;}
+    85% {opacity: 0.1;}
+    100% {opacity: 0;}
+}

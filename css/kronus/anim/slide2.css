@@ -1,0 +1,1525 @@
+
+#anim-slide2 .full
+{
+	width: 980px;
+	height: 460px;
+	position: absolute;
+}
+
+#anim-slide2 .title-bg
+{
+	background: url(img2/title-bg.png);
+	left: -400px;
+}
+
+#anim-slide2.active .title-bg
+{
+    -webkit-transition: all 0.24s ease-out 0ms;
+    -moz-transition: all 0.24s ease-out 0ms;
+    -o-transition: all 0.24s ease-out 0ms;
+    transition: all 0.24s ease-out 0ms;
+	left: 0px;
+}
+
+#anim-slide2 .title-text
+{
+	padding-top: 48px;
+	padding-left: 40px;
+	color: #fff;
+	opacity: 0;
+
+    width: 323px;
+    height: 55px;
+
+    text-transform: uppercase;
+    font-family: Conv_EGR45__,sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+#anim-slide2.active .title-text
+{
+    -webkit-transition: all 0.2s ease-out 160ms;
+    -moz-transition: all 0.2s ease-out 160ms;
+    -o-transition: all 0.2s ease-out 160ms;
+    transition: all 0.2s ease-out 160ms;
+	opacity: 1;
+}
+
+#anim-slide2 #explore
+{
+	color: #5182bd;
+	font-size: 14px;
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	left: 35px;
+	bottom: 45px;
+	opacity: 0;
+	z-index: 1000;
+
+    text-transform: uppercase;
+    font-family: Conv_EGR45__, sans-serif;
+    font-size: 19px;
+}
+
+#anim-slide2.active #explore
+{
+	opacity: 1;
+	visibility: visible;
+
+    -webkit-transition: all 0.2s ease-out 3480ms;
+    -moz-transition: all 0.2s ease-out 3480ms;
+    -o-transition: all 0.2s ease-out 3480ms;
+    transition: all 0.2s ease-out 3480ms;
+}
+
+#anim-slide2 .pack
+{
+	background: url(img2/pack.png);
+	z-index: 9;
+}
+
+#anim-slide2.active .pack
+{
+    -webkit-transition: opacity 0s ease-in 12400ms;
+    -moz-transition: opacity 0s ease-in 12400ms;
+    -o-transition: opacity 0s ease-in 12400ms;
+    transition: opacity 0s ease-in 12400ms;
+
+	opacity: 0;
+}
+
+#anim-slide2 .pack-full
+{
+	background: url(img2/pack-full.png);
+	opacity: 0;
+	left: 0;
+}
+
+#anim-slide2 .wooden-boxes
+{
+	background: url(img2/wooden-boxes.png) left center no-repeat;
+	left: 1200px;
+	opacity: 0;
+}
+
+#anim-slide2 .zoom
+{
+	width: 1549px;
+	height: 727px;
+
+	top: -167px;
+	left: -103px;
+
+	opacity: 0;
+}
+
+#anim-slide2.active .zoom
+{
+    -webkit-transition: opacity 0s ease-in 13760ms, width 1000ms ease-in-out 14000ms, height 1000ms ease-in-out 14000ms, left 1000ms ease-in-out 14000ms, top 1000ms ease-in-out 14000ms, visibility 0s ease-in-out 17600ms;
+    -moz-transition: opacity 0s ease-in 13760ms, width 1000ms ease-in-out 14000ms, height 1000ms ease-in-out 14000ms, left 1000ms ease-in-out 14000ms, top 1000ms ease-in-out 14000ms, visibility 0s ease-in-out 17600ms;
+    -o-transition: opacity 0s ease-in 13760ms, width 1000ms ease-in-out 14000ms, height 1000ms ease-in-out 14000ms, left 1000ms ease-in-out 14000ms, top 1000ms ease-in-out 14000ms, visibility 0s ease-in-out 17600ms;
+    transition: opacity 0s ease-in 13760ms, width 1000ms ease-in-out 14000ms, height 1000ms ease-in-out 14000ms, left 1000ms ease-in-out 14000ms, top 1000ms ease-in-out 14000ms, visibility 0s ease-in-out 17600ms;
+
+	opacity: 1;
+	top: 0;
+	left: 0;
+	width: 980px;
+	height: 460px;
+	visibility: hidden;
+}
+
+#anim-slide2 .pack-full-zoom
+{
+	background: url(img2/pack-full-zoom.png);
+	opacity: 0;
+	left: 0;
+}
+
+#anim-slide2.active .pack-full-zoom
+{
+    -webkit-transition: opacity 0s ease-in 17600ms, left 0s ease 17600ms, visibility 0s ease-in-out 18640ms;
+    -moz-transition: opacity 0s ease-in 17600ms, left 0s ease 17600ms, visibility 0s ease-in-out 18640ms;
+    -o-transition: opacity 0s ease-in 17600ms, left 0s ease 17600ms, visibility 0s ease-in-out 18640ms;
+    transition: opacity 0s ease-in 17600ms, left 0s ease 17600ms, visibility 0s ease-in-out 18640ms;
+
+	opacity: 1;
+	left: 188px;
+	visibility: hidden;
+
+	-webkit-animation: pack-full-zoom 4s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 17600ms;
+	-moz-animation: pack-full-zoom 4s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 17600ms;
+	-o-animation: pack-full-zoom 4s;
+	-o-animation-timing-function: linear;
+	-o-animation-delay: 17600ms;
+    animation: pack-full-zoom 4s;
+	animation-timing-function: linear;
+	animation-delay: 17600ms;
+}
+
+@-webkit-keyframes pack-full-zoom {
+    0% {left: 0px;}
+    1% {left: -2px;}
+    2% {left: -7px;}
+    3% {left: -13px;}
+    4% {left: -18px;}
+    5% {left: -20px;}
+    6% {left: -18px;}
+    7% {left: -12px;}
+    8% {left: -3px;}
+    9% {left: 9px;}
+    10% {left: 23px;}
+    11% {left: 39px;}
+    12% {left: 57px;}
+    13% {left: 75px;}
+    14% {left: 93px;}
+    15% {left: 111px;}
+    16% {left: 128px;}
+    17% {left: 144px;}
+    18% {left: 159px;}
+    19% {left: 171px;}
+    20% {left: 180px;}
+    21% {left: 186px;}
+    22% {left: 188px;}
+    100% {left: 188px;}
+}
+
+@-moz-keyframes pack-full-zoom {
+    0% {left: 0px;}
+    1% {left: -2px;}
+    2% {left: -7px;}
+    3% {left: -13px;}
+    4% {left: -18px;}
+    5% {left: -20px;}
+    6% {left: -18px;}
+    7% {left: -12px;}
+    8% {left: -3px;}
+    9% {left: 9px;}
+    10% {left: 23px;}
+    11% {left: 39px;}
+    12% {left: 57px;}
+    13% {left: 75px;}
+    14% {left: 93px;}
+    15% {left: 111px;}
+    16% {left: 128px;}
+    17% {left: 144px;}
+    18% {left: 159px;}
+    19% {left: 171px;}
+    20% {left: 180px;}
+    21% {left: 186px;}
+    22% {left: 188px;}
+    100% {left: 188px;}
+}
+
+@-o-keyframes pack-full-zoom {
+    0% {left: 0px;}
+    1% {left: -2px;}
+    2% {left: -7px;}
+    3% {left: -13px;}
+    4% {left: -18px;}
+    5% {left: -20px;}
+    6% {left: -18px;}
+    7% {left: -12px;}
+    8% {left: -3px;}
+    9% {left: 9px;}
+    10% {left: 23px;}
+    11% {left: 39px;}
+    12% {left: 57px;}
+    13% {left: 75px;}
+    14% {left: 93px;}
+    15% {left: 111px;}
+    16% {left: 128px;}
+    17% {left: 144px;}
+    18% {left: 159px;}
+    19% {left: 171px;}
+    20% {left: 180px;}
+    21% {left: 186px;}
+    22% {left: 188px;}
+    100% {left: 188px;}
+}
+
+@keyframes pack-full-zoom {
+    0% {left: 0px;}
+    1% {left: -2px;}
+    2% {left: -7px;}
+    3% {left: -13px;}
+    4% {left: -18px;}
+    5% {left: -20px;}
+    6% {left: -18px;}
+    7% {left: -12px;}
+    8% {left: -3px;}
+    9% {left: 9px;}
+    10% {left: 23px;}
+    11% {left: 39px;}
+    12% {left: 57px;}
+    13% {left: 75px;}
+    14% {left: 93px;}
+    15% {left: 111px;}
+    16% {left: 128px;}
+    17% {left: 144px;}
+    18% {left: 159px;}
+    19% {left: 171px;}
+    20% {left: 180px;}
+    21% {left: 186px;}
+    22% {left: 188px;}
+    100% {left: 188px;}
+}
+
+#anim-slide2 .pack-full-2
+{
+	width: 607.6px;
+	height: 291.1px;
+
+	top: 105px;
+	right: 446px;
+
+	opacity: 0;
+}
+
+#anim-slide2.active .pack-full-2
+{
+    -webkit-transition: opacity 0s ease-in 18640ms, right 800ms ease-in-out 18640ms, top 800ms ease-in-out 18640ms, width 800ms ease-in-out 18640ms, height 800ms ease-in-out 18640ms;
+    -moz-transition: opacity 0s ease-in 18640ms, right 800ms ease-in-out 18640ms, top 800ms ease-in-out 18640ms, width 800ms ease-in-out 18640ms, height 800ms ease-in-out 18640ms;
+    -o-transition: opacity 0s ease-in 18640ms, right 800ms ease-in-out 18640ms, top 800ms ease-in-out 18640ms, width 800ms ease-in-out 18640ms, height 800ms ease-in-out 18640ms;
+    transition: opacity 0s ease-in 18640ms, right 800ms ease-in-out 18640ms, top 800ms ease-in-out 18640ms, width 800ms ease-in-out 18640ms, height 800ms ease-in-out 18640ms;
+
+	opacity: 1;
+	right: 310px;
+	top: -14px;
+	width: 980px;
+	height: 460px;
+}
+
+#anim-slide2 .wooden-boxes-zoom
+{
+	background: url(img2/wooden-boxes-zoom.png);
+	opacity: 0;
+	left: 0;
+}
+
+#anim-slide2.active .wooden-boxes-zoom
+{
+    -webkit-transition: opacity 0s ease-in 17600ms, left 1120ms ease 18240ms;
+    -moz-transition: opacity 0s ease-in 17600ms, left 1120ms ease 18240ms;
+    -o-transition: opacity 0s ease-in 17600ms, left 1120ms ease 18240ms;
+    transition: opacity 0s ease-in 17600ms, left 1120ms ease 18240ms;
+
+	opacity: 1;
+	left: 900px;
+}
+
+#anim-slide2.active .wooden-boxes
+{
+    -webkit-transition: opacity 0s ease-in 12160ms, left 1600ms ease-in-out 12160ms, visibility 0s ease-in 13760ms;
+    -moz-transition: opacity 0s ease-in 12160ms, left 1600ms ease-in-out 12160ms, visibility 0s ease-in 13760ms;
+    -o-transition: opacity 0s ease-in 12160ms, left 1600ms ease-in-out 12160ms, visibility 0s ease-in 13760ms;
+    transition: opacity 0s ease-in 12160ms, left 1600ms ease-in-out 12160ms, visibility 0s ease-in 13760ms;
+
+	opacity: 1;
+	left: 480px;
+	visibility: hidden;
+}
+
+#anim-slide2.active .pack-full
+{
+    -webkit-transition: opacity 0s ease-in 12400ms, left 800ms ease-in-out 12400ms, visibility 0s ease-in 13760ms;
+    -moz-transition: opacity 0s ease-in 12400ms, left 800ms ease-in-out 12400ms, visibility 0s ease-in 13760ms;
+    -o-transition: opacity 0s ease-in 12400ms, left 800ms ease-in-out 12400ms, visibility 0s ease-in 13760ms;
+    transition: opacity 0s ease-in 12400ms, left 800ms ease-in-out 12400ms, visibility 0s ease-in 13760ms;
+
+	opacity: 1;
+	left: -536px;
+	visibility: hidden;
+}
+
+#anim-slide2 .shelf-base
+{
+	background: url(img2/rack.png);
+	z-index: 10;
+}
+
+#anim-slide2.active .shelf-base
+{
+    -webkit-transition: opacity 0s ease-in 12000ms;
+    -moz-transition: opacity 0s ease-in 12000ms;
+    -o-transition: opacity 0s ease-in 12000ms;
+    transition: opacity 0s ease-in 12000ms;
+
+	opacity: 0;
+}
+
+#anim-slide2 .box-parabola-1-still
+{
+    background: url(img2/box-1.png);
+    z-index: 14;
+    bottom: -78px;
+    left: 103px;
+    opacity: 0;
+}
+
+#anim-slide2.active .box-parabola-1-still
+{
+    -webkit-transition: opacity 0s ease-in 7440ms, visibility 0s ease-in 12000ms;
+    -moz-transition: opacity 0s ease-in 7440ms, visibility 0s ease-in 12000ms;
+    -o-transition: opacity 0s ease-in 7440ms, visibility 0s ease-in 12000ms;
+    transition: opacity 0s ease-in 7440ms, visibility 0s ease-in 12000ms;
+
+    z-index: 27;
+    opacity: 1;
+    visibility: hidden;
+}
+
+#anim-slide2 .box-parabola-1
+{
+    background: url(img2/box-1.png);
+    z-index: 14;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+}
+
+
+#anim-slide2.active .box-parabola-1
+{
+    -webkit-transition: z-index 0s ease-in 6600ms, opacity 0s ease-in 7440ms;
+    -moz-transition: z-index 0s ease-in 6600ms, opacity 0s ease-in 7440ms;
+    -o-transition: z-index 0s ease-in 6600ms, opacity 0s ease-in 7440ms;
+    transition: z-index 0s ease-in 6600ms, opacity 0s ease-in 7440ms;
+
+	z-index: 27;
+	opacity: 0;
+
+	-webkit-animation: box-parabola 4s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 6240ms;
+	-moz-animation: box-parabola 4s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 6240ms;
+	-o-animation: box-parabola 4s;
+	-o-animation-timing-function: linear;
+	-o-animation-delay: 6240ms;
+    animation: box-parabola 4s;
+	animation-timing-function: linear;
+	animation-delay: 6240ms;
+}
+
+#anim-slide2 .box-parabola-2-still
+{
+    background: url(img2/box-2.png);
+    z-index: 14;
+    bottom: -78px;
+    left: 103px;
+    opacity: 0;
+}
+
+#anim-slide2.active .box-parabola-2-still
+{
+    -webkit-transition: opacity 0s ease-in 7040ms, visibility 0s ease-in 12000ms;
+    -moz-transition: opacity 0s ease-in 7040ms, visibility 0s ease-in 12000ms;
+    -o-transition: opacity 0s ease-in 7040ms, visibility 0s ease-in 12000ms;
+    transition: opacity 0s ease-in 7040ms, visibility 0s ease-in 12000ms;
+
+    z-index: 26;
+    opacity: 1;
+    visibility: hidden;
+}
+
+#anim-slide2 .box-parabola-2
+{
+	background: url(img2/box-2.png);
+	z-index: 13;
+	bottom: 0;
+	left: 0;
+	opacity: 1;
+}
+
+#anim-slide2.active .box-parabola-2
+{
+    -webkit-transition: z-index 0s ease 6200ms, opacity 0s ease 7040ms;
+    -moz-transition: z-index 0s ease 6200ms, opacity 0s ease 7040ms;
+    -o-transition: z-index 0s ease 6200ms, opacity 0s ease 7040ms;
+    transition: z-index 0s ease 6200ms, opacity 0s ease 7040ms;
+
+	z-index: 26;
+	opacity: 0;
+
+	-webkit-animation: box-parabola 4s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 5840ms;
+	-moz-animation: box-parabola 4s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 5840ms;
+	-o-animation: box-parabola 4s;
+	-o-animation-timing-function: linear;
+	-o-animation-delay: 5840ms;
+    animation: box-parabola 4s;
+	animation-timing-function: linear;
+	animation-delay: 5840ms;
+}
+
+#anim-slide2 .box-parabola-3-still
+{
+    background: url(img2/box-3.png);
+    z-index: 14;
+    bottom: -78px;
+    left: 103px;
+    opacity: 0;
+}
+
+#anim-slide2.active .box-parabola-3-still
+{
+    -webkit-transition: opacity 0s ease-in 7840ms, visibility 0s ease-in 12000ms;
+    -moz-transition: opacity 0s ease-in 7840ms, visibility 0s ease-in 12000ms;
+    -o-transition: opacity 0s ease-in 7840ms, visibility 0s ease-in 12000ms;
+    transition: opacity 0s ease-in 7840ms, visibility 0s ease-in 12000ms;
+
+    z-index: 25;
+    opacity: 1;
+    visibility: hidden;
+}
+
+#anim-slide2 .box-parabola-3
+{
+	background: url(img2/box-3.png);
+	z-index: 12;
+	bottom: 0;
+	left: 0;
+	opacity: 1;
+}
+
+#anim-slide2.active .box-parabola-3
+{
+    -webkit-transition: z-index 0s ease-in 7000ms, opacity 0s ease-in 7840ms;
+    -moz-transition: z-index 0s ease-in 7000ms, opacity 0s ease-in 7840ms;
+    -o-transition: z-index 0s ease-in 7000ms, opacity 0s ease-in 7840ms;
+    transition: z-index 0s ease-in 7000ms, opacity 0s ease-in 7840ms;
+
+	z-index: 25;
+	opacity: 0;
+
+	-webkit-animation: box-parabola 4s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 6640ms;
+	-moz-animation: box-parabola 4s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-delay: 6640ms;
+	-o-animation: box-parabola 4s;
+	-o-animation-timing-function: linear;
+	-o-animation-delay: 6640ms;
+    animation: box-parabola 4s;
+	animation-timing-function: linear;
+	animation-delay: 6640ms;
+}
+
+@-webkit-keyframes box-parabola {
+    0% {bottom: 0px; left: 0px;}
+    1% {bottom: 1px; left: 0px;}
+    2% {bottom: 3px; left: 0px;}
+    3% {bottom: 6px; left: 1px;}
+    4% {bottom: 10px; left: 2px;}
+    5% {bottom: 15px; left: 3px;}
+    6% {bottom: 21px; left: 5px;}
+    7% {bottom: 27px; left: 9px;}
+    8% {bottom: 32px; left: 14px;}
+    9% {bottom: 36px; left: 22px;}
+    10% {bottom: 38px; left: 30px;}
+    11% {bottom: 37px; left: 40px;}
+    12% {bottom: 35px; left: 49px;}
+    13% {bottom: 30px; left: 58px;}
+    14% {bottom: 25px; left: 66px;}
+    15% {bottom: 17px; left: 74px;}
+    16% {bottom: 10px; left: 80px;}
+    17% {bottom: 1px; left: 86px;}
+    18% {bottom: -7px; left: 91px;}
+    19% {bottom: -17px; left: 94px;}
+    20% {bottom: -25px; left: 97px;}
+    21% {bottom: -34px; left: 99px;}
+    22% {bottom: -42px; left: 101px;}
+    23% {bottom: -50px; left: 102px;}
+    24% {bottom: -57px; left: 103px;}
+    25% {bottom: -63px; left: 103px;}
+    26% {bottom: -68px; left: 103px;}
+    27% {bottom: -72px; left: 103px;}
+    28% {bottom: -75px; left: 103px;}
+    29% {bottom: -77px; left: 103px;}
+    30% {bottom: -78px; left: 103px;}
+	100% {bottom: -78px; left: 103px;}
+}
+
+@-moz-keyframes box-parabola {
+    0% {bottom: 0px; left: 0px;}
+    1% {bottom: 1px; left: 0px;}
+    2% {bottom: 3px; left: 0px;}
+    3% {bottom: 6px; left: 1px;}
+    4% {bottom: 10px; left: 2px;}
+    5% {bottom: 15px; left: 3px;}
+    6% {bottom: 21px; left: 5px;}
+    7% {bottom: 27px; left: 9px;}
+    8% {bottom: 32px; left: 14px;}
+    9% {bottom: 36px; left: 22px;}
+    10% {bottom: 38px; left: 30px;}
+    11% {bottom: 37px; left: 40px;}
+    12% {bottom: 35px; left: 49px;}
+    13% {bottom: 30px; left: 58px;}
+    14% {bottom: 25px; left: 66px;}
+    15% {bottom: 17px; left: 74px;}
+    16% {bottom: 10px; left: 80px;}
+    17% {bottom: 1px; left: 86px;}
+    18% {bottom: -7px; left: 91px;}
+    19% {bottom: -17px; left: 94px;}
+    20% {bottom: -25px; left: 97px;}
+    21% {bottom: -34px; left: 99px;}
+    22% {bottom: -42px; left: 101px;}
+    23% {bottom: -50px; left: 102px;}
+    24% {bottom: -57px; left: 103px;}
+    25% {bottom: -63px; left: 103px;}
+    26% {bottom: -68px; left: 103px;}
+    27% {bottom: -72px; left: 103px;}
+    28% {bottom: -75px; left: 103px;}
+    29% {bottom: -77px; left: 103px;}
+    30% {bottom: -78px; left: 103px;}
+	100% {bottom: -78px; left: 103px;}
+}
+
+@-o-keyframes box-parabola {
+    0% {bottom: 0px; left: 0px;}
+    1% {bottom: 1px; left: 0px;}
+    2% {bottom: 3px; left: 0px;}
+    3% {bottom: 6px; left: 1px;}
+    4% {bottom: 10px; left: 2px;}
+    5% {bottom: 15px; left: 3px;}
+    6% {bottom: 21px; left: 5px;}
+    7% {bottom: 27px; left: 9px;}
+    8% {bottom: 32px; left: 14px;}
+    9% {bottom: 36px; left: 22px;}
+    10% {bottom: 38px; left: 30px;}
+    11% {bottom: 37px; left: 40px;}
+    12% {bottom: 35px; left: 49px;}
+    13% {bottom: 30px; left: 58px;}
+    14% {bottom: 25px; left: 66px;}
+    15% {bottom: 17px; left: 74px;}
+    16% {bottom: 10px; left: 80px;}
+    17% {bottom: 1px; left: 86px;}
+    18% {bottom: -7px; left: 91px;}
+    19% {bottom: -17px; left: 94px;}
+    20% {bottom: -25px; left: 97px;}
+    21% {bottom: -34px; left: 99px;}
+    22% {bottom: -42px; left: 101px;}
+    23% {bottom: -50px; left: 102px;}
+    24% {bottom: -57px; left: 103px;}
+    25% {bottom: -63px; left: 103px;}
+    26% {bottom: -68px; left: 103px;}
+    27% {bottom: -72px; left: 103px;}
+    28% {bottom: -75px; left: 103px;}
+    29% {bottom: -77px; left: 103px;}
+    30% {bottom: -78px; left: 103px;}
+	100% {bottom: -78px; left: 103px;}
+}
+
+@keyframes box-parabola {
+    0% {bottom: 0px; left: 0px;}
+    1% {bottom: 1px; left: 0px;}
+    2% {bottom: 3px; left: 0px;}
+    3% {bottom: 6px; left: 1px;}
+    4% {bottom: 10px; left: 2px;}
+    5% {bottom: 15px; left: 3px;}
+    6% {bottom: 21px; left: 5px;}
+    7% {bottom: 27px; left: 9px;}
+    8% {bottom: 32px; left: 14px;}
+    9% {bottom: 36px; left: 22px;}
+    10% {bottom: 38px; left: 30px;}
+    11% {bottom: 37px; left: 40px;}
+    12% {bottom: 35px; left: 49px;}
+    13% {bottom: 30px; left: 58px;}
+    14% {bottom: 25px; left: 66px;}
+    15% {bottom: 17px; left: 74px;}
+    16% {bottom: 10px; left: 80px;}
+    17% {bottom: 1px; left: 86px;}
+    18% {bottom: -7px; left: 91px;}
+    19% {bottom: -17px; left: 94px;}
+    20% {bottom: -25px; left: 97px;}
+    21% {bottom: -34px; left: 99px;}
+    22% {bottom: -42px; left: 101px;}
+    23% {bottom: -50px; left: 102px;}
+    24% {bottom: -57px; left: 103px;}
+    25% {bottom: -63px; left: 103px;}
+    26% {bottom: -68px; left: 103px;}
+    27% {bottom: -72px; left: 103px;}
+    28% {bottom: -75px; left: 103px;}
+    29% {bottom: -77px; left: 103px;}
+    30% {bottom: -78px; left: 103px;}
+	100% {bottom: -78px; left: 103px;}
+}
+
+#anim-slide2 .collar-1-front
+{
+	background: url(img2/collar-1-front.png);
+	z-index: 15;
+	bottom: 0px;
+}
+
+#anim-slide2.active .collar-1-front
+{
+    -webkit-transition: bottom 0.8s ease-in 8040ms, opacity 0s ease-in 8840ms;
+    -moz-transition: bottom 0.8s ease-in 8040ms, opacity 0s ease-in 8840ms;
+    -o-transition: bottom 0.8s ease-in 8040ms, opacity 0s ease-in 8840ms;
+    transition: bottom 0.8s ease-in 8040ms, opacity 0s ease-in 8840ms;
+
+	opacity: 0;
+	bottom: 52px;
+}
+
+#anim-slide2 .collar-1-back
+{
+	background: url(img2/collar-1-back.png);
+	z-index: 11;
+	bottom: 0px;
+}
+
+#anim-slide2.active .collar-1-back
+{
+    -webkit-transition: bottom 0.8s ease-in 8040ms, opacity 0s ease-in 8840ms;
+    -moz-transition: bottom 0.8s ease-in 8040ms, opacity 0s ease-in 8840ms;
+    -o-transition: bottom 0.8s ease-in 8040ms, opacity 0s ease-in 8840ms;
+    transition: bottom 0.8s ease-in 8040ms, opacity 0s ease-in 8840ms;
+
+	opacity: 0;
+	bottom: 52px;
+}
+
+#anim-slide2 .collar-2-front
+{
+	background: url(img2/collar-2-front.png);
+	z-index: 16;
+
+	bottom: 0px;
+}
+
+#anim-slide2.active .collar-2-front
+{
+    -webkit-transition: bottom 0.8s ease-in 2080ms, opacity 0s ease-in 2880ms;
+    -moz-transition: bottom 0.8s ease-in 2080ms, opacity 0s ease-in 2880ms;
+    -o-transition: bottom 0.8s ease-in 2080ms, opacity 0s ease-in 2880ms;
+    transition: bottom 0.8s ease-in 2080ms, opacity 0s ease-in 2880ms;
+
+	opacity: 0;
+	bottom: 26px;
+}
+
+#anim-slide2 .collar-2-back
+{
+	background: url(img2/collar-2-back.png);
+	z-index: 17;
+
+	bottom: 0px;
+}
+
+#anim-slide2.active .collar-2-back
+{
+    -webkit-transition: bottom 0.8s ease-in 2080ms, opacity 0s ease-in 2880ms;
+    -moz-transition: bottom 0.8s ease-in 2080ms, opacity 0s ease-in 2880ms;
+    -o-transition: bottom 0.8s ease-in 2080ms, opacity 0s ease-in 2880ms;
+    transition: bottom 0.8s ease-in 2080ms, opacity 0s ease-in 2880ms;
+
+	opacity: 0;
+	bottom: 26px;
+}
+
+#anim-slide2 .collar-1-folding, #anim-slide2 .collar-2-folding
+{
+	background: url(img2/collar-folding/folding_00072.png);
+	opacity: 0;
+	z-index: 18;
+}
+
+#anim-slide2 .collar-1-folding-transition
+{
+	z-index: 100;
+	opacity: 0;
+	background: url(img2/collar-folding/folding_00072.png);
+}
+
+#anim-slide2 .collar-1-folding-transition > *
+{
+	opacity: 0;
+}
+
+#anim-slide2 .collar-1-folding-transition > img
+{
+    opacity: 1;
+}
+
+
+#anim-slide2.active .collar-1-folding-transition .folding_00072 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00072.png); -webkit-transition: opacity 0s ease-in 8840ms,  visibility 0s ease-in 8880ms; -moz-transition: opacity 0s ease-in 8840ms,  visibility 0s ease-in 8880ms; -o-transition: opacity 0s ease-in 8840ms,  visibility 0s ease-in 8880ms; transition: opacity 0s ease-in 8840ms,  visibility 0s ease-in 8880ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00073 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00073.png); -webkit-transition: opacity 0s ease-in 8880ms,  visibility 0s ease-in 8920ms; -moz-transition: opacity 0s ease-in 8880ms,  visibility 0s ease-in 8920ms; -o-transition: opacity 0s ease-in 8880ms,  visibility 0s ease-in 8920ms; transition: opacity 0s ease-in 8880ms,  visibility 0s ease-in 8920ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00074 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00074.png); -webkit-transition: opacity 0s ease-in 8920ms,  visibility 0s ease-in 8960ms; -moz-transition: opacity 0s ease-in 8920ms,  visibility 0s ease-in 8960ms; -o-transition: opacity 0s ease-in 8920ms,  visibility 0s ease-in 8960ms; transition: opacity 0s ease-in 8920ms,  visibility 0s ease-in 8960ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00075 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00075.png); -webkit-transition: opacity 0s ease-in 8960ms,  visibility 0s ease-in 9000ms; -moz-transition: opacity 0s ease-in 8960ms,  visibility 0s ease-in 9000ms; -o-transition: opacity 0s ease-in 8960ms,  visibility 0s ease-in 9000ms; transition: opacity 0s ease-in 8960ms,  visibility 0s ease-in 9000ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00076 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00076.png); -webkit-transition: opacity 0s ease-in 9000ms,  visibility 0s ease-in 9040ms; -moz-transition: opacity 0s ease-in 9000ms,  visibility 0s ease-in 9040ms; -o-transition: opacity 0s ease-in 9000ms,  visibility 0s ease-in 9040ms; transition: opacity 0s ease-in 9000ms,  visibility 0s ease-in 9040ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00077 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00077.png); -webkit-transition: opacity 0s ease-in 9040ms,  visibility 0s ease-in 9080ms; -moz-transition: opacity 0s ease-in 9040ms,  visibility 0s ease-in 9080ms; -o-transition: opacity 0s ease-in 9040ms,  visibility 0s ease-in 9080ms; transition: opacity 0s ease-in 9040ms,  visibility 0s ease-in 9080ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00078 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00078.png); -webkit-transition: opacity 0s ease-in 9080ms,  visibility 0s ease-in 9120ms; -moz-transition: opacity 0s ease-in 9080ms,  visibility 0s ease-in 9120ms; -o-transition: opacity 0s ease-in 9080ms,  visibility 0s ease-in 9120ms; transition: opacity 0s ease-in 9080ms,  visibility 0s ease-in 9120ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00079 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00079.png); -webkit-transition: opacity 0s ease-in 9120ms,  visibility 0s ease-in 9160ms; -moz-transition: opacity 0s ease-in 9120ms,  visibility 0s ease-in 9160ms; -o-transition: opacity 0s ease-in 9120ms,  visibility 0s ease-in 9160ms; transition: opacity 0s ease-in 9120ms,  visibility 0s ease-in 9160ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00080 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00080.png); -webkit-transition: opacity 0s ease-in 9160ms,  visibility 0s ease-in 9200ms; -moz-transition: opacity 0s ease-in 9160ms,  visibility 0s ease-in 9200ms; -o-transition: opacity 0s ease-in 9160ms,  visibility 0s ease-in 9200ms; transition: opacity 0s ease-in 9160ms,  visibility 0s ease-in 9200ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00081 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00081.png); -webkit-transition: opacity 0s ease-in 9200ms,  visibility 0s ease-in 9240ms; -moz-transition: opacity 0s ease-in 9200ms,  visibility 0s ease-in 9240ms; -o-transition: opacity 0s ease-in 9200ms,  visibility 0s ease-in 9240ms; transition: opacity 0s ease-in 9200ms,  visibility 0s ease-in 9240ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00082 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00082.png); -webkit-transition: opacity 0s ease-in 9240ms,  visibility 0s ease-in 9280ms; -moz-transition: opacity 0s ease-in 9240ms,  visibility 0s ease-in 9280ms; -o-transition: opacity 0s ease-in 9240ms,  visibility 0s ease-in 9280ms; transition: opacity 0s ease-in 9240ms,  visibility 0s ease-in 9280ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00083 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00083.png); -webkit-transition: opacity 0s ease-in 9280ms,  visibility 0s ease-in 9320ms; -moz-transition: opacity 0s ease-in 9280ms,  visibility 0s ease-in 9320ms; -o-transition: opacity 0s ease-in 9280ms,  visibility 0s ease-in 9320ms; transition: opacity 0s ease-in 9280ms,  visibility 0s ease-in 9320ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00084 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00084.png); -webkit-transition: opacity 0s ease-in 9320ms,  visibility 0s ease-in 9360ms; -moz-transition: opacity 0s ease-in 9320ms,  visibility 0s ease-in 9360ms; -o-transition: opacity 0s ease-in 9320ms,  visibility 0s ease-in 9360ms; transition: opacity 0s ease-in 9320ms,  visibility 0s ease-in 9360ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00085 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00085.png); -webkit-transition: opacity 0s ease-in 9360ms,  visibility 0s ease-in 9400ms; -moz-transition: opacity 0s ease-in 9360ms,  visibility 0s ease-in 9400ms; -o-transition: opacity 0s ease-in 9360ms,  visibility 0s ease-in 9400ms; transition: opacity 0s ease-in 9360ms,  visibility 0s ease-in 9400ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00086 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00086.png); -webkit-transition: opacity 0s ease-in 9400ms,  visibility 0s ease-in 9440ms; -moz-transition: opacity 0s ease-in 9400ms,  visibility 0s ease-in 9440ms; -o-transition: opacity 0s ease-in 9400ms,  visibility 0s ease-in 9440ms; transition: opacity 0s ease-in 9400ms,  visibility 0s ease-in 9440ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00087 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00087.png); -webkit-transition: opacity 0s ease-in 9440ms,  visibility 0s ease-in 9480ms; -moz-transition: opacity 0s ease-in 9440ms,  visibility 0s ease-in 9480ms; -o-transition: opacity 0s ease-in 9440ms,  visibility 0s ease-in 9480ms; transition: opacity 0s ease-in 9440ms,  visibility 0s ease-in 9480ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00088 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00088.png); -webkit-transition: opacity 0s ease-in 9480ms,  visibility 0s ease-in 9520ms; -moz-transition: opacity 0s ease-in 9480ms,  visibility 0s ease-in 9520ms; -o-transition: opacity 0s ease-in 9480ms,  visibility 0s ease-in 9520ms; transition: opacity 0s ease-in 9480ms,  visibility 0s ease-in 9520ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00089 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00089.png); -webkit-transition: opacity 0s ease-in 9520ms,  visibility 0s ease-in 9560ms; -moz-transition: opacity 0s ease-in 9520ms,  visibility 0s ease-in 9560ms; -o-transition: opacity 0s ease-in 9520ms,  visibility 0s ease-in 9560ms; transition: opacity 0s ease-in 9520ms,  visibility 0s ease-in 9560ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00090 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00090.png); -webkit-transition: opacity 0s ease-in 9560ms,  visibility 0s ease-in 9600ms; -moz-transition: opacity 0s ease-in 9560ms,  visibility 0s ease-in 9600ms; -o-transition: opacity 0s ease-in 9560ms,  visibility 0s ease-in 9600ms; transition: opacity 0s ease-in 9560ms,  visibility 0s ease-in 9600ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00091 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00091.png); -webkit-transition: opacity 0s ease-in 9600ms,  visibility 0s ease-in 9640ms; -moz-transition: opacity 0s ease-in 9600ms,  visibility 0s ease-in 9640ms; -o-transition: opacity 0s ease-in 9600ms,  visibility 0s ease-in 9640ms; transition: opacity 0s ease-in 9600ms,  visibility 0s ease-in 9640ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00092 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00092.png); -webkit-transition: opacity 0s ease-in 9640ms,  visibility 0s ease-in 9680ms; -moz-transition: opacity 0s ease-in 9640ms,  visibility 0s ease-in 9680ms; -o-transition: opacity 0s ease-in 9640ms,  visibility 0s ease-in 9680ms; transition: opacity 0s ease-in 9640ms,  visibility 0s ease-in 9680ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00093 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00093.png); -webkit-transition: opacity 0s ease-in 9680ms,  visibility 0s ease-in 9720ms; -moz-transition: opacity 0s ease-in 9680ms,  visibility 0s ease-in 9720ms; -o-transition: opacity 0s ease-in 9680ms,  visibility 0s ease-in 9720ms; transition: opacity 0s ease-in 9680ms,  visibility 0s ease-in 9720ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00094 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00094.png); -webkit-transition: opacity 0s ease-in 9720ms,  visibility 0s ease-in 9760ms; -moz-transition: opacity 0s ease-in 9720ms,  visibility 0s ease-in 9760ms; -o-transition: opacity 0s ease-in 9720ms,  visibility 0s ease-in 9760ms; transition: opacity 0s ease-in 9720ms,  visibility 0s ease-in 9760ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00095 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00095.png); -webkit-transition: opacity 0s ease-in 9760ms,  visibility 0s ease-in 9800ms; -moz-transition: opacity 0s ease-in 9760ms,  visibility 0s ease-in 9800ms; -o-transition: opacity 0s ease-in 9760ms,  visibility 0s ease-in 9800ms; transition: opacity 0s ease-in 9760ms,  visibility 0s ease-in 9800ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00096 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00096.png); -webkit-transition: opacity 0s ease-in 9800ms,  visibility 0s ease-in 9840ms; -moz-transition: opacity 0s ease-in 9800ms,  visibility 0s ease-in 9840ms; -o-transition: opacity 0s ease-in 9800ms,  visibility 0s ease-in 9840ms; transition: opacity 0s ease-in 9800ms,  visibility 0s ease-in 9840ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00097 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00097.png); -webkit-transition: opacity 0s ease-in 9840ms,  visibility 0s ease-in 9880ms; -moz-transition: opacity 0s ease-in 9840ms,  visibility 0s ease-in 9880ms; -o-transition: opacity 0s ease-in 9840ms,  visibility 0s ease-in 9880ms; transition: opacity 0s ease-in 9840ms,  visibility 0s ease-in 9880ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00098 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00098.png); -webkit-transition: opacity 0s ease-in 9880ms,  visibility 0s ease-in 9920ms; -moz-transition: opacity 0s ease-in 9880ms,  visibility 0s ease-in 9920ms; -o-transition: opacity 0s ease-in 9880ms,  visibility 0s ease-in 9920ms; transition: opacity 0s ease-in 9880ms,  visibility 0s ease-in 9920ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00099 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00099.png); -webkit-transition: opacity 0s ease-in 9920ms,  visibility 0s ease-in 9960ms; -moz-transition: opacity 0s ease-in 9920ms,  visibility 0s ease-in 9960ms; -o-transition: opacity 0s ease-in 9920ms,  visibility 0s ease-in 9960ms; transition: opacity 0s ease-in 9920ms,  visibility 0s ease-in 9960ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00100 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00100.png); -webkit-transition: opacity 0s ease-in 9960ms,  visibility 0s ease-in 10000ms; -moz-transition: opacity 0s ease-in 9960ms,  visibility 0s ease-in 10000ms; -o-transition: opacity 0s ease-in 9960ms,  visibility 0s ease-in 10000ms; transition: opacity 0s ease-in 9960ms,  visibility 0s ease-in 10000ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00101 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00101.png); -webkit-transition: opacity 0s ease-in 10000ms,  visibility 0s ease-in 10040ms; -moz-transition: opacity 0s ease-in 10000ms,  visibility 0s ease-in 10040ms; -o-transition: opacity 0s ease-in 10000ms,  visibility 0s ease-in 10040ms; transition: opacity 0s ease-in 10000ms,  visibility 0s ease-in 10040ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00102 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00102.png); -webkit-transition: opacity 0s ease-in 10040ms,  visibility 0s ease-in 10080ms; -moz-transition: opacity 0s ease-in 10040ms,  visibility 0s ease-in 10080ms; -o-transition: opacity 0s ease-in 10040ms,  visibility 0s ease-in 10080ms; transition: opacity 0s ease-in 10040ms,  visibility 0s ease-in 10080ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00103 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00103.png); -webkit-transition: opacity 0s ease-in 10080ms,  visibility 0s ease-in 10120ms; -moz-transition: opacity 0s ease-in 10080ms,  visibility 0s ease-in 10120ms; -o-transition: opacity 0s ease-in 10080ms,  visibility 0s ease-in 10120ms; transition: opacity 0s ease-in 10080ms,  visibility 0s ease-in 10120ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00104 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00104.png); -webkit-transition: opacity 0s ease-in 10120ms,  visibility 0s ease-in 10160ms; -moz-transition: opacity 0s ease-in 10120ms,  visibility 0s ease-in 10160ms; -o-transition: opacity 0s ease-in 10120ms,  visibility 0s ease-in 10160ms; transition: opacity 0s ease-in 10120ms,  visibility 0s ease-in 10160ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00105 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00105.png); -webkit-transition: opacity 0s ease-in 10160ms,  visibility 0s ease-in 10200ms; -moz-transition: opacity 0s ease-in 10160ms,  visibility 0s ease-in 10200ms; -o-transition: opacity 0s ease-in 10160ms,  visibility 0s ease-in 10200ms; transition: opacity 0s ease-in 10160ms,  visibility 0s ease-in 10200ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00106 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00106.png); -webkit-transition: opacity 0s ease-in 10200ms,  visibility 0s ease-in 10240ms; -moz-transition: opacity 0s ease-in 10200ms,  visibility 0s ease-in 10240ms; -o-transition: opacity 0s ease-in 10200ms,  visibility 0s ease-in 10240ms; transition: opacity 0s ease-in 10200ms,  visibility 0s ease-in 10240ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00107 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00107.png); -webkit-transition: opacity 0s ease-in 10240ms,  visibility 0s ease-in 10280ms; -moz-transition: opacity 0s ease-in 10240ms,  visibility 0s ease-in 10280ms; -o-transition: opacity 0s ease-in 10240ms,  visibility 0s ease-in 10280ms; transition: opacity 0s ease-in 10240ms,  visibility 0s ease-in 10280ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00108 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00108.png); -webkit-transition: opacity 0s ease-in 10280ms,  visibility 0s ease-in 10320ms; -moz-transition: opacity 0s ease-in 10280ms,  visibility 0s ease-in 10320ms; -o-transition: opacity 0s ease-in 10280ms,  visibility 0s ease-in 10320ms; transition: opacity 0s ease-in 10280ms,  visibility 0s ease-in 10320ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00109 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00109.png); -webkit-transition: opacity 0s ease-in 10320ms,  visibility 0s ease-in 10360ms; -moz-transition: opacity 0s ease-in 10320ms,  visibility 0s ease-in 10360ms; -o-transition: opacity 0s ease-in 10320ms,  visibility 0s ease-in 10360ms; transition: opacity 0s ease-in 10320ms,  visibility 0s ease-in 10360ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00110 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00110.png); -webkit-transition: opacity 0s ease-in 10360ms,  visibility 0s ease-in 10400ms; -moz-transition: opacity 0s ease-in 10360ms,  visibility 0s ease-in 10400ms; -o-transition: opacity 0s ease-in 10360ms,  visibility 0s ease-in 10400ms; transition: opacity 0s ease-in 10360ms,  visibility 0s ease-in 10400ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00111 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00111.png); -webkit-transition: opacity 0s ease-in 10400ms,  visibility 0s ease-in 10440ms; -moz-transition: opacity 0s ease-in 10400ms,  visibility 0s ease-in 10440ms; -o-transition: opacity 0s ease-in 10400ms,  visibility 0s ease-in 10440ms; transition: opacity 0s ease-in 10400ms,  visibility 0s ease-in 10440ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00112 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00112.png); -webkit-transition: opacity 0s ease-in 10440ms,  visibility 0s ease-in 10480ms; -moz-transition: opacity 0s ease-in 10440ms,  visibility 0s ease-in 10480ms; -o-transition: opacity 0s ease-in 10440ms,  visibility 0s ease-in 10480ms; transition: opacity 0s ease-in 10440ms,  visibility 0s ease-in 10480ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00113 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00113.png); -webkit-transition: opacity 0s ease-in 10480ms,  visibility 0s ease-in 10520ms; -moz-transition: opacity 0s ease-in 10480ms,  visibility 0s ease-in 10520ms; -o-transition: opacity 0s ease-in 10480ms,  visibility 0s ease-in 10520ms; transition: opacity 0s ease-in 10480ms,  visibility 0s ease-in 10520ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00114 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00114.png); -webkit-transition: opacity 0s ease-in 10520ms,  visibility 0s ease-in 10560ms; -moz-transition: opacity 0s ease-in 10520ms,  visibility 0s ease-in 10560ms; -o-transition: opacity 0s ease-in 10520ms,  visibility 0s ease-in 10560ms; transition: opacity 0s ease-in 10520ms,  visibility 0s ease-in 10560ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00115 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00115.png); -webkit-transition: opacity 0s ease-in 10560ms,  visibility 0s ease-in 10600ms; -moz-transition: opacity 0s ease-in 10560ms,  visibility 0s ease-in 10600ms; -o-transition: opacity 0s ease-in 10560ms,  visibility 0s ease-in 10600ms; transition: opacity 0s ease-in 10560ms,  visibility 0s ease-in 10600ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00116 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00116.png); -webkit-transition: opacity 0s ease-in 10600ms,  visibility 0s ease-in 10640ms; -moz-transition: opacity 0s ease-in 10600ms,  visibility 0s ease-in 10640ms; -o-transition: opacity 0s ease-in 10600ms,  visibility 0s ease-in 10640ms; transition: opacity 0s ease-in 10600ms,  visibility 0s ease-in 10640ms;}
+#anim-slide2.active .collar-1-folding-transition .folding_00117 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00117.png); -webkit-transition: opacity 0s ease-in 10640ms,  visibility 0s ease-in 10680ms; -moz-transition: opacity 0s ease-in 10640ms,  visibility 0s ease-in 10680ms; -o-transition: opacity 0s ease-in 10640ms,  visibility 0s ease-in 10680ms; transition: opacity 0s ease-in 10640ms,  visibility 0s ease-in 10680ms;}
+
+
+#anim-slide2.active .collar-1-folding-transition, #anim-slide2.active .collar-1-folding
+{
+    -webkit-transition: opacity 0s ease-in 8840ms, background-image 0s ease-in 8880ms;
+    -moz-transition: opacity 0s ease-in 8840ms, background-image 0s ease-in 8880ms;
+    -o-transition: opacity 0s ease-in 8840ms, background-image 0s ease-in 8880ms;
+    transition: opacity 0s ease-in 8840ms, background-image 0s ease-in 8880ms;
+
+	background-image: none;
+	opacity: 1;
+}
+
+#anim-slide2 .collar-2-folding-transition
+{
+	z-index: 100;
+	opacity: 0;
+	background: url(img2/collar-folding/folding_00072.png);
+}
+
+#anim-slide2 .collar-2-folding-transition > *
+{
+	opacity: 0;
+}
+
+#anim-slide2 .collar-2-folding-transition > img
+{
+	opacity: 1;
+}
+
+#anim-slide2.active .collar-2-folding-transition .folding_00072 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00072.png); -webkit-transition: opacity 0s ease-in 2880ms,  visibility 0s ease-in 2920ms; -moz-transition: opacity 0s ease-in 2880ms,  visibility 0s ease-in 2920ms; -o-transition: opacity 0s ease-in 2880ms,  visibility 0s ease-in 2920ms; transition: opacity 0s ease-in 2880ms,  visibility 0s ease-in 2920ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00073 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00073.png); -webkit-transition: opacity 0s ease-in 2920ms,  visibility 0s ease-in 2960ms; -moz-transition: opacity 0s ease-in 2920ms,  visibility 0s ease-in 2960ms; -o-transition: opacity 0s ease-in 2920ms,  visibility 0s ease-in 2960ms; transition: opacity 0s ease-in 2920ms,  visibility 0s ease-in 2960ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00074 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00074.png); -webkit-transition: opacity 0s ease-in 2960ms,  visibility 0s ease-in 3000ms; -moz-transition: opacity 0s ease-in 2960ms,  visibility 0s ease-in 3000ms; -o-transition: opacity 0s ease-in 2960ms,  visibility 0s ease-in 3000ms; transition: opacity 0s ease-in 2960ms,  visibility 0s ease-in 3000ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00075 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00075.png); -webkit-transition: opacity 0s ease-in 3000ms,  visibility 0s ease-in 3040ms; -moz-transition: opacity 0s ease-in 3000ms,  visibility 0s ease-in 3040ms; -o-transition: opacity 0s ease-in 3000ms,  visibility 0s ease-in 3040ms; transition: opacity 0s ease-in 3000ms,  visibility 0s ease-in 3040ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00076 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00076.png); -webkit-transition: opacity 0s ease-in 3040ms,  visibility 0s ease-in 3080ms; -moz-transition: opacity 0s ease-in 3040ms,  visibility 0s ease-in 3080ms; -o-transition: opacity 0s ease-in 3040ms,  visibility 0s ease-in 3080ms; transition: opacity 0s ease-in 3040ms,  visibility 0s ease-in 3080ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00077 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00077.png); -webkit-transition: opacity 0s ease-in 3080ms,  visibility 0s ease-in 3120ms; -moz-transition: opacity 0s ease-in 3080ms,  visibility 0s ease-in 3120ms; -o-transition: opacity 0s ease-in 3080ms,  visibility 0s ease-in 3120ms; transition: opacity 0s ease-in 3080ms,  visibility 0s ease-in 3120ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00078 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00078.png); -webkit-transition: opacity 0s ease-in 3120ms,  visibility 0s ease-in 3160ms; -moz-transition: opacity 0s ease-in 3120ms,  visibility 0s ease-in 3160ms; -o-transition: opacity 0s ease-in 3120ms,  visibility 0s ease-in 3160ms; transition: opacity 0s ease-in 3120ms,  visibility 0s ease-in 3160ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00079 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00079.png); -webkit-transition: opacity 0s ease-in 3160ms,  visibility 0s ease-in 3200ms; -moz-transition: opacity 0s ease-in 3160ms,  visibility 0s ease-in 3200ms; -o-transition: opacity 0s ease-in 3160ms,  visibility 0s ease-in 3200ms; transition: opacity 0s ease-in 3160ms,  visibility 0s ease-in 3200ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00080 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00080.png); -webkit-transition: opacity 0s ease-in 3200ms,  visibility 0s ease-in 3240ms; -moz-transition: opacity 0s ease-in 3200ms,  visibility 0s ease-in 3240ms; -o-transition: opacity 0s ease-in 3200ms,  visibility 0s ease-in 3240ms; transition: opacity 0s ease-in 3200ms,  visibility 0s ease-in 3240ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00081 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00081.png); -webkit-transition: opacity 0s ease-in 3240ms,  visibility 0s ease-in 3280ms; -moz-transition: opacity 0s ease-in 3240ms,  visibility 0s ease-in 3280ms; -o-transition: opacity 0s ease-in 3240ms,  visibility 0s ease-in 3280ms; transition: opacity 0s ease-in 3240ms,  visibility 0s ease-in 3280ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00082 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00082.png); -webkit-transition: opacity 0s ease-in 3280ms,  visibility 0s ease-in 3320ms; -moz-transition: opacity 0s ease-in 3280ms,  visibility 0s ease-in 3320ms; -o-transition: opacity 0s ease-in 3280ms,  visibility 0s ease-in 3320ms; transition: opacity 0s ease-in 3280ms,  visibility 0s ease-in 3320ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00083 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00083.png); -webkit-transition: opacity 0s ease-in 3320ms,  visibility 0s ease-in 3360ms; -moz-transition: opacity 0s ease-in 3320ms,  visibility 0s ease-in 3360ms; -o-transition: opacity 0s ease-in 3320ms,  visibility 0s ease-in 3360ms; transition: opacity 0s ease-in 3320ms,  visibility 0s ease-in 3360ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00084 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00084.png); -webkit-transition: opacity 0s ease-in 3360ms,  visibility 0s ease-in 3400ms; -moz-transition: opacity 0s ease-in 3360ms,  visibility 0s ease-in 3400ms; -o-transition: opacity 0s ease-in 3360ms,  visibility 0s ease-in 3400ms; transition: opacity 0s ease-in 3360ms,  visibility 0s ease-in 3400ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00085 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00085.png); -webkit-transition: opacity 0s ease-in 3400ms,  visibility 0s ease-in 3440ms; -moz-transition: opacity 0s ease-in 3400ms,  visibility 0s ease-in 3440ms; -o-transition: opacity 0s ease-in 3400ms,  visibility 0s ease-in 3440ms; transition: opacity 0s ease-in 3400ms,  visibility 0s ease-in 3440ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00086 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00086.png); -webkit-transition: opacity 0s ease-in 3440ms,  visibility 0s ease-in 3480ms; -moz-transition: opacity 0s ease-in 3440ms,  visibility 0s ease-in 3480ms; -o-transition: opacity 0s ease-in 3440ms,  visibility 0s ease-in 3480ms; transition: opacity 0s ease-in 3440ms,  visibility 0s ease-in 3480ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00087 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00087.png); -webkit-transition: opacity 0s ease-in 3480ms,  visibility 0s ease-in 3520ms; -moz-transition: opacity 0s ease-in 3480ms,  visibility 0s ease-in 3520ms; -o-transition: opacity 0s ease-in 3480ms,  visibility 0s ease-in 3520ms; transition: opacity 0s ease-in 3480ms,  visibility 0s ease-in 3520ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00088 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00088.png); -webkit-transition: opacity 0s ease-in 3520ms,  visibility 0s ease-in 3560ms; -moz-transition: opacity 0s ease-in 3520ms,  visibility 0s ease-in 3560ms; -o-transition: opacity 0s ease-in 3520ms,  visibility 0s ease-in 3560ms; transition: opacity 0s ease-in 3520ms,  visibility 0s ease-in 3560ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00089 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00089.png); -webkit-transition: opacity 0s ease-in 3560ms,  visibility 0s ease-in 3600ms; -moz-transition: opacity 0s ease-in 3560ms,  visibility 0s ease-in 3600ms; -o-transition: opacity 0s ease-in 3560ms,  visibility 0s ease-in 3600ms; transition: opacity 0s ease-in 3560ms,  visibility 0s ease-in 3600ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00090 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00090.png); -webkit-transition: opacity 0s ease-in 3600ms,  visibility 0s ease-in 3640ms; -moz-transition: opacity 0s ease-in 3600ms,  visibility 0s ease-in 3640ms; -o-transition: opacity 0s ease-in 3600ms,  visibility 0s ease-in 3640ms; transition: opacity 0s ease-in 3600ms,  visibility 0s ease-in 3640ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00091 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00091.png); -webkit-transition: opacity 0s ease-in 3640ms,  visibility 0s ease-in 3680ms; -moz-transition: opacity 0s ease-in 3640ms,  visibility 0s ease-in 3680ms; -o-transition: opacity 0s ease-in 3640ms,  visibility 0s ease-in 3680ms; transition: opacity 0s ease-in 3640ms,  visibility 0s ease-in 3680ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00092 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00092.png); -webkit-transition: opacity 0s ease-in 3680ms,  visibility 0s ease-in 3720ms; -moz-transition: opacity 0s ease-in 3680ms,  visibility 0s ease-in 3720ms; -o-transition: opacity 0s ease-in 3680ms,  visibility 0s ease-in 3720ms; transition: opacity 0s ease-in 3680ms,  visibility 0s ease-in 3720ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00093 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00093.png); -webkit-transition: opacity 0s ease-in 3720ms,  visibility 0s ease-in 3760ms; -moz-transition: opacity 0s ease-in 3720ms,  visibility 0s ease-in 3760ms; -o-transition: opacity 0s ease-in 3720ms,  visibility 0s ease-in 3760ms; transition: opacity 0s ease-in 3720ms,  visibility 0s ease-in 3760ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00094 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00094.png); -webkit-transition: opacity 0s ease-in 3760ms,  visibility 0s ease-in 3800ms; -moz-transition: opacity 0s ease-in 3760ms,  visibility 0s ease-in 3800ms; -o-transition: opacity 0s ease-in 3760ms,  visibility 0s ease-in 3800ms; transition: opacity 0s ease-in 3760ms,  visibility 0s ease-in 3800ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00095 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00095.png); -webkit-transition: opacity 0s ease-in 3800ms,  visibility 0s ease-in 3840ms; -moz-transition: opacity 0s ease-in 3800ms,  visibility 0s ease-in 3840ms; -o-transition: opacity 0s ease-in 3800ms,  visibility 0s ease-in 3840ms; transition: opacity 0s ease-in 3800ms,  visibility 0s ease-in 3840ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00096 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00096.png); -webkit-transition: opacity 0s ease-in 3840ms,  visibility 0s ease-in 3880ms; -moz-transition: opacity 0s ease-in 3840ms,  visibility 0s ease-in 3880ms; -o-transition: opacity 0s ease-in 3840ms,  visibility 0s ease-in 3880ms; transition: opacity 0s ease-in 3840ms,  visibility 0s ease-in 3880ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00097 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00097.png); -webkit-transition: opacity 0s ease-in 3880ms,  visibility 0s ease-in 3920ms; -moz-transition: opacity 0s ease-in 3880ms,  visibility 0s ease-in 3920ms; -o-transition: opacity 0s ease-in 3880ms,  visibility 0s ease-in 3920ms; transition: opacity 0s ease-in 3880ms,  visibility 0s ease-in 3920ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00098 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00098.png); -webkit-transition: opacity 0s ease-in 3920ms,  visibility 0s ease-in 3960ms; -moz-transition: opacity 0s ease-in 3920ms,  visibility 0s ease-in 3960ms; -o-transition: opacity 0s ease-in 3920ms,  visibility 0s ease-in 3960ms; transition: opacity 0s ease-in 3920ms,  visibility 0s ease-in 3960ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00099 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00099.png); -webkit-transition: opacity 0s ease-in 3960ms,  visibility 0s ease-in 4000ms; -moz-transition: opacity 0s ease-in 3960ms,  visibility 0s ease-in 4000ms; -o-transition: opacity 0s ease-in 3960ms,  visibility 0s ease-in 4000ms; transition: opacity 0s ease-in 3960ms,  visibility 0s ease-in 4000ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00100 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00100.png); -webkit-transition: opacity 0s ease-in 4000ms,  visibility 0s ease-in 4040ms; -moz-transition: opacity 0s ease-in 4000ms,  visibility 0s ease-in 4040ms; -o-transition: opacity 0s ease-in 4000ms,  visibility 0s ease-in 4040ms; transition: opacity 0s ease-in 4000ms,  visibility 0s ease-in 4040ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00101 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00101.png); -webkit-transition: opacity 0s ease-in 4040ms,  visibility 0s ease-in 4080ms; -moz-transition: opacity 0s ease-in 4040ms,  visibility 0s ease-in 4080ms; -o-transition: opacity 0s ease-in 4040ms,  visibility 0s ease-in 4080ms; transition: opacity 0s ease-in 4040ms,  visibility 0s ease-in 4080ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00102 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00102.png); -webkit-transition: opacity 0s ease-in 4080ms,  visibility 0s ease-in 4120ms; -moz-transition: opacity 0s ease-in 4080ms,  visibility 0s ease-in 4120ms; -o-transition: opacity 0s ease-in 4080ms,  visibility 0s ease-in 4120ms; transition: opacity 0s ease-in 4080ms,  visibility 0s ease-in 4120ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00103 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00103.png); -webkit-transition: opacity 0s ease-in 4120ms,  visibility 0s ease-in 4160ms; -moz-transition: opacity 0s ease-in 4120ms,  visibility 0s ease-in 4160ms; -o-transition: opacity 0s ease-in 4120ms,  visibility 0s ease-in 4160ms; transition: opacity 0s ease-in 4120ms,  visibility 0s ease-in 4160ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00104 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00104.png); -webkit-transition: opacity 0s ease-in 4160ms,  visibility 0s ease-in 4200ms; -moz-transition: opacity 0s ease-in 4160ms,  visibility 0s ease-in 4200ms; -o-transition: opacity 0s ease-in 4160ms,  visibility 0s ease-in 4200ms; transition: opacity 0s ease-in 4160ms,  visibility 0s ease-in 4200ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00105 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00105.png); -webkit-transition: opacity 0s ease-in 4200ms,  visibility 0s ease-in 4240ms; -moz-transition: opacity 0s ease-in 4200ms,  visibility 0s ease-in 4240ms; -o-transition: opacity 0s ease-in 4200ms,  visibility 0s ease-in 4240ms; transition: opacity 0s ease-in 4200ms,  visibility 0s ease-in 4240ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00106 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00106.png); -webkit-transition: opacity 0s ease-in 4240ms,  visibility 0s ease-in 4280ms; -moz-transition: opacity 0s ease-in 4240ms,  visibility 0s ease-in 4280ms; -o-transition: opacity 0s ease-in 4240ms,  visibility 0s ease-in 4280ms; transition: opacity 0s ease-in 4240ms,  visibility 0s ease-in 4280ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00107 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00107.png); -webkit-transition: opacity 0s ease-in 4280ms,  visibility 0s ease-in 4320ms; -moz-transition: opacity 0s ease-in 4280ms,  visibility 0s ease-in 4320ms; -o-transition: opacity 0s ease-in 4280ms,  visibility 0s ease-in 4320ms; transition: opacity 0s ease-in 4280ms,  visibility 0s ease-in 4320ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00108 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00108.png); -webkit-transition: opacity 0s ease-in 4320ms,  visibility 0s ease-in 4360ms; -moz-transition: opacity 0s ease-in 4320ms,  visibility 0s ease-in 4360ms; -o-transition: opacity 0s ease-in 4320ms,  visibility 0s ease-in 4360ms; transition: opacity 0s ease-in 4320ms,  visibility 0s ease-in 4360ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00109 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00109.png); -webkit-transition: opacity 0s ease-in 4360ms,  visibility 0s ease-in 4400ms; -moz-transition: opacity 0s ease-in 4360ms,  visibility 0s ease-in 4400ms; -o-transition: opacity 0s ease-in 4360ms,  visibility 0s ease-in 4400ms; transition: opacity 0s ease-in 4360ms,  visibility 0s ease-in 4400ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00110 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00110.png); -webkit-transition: opacity 0s ease-in 4400ms,  visibility 0s ease-in 4440ms; -moz-transition: opacity 0s ease-in 4400ms,  visibility 0s ease-in 4440ms; -o-transition: opacity 0s ease-in 4400ms,  visibility 0s ease-in 4440ms; transition: opacity 0s ease-in 4400ms,  visibility 0s ease-in 4440ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00111 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00111.png); -webkit-transition: opacity 0s ease-in 4440ms,  visibility 0s ease-in 4480ms; -moz-transition: opacity 0s ease-in 4440ms,  visibility 0s ease-in 4480ms; -o-transition: opacity 0s ease-in 4440ms,  visibility 0s ease-in 4480ms; transition: opacity 0s ease-in 4440ms,  visibility 0s ease-in 4480ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00112 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00112.png); -webkit-transition: opacity 0s ease-in 4480ms,  visibility 0s ease-in 4520ms; -moz-transition: opacity 0s ease-in 4480ms,  visibility 0s ease-in 4520ms; -o-transition: opacity 0s ease-in 4480ms,  visibility 0s ease-in 4520ms; transition: opacity 0s ease-in 4480ms,  visibility 0s ease-in 4520ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00113 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00113.png); -webkit-transition: opacity 0s ease-in 4520ms,  visibility 0s ease-in 4560ms; -moz-transition: opacity 0s ease-in 4520ms,  visibility 0s ease-in 4560ms; -o-transition: opacity 0s ease-in 4520ms,  visibility 0s ease-in 4560ms; transition: opacity 0s ease-in 4520ms,  visibility 0s ease-in 4560ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00114 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00114.png); -webkit-transition: opacity 0s ease-in 4560ms,  visibility 0s ease-in 4600ms; -moz-transition: opacity 0s ease-in 4560ms,  visibility 0s ease-in 4600ms; -o-transition: opacity 0s ease-in 4560ms,  visibility 0s ease-in 4600ms; transition: opacity 0s ease-in 4560ms,  visibility 0s ease-in 4600ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00115 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00115.png); -webkit-transition: opacity 0s ease-in 4600ms,  visibility 0s ease-in 4640ms; -moz-transition: opacity 0s ease-in 4600ms,  visibility 0s ease-in 4640ms; -o-transition: opacity 0s ease-in 4600ms,  visibility 0s ease-in 4640ms; transition: opacity 0s ease-in 4600ms,  visibility 0s ease-in 4640ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00116 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00116.png); -webkit-transition: opacity 0s ease-in 4640ms,  visibility 0s ease-in 4680ms; -moz-transition: opacity 0s ease-in 4640ms,  visibility 0s ease-in 4680ms; -o-transition: opacity 0s ease-in 4640ms,  visibility 0s ease-in 4680ms; transition: opacity 0s ease-in 4640ms,  visibility 0s ease-in 4680ms;}
+#anim-slide2.active .collar-2-folding-transition .folding_00117 { opacity: 1; visibility: hidden; background: url(img2/collar-folding/folding_00117.png); -webkit-transition: opacity 0s ease-in 4680ms,  visibility 0s ease-in 4720ms; -moz-transition: opacity 0s ease-in 4680ms,  visibility 0s ease-in 4720ms; -o-transition: opacity 0s ease-in 4680ms,  visibility 0s ease-in 4720ms; transition: opacity 0s ease-in 4680ms,  visibility 0s ease-in 4720ms;}
+
+#anim-slide2.active .collar-2-folding-transition, #anim-slide2.active .collar-2-folding
+{
+    -webkit-transition: opacity 0s ease-in 2880ms, background-image 0s ease-in 2920ms;
+    -moz-transition: opacity 0s ease-in 2880ms, background-image 0s ease-in 2920ms;
+    -o-transition: opacity 0s ease-in 2880ms, background-image 0s ease-in 2920ms;
+    transition: opacity 0s ease-in 2880ms, background-image 0s ease-in 2920ms;
+
+	background-image: none;
+	opacity: 1;
+}
+
+#anim-slide2 .collar-1-folded
+{
+	opacity: 0;
+	background: url(img2/collar-folding/folding_00117.png);
+	z-index: 21;
+}
+
+#anim-slide2 .collar-2-folded
+{
+	opacity: 0;
+	background: url(img2/collar-folding/folding_00117.png);
+	z-index: 19;
+}
+
+#anim-slide2.active .collar-1-folded
+{
+    -webkit-transition: opacity 0s ease-in 10640ms, bottom 0s ease-in 10640ms, left 0s ease-in 10640ms, visibility 0s ease-in 12400ms;
+    -moz-transition: opacity 0s ease-in 10640ms, bottom 0s ease-in 10640ms, left 0s ease-in 10640ms, visibility 0s ease-in 12400ms;
+    -o-transition: opacity 0s ease-in 10640ms, bottom 0s ease-in 10640ms, left 0s ease-in 10640ms, visibility 0s ease-in 12400ms;
+    transition: opacity 0s ease-in 10640ms, bottom 0s ease-in 10640ms, left 0s ease-in 10640ms, visibility 0s ease-in 12400ms;
+
+	-webkit-animation: collar-1-folded 0.8s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 10640ms;
+	-moz-animation: collar-1-folded 0.8s;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-delay: 10640ms;
+	-o-animation: collar-1-folded 0.8s;
+	-o-animation-timing-function: ease-in;
+	-o-animation-delay: 10640ms;
+    animation: collar-1-folded 0.8s;
+	animation-timing-function: ease-in;
+	animation-delay: 10640ms;
+
+	opacity: 1;
+	bottom: 19px;
+	left: 285px;
+	visibility: hidden;
+}
+
+#anim-slide2.active .collar-2-folded
+{
+    -webkit-transition: opacity 0s ease-in 4680ms, bottom 0s ease-in 5480ms, left 0s ease-in 5480ms, visibility 0s ease-in 12400ms;
+    -moz-transition: opacity 0s ease-in 4680ms, bottom 0s ease-in 5480ms, left 0s ease-in 5480ms, visibility 0s ease-in 12400ms;
+    -o-transition: opacity 0s ease-in 4680ms, bottom 0s ease-in 5480ms, left 0s ease-in 5480ms, visibility 0s ease-in 12400ms;
+    transition: opacity 0s ease-in 4680ms, bottom 0s ease-in 5480ms, left 0s ease-in 5480ms, visibility 0s ease-in 12400ms;
+
+	-webkit-animation: collar-2-folded 0.8s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 4680ms;
+	-moz-animation: collar-2-folded 0.8s;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-delay: 4680ms;
+	-o-animation: collar-2-folded 0.8s;
+	-o-animation-timing-function: ease-in;
+	-o-animation-delay: 4680ms;
+    animation: collar-2-folded 0.8s;
+	animation-timing-function: ease-in;
+	animation-delay: 4680ms;
+
+	opacity: 1;
+	bottom: 22px;
+	left: 270px;
+	visibility: hidden;
+}
+
+@-webkit-keyframes collar-1-folded {
+    0% {bottom: 0; left: 0;}
+	100% {bottom: 19px; left: 285px;}
+}
+
+@-moz-keyframes collar-1-folded {
+    0% {bottom: 0; left: 0;}
+	100% {bottom: 19px; left: 285px;}
+}
+
+@-o-keyframes collar-1-folded {
+    0% {bottom: 0; left: 0;}
+	100% {bottom: 19px; left: 285px;}
+}
+
+@keyframes collar-1-folded {
+    0% {bottom: 0; left: 0;}
+	100% {bottom: 19px; left: 285px;}
+}
+
+@-webkit-keyframes collar-2-folded {
+    0% {bottom: 0; left: 0;}
+	100% {bottom: 22px; left: 270px;}
+}
+
+@-moz-keyframes collar-2-folded {
+    0% {bottom: 0; left: 0;}
+	100% {bottom: 22px; left: 270px;}
+}
+
+@-o-keyframes collar-2-folded {
+    0% {bottom: 0; left: 0;}
+	100% {bottom: 22px; left: 270px;}
+}
+
+@keyframes collar-2-folded {
+    0% {bottom: 0; left: 0;}
+	100% {bottom: 22px; left: 270px;}
+}
+
+#anim-slide2 .shelf-overlay
+{
+	background: url(img2/rack-part.png);
+	z-index: 300;
+}
+
+#anim-slide2.active .shelf-overlay
+{
+    -webkit-transition: opacity 0s ease-in 12000ms;
+    -moz-transition: opacity 0s ease-in 12000ms;
+    -o-transition: opacity 0s ease-in 12000ms;
+    transition: opacity 0s ease-in 12000ms;
+
+	opacity: 0;
+}
+
+#anim-slide2 .shelf-away
+{
+	background: url(img2/rack-away.png);
+	z-index: 30;
+	opacity: 0;
+	left: 0;
+}
+
+#anim-slide2.active .shelf-away
+{
+    -webkit-transition: opacity 0s ease-in 12000ms, left 1480ms ease-in-out 12000ms;
+    -moz-transition: opacity 0s ease-in 12000ms, left 1480ms ease-in-out 12000ms;
+    -o-transition: opacity 0s ease-in 12000ms, left 1480ms ease-in-out 12000ms;
+    transition: opacity 0s ease-in 12000ms, left 1480ms ease-in-out 12000ms;
+
+	opacity: 1;
+	left: -1280px;
+}
+
+#anim-slide2 .tags
+{
+	position: absolute;
+	padding-left: 40px;
+	color: #000;
+	margin: 0;
+	font-size: 15px;
+	list-style: none;
+
+	top: 125px;
+    width: 240px;
+}
+
+#anim-slide2 .tags_2
+{
+	opacity: 0;
+	position: absolute;
+	padding-left: 40px;
+	color: #000;
+	margin: 0;
+	font-size: 15px;
+	list-style: none;
+
+	top: 125px;
+    width: 240px;
+}
+
+#anim-slide2.active .tags
+{
+    -webkit-transition: all 0s ease-out 10.64s;
+    -moz-transition: all 0s ease-out 10.64s;
+    -o-transition: all 0s ease-out 10.64s;
+    transition: all 0s ease-out 10.64s;
+	opacity: 0;
+}
+
+#anim-slide2.active .tags_2
+{
+    -webkit-transition: all 0s ease-out 10.64s;
+    -moz-transition: all 0s ease-out 10.64s;
+    -o-transition: all 0s ease-out 10.64s;
+    transition: all 0s ease-out 10.64s;
+	opacity: 1;
+}
+
+
+#anim-slide2 .tags_2 li
+{
+	margin: 7px 0;
+	padding-left: 10px;
+	background: url(img2/bullet.png) left top no-repeat;
+	opacity: 1;
+}
+
+#anim-slide2 .tags li
+{
+	margin: 7px 0;
+	padding-left: 10px;
+	background: url(img2/bullet.png) left top no-repeat;
+	opacity: 0;
+}
+
+#anim-slide2.active .tags #tag_1
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 1080ms;
+    -moz-transition: all 0.2s ease-out 1080ms;
+    -o-transition: all 0.2s ease-out 1080ms;
+    transition: all 0.2s ease-out 1080ms;
+}
+
+#anim-slide2.active .tags #tag_2
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 2040ms;
+    -moz-transition: all 0.2s ease-out 2040ms;
+    -o-transition: all 0.2s ease-out 2040ms;
+    transition: all 0.2s ease-out 2040ms;
+}
+
+#anim-slide2.active .tags #tag_3
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 2760ms;
+    -moz-transition: all 0.2s ease-out 2760ms;
+    -o-transition: all 0.2s ease-out 2760ms;
+    transition: all 0.2s ease-out 2760ms;
+}
+
+#anim-slide2.active .tags #tag_4
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 3480ms;
+    -moz-transition: all 0.2s ease-out 3480ms;
+    -o-transition: all 0.2s ease-out 3480ms;
+    transition: all 0.2s ease-out 3480ms;
+}
+
+#anim-slide2.active .tags #tag_5
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 4020ms;
+    -moz-transition: all 0.2s ease-out 4020ms;
+    -o-transition: all 0.2s ease-out 4020ms;
+    transition: all 0.2s ease-out 4020ms;
+}
+
+#anim-slide2.active .tags #tag_6
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 4920ms;
+    -moz-transition: all 0.2s ease-out 4920ms;
+    -o-transition: all 0.2s ease-out 4920ms;
+    transition: all 0.2s ease-out 4920ms;
+}
+
+#anim-slide2.active .tags #tag_7
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 5640ms;
+    -moz-transition: all 0.2s ease-out 5640ms;
+    -o-transition: all 0.2s ease-out 5640ms;
+    transition: all 0.2s ease-out 5640ms;
+}
+
+/*-----------------------------------------------------*/
+
+#anim-slide2.active .tags_2 #tag_7_2
+{
+	opacity: 0;
+
+    -webkit-transition: all 0.2s ease-out 10640ms;
+    -moz-transition: all 0.2s ease-out 10640ms;
+    -o-transition: all 0.2s ease-out 10640ms;
+    transition: all 0.2s ease-out 10640ms;
+}
+
+#anim-slide2.active .tags_2 #tag_6_2
+{
+	opacity: 0;
+
+    -webkit-transition: all 0.2s ease-out 10840ms;
+    -moz-transition: all 0.2s ease-out 10840ms;
+    -o-transition: all 0.2s ease-out 10840ms;
+    transition: all 0.2s ease-out 10840ms;
+}
+
+#anim-slide2.active .tags_2 #tag_5_2
+{
+	opacity: 0;
+
+    -webkit-transition: all 0.2s ease-out 11040ms;
+    -moz-transition: all 0.2s ease-out 11040ms;
+    -o-transition: all 0.2s ease-out 11040ms;
+    transition: all 0.2s ease-out 11040ms;
+}
+
+#anim-slide2.active .tags_2 #tag_4_2
+{
+	opacity: 0;
+
+    -webkit-transition: all 0.2s ease-out 11240ms;
+    -moz-transition: all 0.2s ease-out 11240ms;
+    -o-transition: all 0.2s ease-out 11240ms;
+    transition: all 0.2s ease-out 11240ms;
+}
+
+#anim-slide2.active .tags_2 #tag_3_2
+{
+	opacity: 0;
+
+    -webkit-transition: all 0.2s ease-out 11440ms;
+    -moz-transition: all 0.2s ease-out 11440ms;
+    -o-transition: all 0.2s ease-out 11440ms;
+    transition: all 0.2s ease-out 11440ms;
+}
+
+#anim-slide2.active .tags_2 #tag_2_2
+{
+	opacity: 0;
+
+    -webkit-transition: all 0.2s ease-out 11640ms;
+    -moz-transition: all 0.2s ease-out 11640ms;
+    -o-transition: all 0.2s ease-out 11640ms;
+    transition: all 0.2s ease-out 11640ms;
+}
+
+#anim-slide2.active .tags_2 #tag_1_2
+{
+	opacity: 0;
+
+    -webkit-transition: all 0.2s ease-out 11840ms;
+    -moz-transition: all 0.2s ease-out 11840ms;
+    -o-transition: all 0.2s ease-out 11840ms;
+    transition: all 0.2s ease-out 11840ms;
+}
+
+#anim-slide2 .tags_3
+{
+	position: absolute;
+	padding-left: 400px;
+	color: #000;
+	margin: 0;
+	font-size: 15px;
+	list-style: none;
+
+	top: 110px;
+}
+
+#anim-slide2.active .tags_3
+{
+    -webkit-transition: padding-left 440ms ease 11400ms;
+    -moz-transition: padding-left 440ms ease 11400ms;
+    -o-transition: padding-left 440ms ease 11400ms;
+    transition: padding-left 440ms ease 11400ms;
+	padding-left: 40px;
+}
+
+#anim-slide2 .tags_3 li
+{
+	margin: 7px 0;
+	padding-left: 10px;
+	background: url(img2/bullet.png) left top no-repeat;
+	opacity: 0;
+}
+
+#anim-slide2.active .tags_3 #tag_3_1
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 2080ms;
+    -moz-transition: all 0.2s ease-out 2080ms;
+    -o-transition: all 0.2s ease-out 2080ms;
+    transition: all 0.2s ease-out 2080ms;
+}
+
+#anim-slide2.active .tags_3 #tag_3_2
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 3040ms;
+    -moz-transition: all 0.2s ease-out 3040ms;
+    -o-transition: all 0.2s ease-out 3040ms;
+    transition: all 0.2s ease-out 3040ms;
+}
+
+#anim-slide2.active .tags_3 #tag_3_3
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 3760ms;
+    -moz-transition: all 0.2s ease-out 3760ms;
+    -o-transition: all 0.2s ease-out 3760ms;
+    transition: all 0.2s ease-out 3760ms;
+}
+
+#anim-slide2.active .tags_3 #tag_3_4
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 4480ms;
+    -moz-transition: all 0.2s ease-out 4480ms;
+    -o-transition: all 0.2s ease-out 4480ms;
+    transition: all 0.2s ease-out 4480ms;
+}
+
+#anim-slide2.active .tags_3 #tag_3_5
+{
+	opacity: 1;
+
+    -webkit-transition: all 0.2s ease-out 5020ms;
+    -moz-transition: all 0.2s ease-out 5020ms;
+    -o-transition: all 0.2s ease-out 5020ms;
+    transition: all 0.2s ease-out 5020ms;
+}
+
+#p108
+{
+	color: #000;
+	position: absolute;
+	display: block;
+	width: 160px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	top: 170px;
+	left: 322px;
+	opacity: 0;
+	z-index: 1000;
+}
+
+#anim-slide2.active #p108
+{
+    -webkit-transition: opacity 400ms ease-out 14840ms, visibility 0s ease-in 17160ms;
+    -moz-transition: opacity 400ms ease-out 14840ms, visibility 0s ease-in 17160ms;
+    -o-transition: opacity 400ms ease-out 14840ms, visibility 0s ease-in 17160ms;
+    transition: opacity 400ms ease-out 14840ms, visibility 0s ease-in 17160ms;
+
+    visibility: hidden;
+	opacity: 1;
+}
+
+#p108-dis
+{
+    color: #000;
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    width: 160px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 170px;
+    left: 322px;
+    opacity: 1;
+    z-index: 1000;
+}
+
+#anim-slide2.active #p108-dis
+{
+    -webkit-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    -moz-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    -o-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+
+    visibility: visible;
+    opacity: 0;
+}
+
+#anim-slide2 .equivalent
+{
+	background: url(img2/equivalent.png);
+	opacity: 0;
+}
+
+#anim-slide2.active .equivalent
+{
+    -webkit-transition: opacity 400ms ease-out 15240ms, visibility 0s ease-in 17160ms;
+    -moz-transition: opacity 400ms ease-out 15240ms, visibility 0s ease-in 17160ms;
+    -o-transition: opacity 400ms ease-out 15240ms, visibility 0s ease-in 17160ms;
+    transition: opacity 400ms ease-out 15240ms, visibility 0s ease-in 17160ms;
+
+	visibility: hidden;
+	opacity: 1;
+}
+
+#anim-slide2 .equivalent-dis
+{
+    background: url(img2/equivalent.png);
+    opacity: 1;
+    visibility: hidden;
+}
+
+#anim-slide2.active .equivalent-dis
+{
+    -webkit-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    -moz-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    -o-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+
+    visibility: visible;
+    opacity: 0;
+}
+
+#anim-slide2 #p29
+{
+	color: #000;
+	position: absolute;
+	display: block;
+	width: 160px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	top: 255px;
+	left: 322px;
+	opacity: 0;
+	z-index: 1000;
+}
+
+#anim-slide2.active #p29
+{
+    -webkit-transition: opacity 400ms ease-out 15640ms, visibility 0s ease-in 17160ms;
+    -moz-transition: opacity 400ms ease-out 15640ms, visibility 0s ease-in 17160ms;
+    -o-transition: opacity 400ms ease-out 15640ms, visibility 0s ease-in 17160ms;
+    transition: opacity 400ms ease-out 15640ms, visibility 0s ease-in 17160ms;
+
+    visibility: hidden;
+	opacity: 1;
+}
+
+#anim-slide2 #p29-dis
+{
+    color: #000;
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    width: 160px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 255px;
+    left: 322px;
+    opacity: 1;
+    z-index: 1000;
+}
+
+#anim-slide2.active #p29-dis
+{
+    -webkit-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    -moz-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    -o-transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+    transition: opacity 400ms ease-out 17160ms, visibility 0s ease-in 17160ms;
+
+    visibility: visible;
+    opacity: 0;
+}
+
+.equivalent-container-disappearing
+{
+    display: none;
+}
+
+#anim-slide2.active .equivalent--disappearing
+{
+    -webkit-transition: all 240ms ease-out 17160ms;
+    -moz-transition: all 240ms ease-out 17160ms;
+    -o-transition: all 240ms ease-out 17160ms;
+    transition: all 240ms ease-out 17160ms;
+
+    display: block;
+}
+
+#anim-slide2 #p87
+{
+	color: #000;
+	position: absolute;
+	font-size: 30px;
+	visibility: hidden;
+	display: block;
+	width: 980px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	top: 130px;
+	opacity: 0;
+	z-index: 1000;
+}
+
+#anim-slide2.active #p87
+{
+    -webkit-transition: all 400ms ease-out 18520ms;
+    -moz-transition: all 400ms ease-out 18520ms;
+    -o-transition: all 400ms ease-out 18520ms;
+    transition: all 400ms ease-out 18520ms;
+
+	visibility: visible;
+	opacity: 1;
+}
+
+#anim-slide2 #not-in-use
+{
+	color: #000;
+	position: absolute;
+	font-size: 18px;
+	visibility: hidden;
+	display: block;
+	width: 980px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	top: 170px;
+	opacity: 0;
+	z-index: 1000;
+}
+
+#anim-slide2.active #not-in-use
+{
+    -webkit-transition: all 400ms ease-out 18520ms;
+    -moz-transition: all 400ms ease-out 18520ms;
+    -o-transition: all 400ms ease-out 18520ms;
+    transition: all 400ms ease-out 18520ms;
+
+	visibility: visible;
+	opacity: 1;
+}
