@@ -5810,6 +5810,9 @@ h3.big-header {
   display: inline-block;
   margin: 5px 15px 0 0;
 }
+.slide-mobide{
+  display: none;
+}
 
 @media only screen and (max-width: 980px){
   #page{
@@ -5830,6 +5833,9 @@ h3.big-header {
   }
   #logo a > img{
     width: 78%;
+  }
+  .menu-mobile{
+    display: none;
   }
   ul.main-menu{
     overflow: hidden;
@@ -5854,6 +5860,12 @@ h3.big-header {
   }
   .piece .content{
     padding: 0;
+  }
+  .slide-wrap{
+    display: block;
+  }
+  .slide-mobile{
+    display: none;
   }
   .service-tab {
     background: linear-gradient(#eef1f6, #e2e5ea);
@@ -5945,6 +5957,7 @@ h3.big-header {
   }
   #bottom{
     width: auto;
+    height: 240px;
     margin: 0;
     font-size: 10pt;
   }
@@ -5966,13 +5979,20 @@ h3.big-header {
     padding-left: 180px;
   }
   #bottom .col3{
-    width: 40%;
+    width: 100%;
     float: none;
     clear: both;
     margin: 0 auto;
   } 
   #bottom .col3 > div.subscribe-header{
     padding: 0 20px;
+  }
+
+  .subscribe-wrap{
+    width: 49%;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
   }
   .green-but{
     margin-top: 20px;
@@ -5996,7 +6016,7 @@ h3.big-header {
   }
   #page{
     width: auto;
-    margin: 0;
+    margin: 0 auto;
   }
   #logo{
     margin: 20px;
@@ -6015,6 +6035,9 @@ h3.big-header {
   .menu-holder{
     position: relative;
     top: 0px;
+    padding: 0 10px;
+    clear: both;
+    overflow: hidden;
   }
   .menu-holder .underline{
     left: 13px;
@@ -6023,14 +6046,57 @@ h3.big-header {
     line-height: normal;
     padding-bottom: 13px;
   }
+  .menu-mobile{
+    cursor: pointer;
+  }
+  .menu-mobile p{
+    color: #FFF;
+    font-size: 24px;
+    line-height: 2.1;
+    text-align: left;
+  }
+  .menu-button{
+    display: block;
+    width: 25px;
+    padding: 18px;
+    float: left;
+    }
+  .menu-button span{
+    display: block;
+    position: relative;
+    height: 10px;
+    border-top: 2px solid #FFF; 
+    border-bottom: 2px solid #FFF;
+  }
+  .menu-button span:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #FFF; 
+    margin-top: -1px;
+  }
+  .main-menu.active{
+    height: 190px;
+  }
+  .main-menu.active li{
+    display: block;
+  }
+  .main-menu.active & .sub-menu{
+    margin-top: 20px;
+  }
   ul.main-menu{
-    height: 100%;
+    width: 100%;
     line-height: 35px;
     padding: 0;
-    margin: 26px 10px 10px;
     background: #2B374D;
+    clear: both;
+    float: none;
   }
   ul.main-menu li{
+    display: none;
     padding: 0;
     margin: 0;
     background: none;
@@ -6063,7 +6129,7 @@ h3.big-header {
     right: 0px;
   }
   ul.sub-menu{
-    margin-top: -10px;
+    margin-top: 10px;
     padding-left: 10px;
     background: none;
   }
@@ -6096,8 +6162,23 @@ h3.big-header {
   .sub-menu li:hover:after{
     display: none;
   }
-  .main.flexslider{
+  .slide{
+    height: auto;
+  }
+  .slide-wrap{
     display: none;
+  }
+  .slide-mobile{
+    display: block;
+  }
+  .slide.inlay{
+    background: none;
+  }
+  .slide.inlay:before{
+    background: none;
+  }
+  .slide.inlay:after{
+    background: none;
   }
   #blocks{
     padding: 10px 0 20px 0;
@@ -6147,6 +6228,9 @@ h3.big-header {
   }
   .service-tab .right{
     margin: 4px 12px 0 0;
+  }
+  .piece{
+    margin-top: 30px;
   }
   .piece-inner{
     padding: 0;
@@ -6222,7 +6306,7 @@ h3.big-header {
   }
   ul.lime2{
     display: inline-block;
-    padding: 0 72px; 
+    width: 180px;
     margin: 0 auto;
     height: 100%;
     -webkit-order: 2;
@@ -6235,12 +6319,22 @@ h3.big-header {
   .image-overlay{
     display: none;
   }
+  #bottom-out{
+    height: auto;
+  }
+  .inlay{
+    background: none;
+  }
+  .inlay:after{
+    bottom: 140px;
+  }
   #bottom{
     width: auto;
     margin: 0;
+    background: none;
   }
   #bottom-wrap1 {
-    background: url("../images/kronus/service-seperator-horiz.png") 50% 210px no-repeat;
+    background: url("../images/kronus/service-seperator-horiz.png") 50% 210px no-repeat, url(../images/kronus/inlay-bg-overlay.png) 0 100% repeat-x, url("../images/kronus/inlay-bg-tile.jpg");
   }
   #bottom-wrap2{
     height: auto;
@@ -6249,7 +6343,8 @@ h3.big-header {
   }
   #bottom .col{
     float: none;
-    width: auto;
+    width: 320px;
+    margin: 0 auto;
   }
   #bottom .col3{
     float: none;
@@ -6260,7 +6355,7 @@ h3.big-header {
   #footer{
     width: auto;
     height: 100px;
-    padding: 0 0 20px 0;   
+    padding: 20px 0;   
   }
   #footer .right{
     margin-top: 55px;
