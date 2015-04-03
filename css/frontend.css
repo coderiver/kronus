@@ -6473,6 +6473,280 @@ ul.main-menu li ul.sub-menu{
     text-align: center;
     margin: 0 auto;
   }
+  div#piece2{
+    height: auto;
+  }
+  .piece-bg{
+    padding: 20px;
+    overflow: hidden;
+  }
+  #piece2 .piece-bg div{
+    width: 280px !important;
+    padding: 0 !important;
+  }
+  #piece2 .piece-bg .relative{
+    height: 280px !important;
+  }
+  #piece2 .piece-bg .relative img{
+    width: 100%;
+  }
+  #piece2 .piece-bg div#pieces-list-wrap{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+  }
+  #piece2 .piece-bg ul#pieces-list{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+  }
+  #piece2 .piece-bg ul#pieces-list li{
+    margin-bottom: 5px;
+  }
+  #piece3 div.piece-bg{
+    background: none;
+  }
+  #piece3>.piece-bg>div:first-child{
+    padding: 0 !important;
+    width: 280px !important;
+  }
+  #piece3 .piece-bg #collars-folded-mini{
+    bottom: 35px !important;
+    right: 30px !important;
+  }
+  #piece4 .piece-bg{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #piece4 .piece-bg > div:nth-child(1){
+    -webkit-order: 2;
+        -ms-order: 2;
+            order: 2;
+  }
+  #piece4 .piece-bg > div:nth-child(2){
+    width: 280px !important;
+    -webkit-order: 4;
+        -ms-order: 4;
+            order: 4;
+  }
+  #piece4 .piece-bg > h2{
+    text-align: left;
+    -webkit-order: 1;
+        -ms-order: 1;
+            order: 1;
+  }
+  #piece4 .piece-bg > p:nth-child(4){
+    width: 280px;
+    -webkit-order: 3;
+        -ms-order: 3;
+            order: 3;
+  }
+  #piece4 .piece-bg > div:nth-child(5){
+    margin: 0;
+    margin-left: -40px !important;
+    -webkit-order: 5;
+        -ms-order: 5;
+            order: 5;
+  }
+  #piece4 .piece-bg > p:nth-child(6){
+    display: none;
+    -webkit-order: 6;
+        -ms-order: 6;
+            order: 6;
+  }
+  #piece4 .piece-bg > div:nth-child(7){
+    -webkit-order: 7;
+        -ms-order: 7;
+            order: 7;
+  }
+  #piece4 .piece-bg > div:nth-child(2) img{
+    width: 100%;
+  }
+  #piece5 .piece-bg .right{
+    float: left;
+  }
+  #piece6 .piece-bg{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #piece6 .piece-bg > div:nth-child(1){
+    width: 280px !important;
+    -webkit-order: 2;
+        -ms-order: 2;
+            order: 2;
+  }
+  #piece6 .piece-bg > div:nth-child(2){
+    width: 280px !important;
+    -webkit-order: 1;
+        -ms-order: 1;
+            order: 1;
+  }
+  #piece6 .piece-bg .img-select{
+    margin: 0;
+  }
+  #piece6 .piece-bg .img-select img{
+    width: 100%;
+  }
+  #piece6 .piece-bg .img-select ul.lime3{
+    height: auto;
+    padding-bottom: 20px;
+  }
+  div#anim3-callout{
+    margin: 0 0 0 40px;
+  }
+  div#anim3-tag1{
+    left: 15px !important;
+    line-height: 34px !important;
+  }
+  div#anim3-tag2{
+    right: 10px !important;
+  }
+  #piece7 .piece-bg > div{
+    width: 280px !important;
+  }
+  #piece7 .piece-bg .img-select img{
+    width: 100%;
+  }
+  #piece7 .piece-bg .img-select ul.lime3{
+    height: auto;
+    padding-bottom: 20px;
+  }
+  #piece9 .piece-bg{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #piece9 .piece-bg > div:nth-child(1){
+    -webkit-order: 2;
+        -ms-order: 2;
+            order: 2;
+  }
+  #piece9 .piece-bg > div:nth-child(2){
+    width: 280px !important;
+    -webkit-order: 1;
+        -ms-order: 1;
+            order: 1;
+  }
+  #piece9 #customization-img{
+    margin-top: 0;
+    margin-left: -160px;
+  }
+  #piece8 div.piece-bg{
+    height: auto;
+    background: url("../images/kronus/img-distance-keeper.png") left top no-repeat;
+    padding-top: 250px;
+    padding-bottom: 0;
+  }
+  #piece8 .piece-bg div:first-child{
+    width: 280px !important;
+  }
+  #piece8 .piece-bg div.p{
+    padding: 0;
+  } 
+  #piece11 .piece-bg{
+    padding-bottom: 173px;
+  }
+  #piece11 .piece-bg .anim10-img{
+    top: auto;
+    bottom: 0;
+  }
+  #piece11 .piece-bg img{
+    width: 100%;
+    height: auto;
+  }
+  #piece12 div.piece-bg{
+    background: none;
+    padding-bottom: 200px;
+  }
+  #piece12 div.piece-bg>div{
+    float: none;
+    width: 280px !important;
+  }
+  #piece12 div.piece-bg .right img{
+    width: 100%;
+  }
+  #piece12 div.piece-bg .right{
+    margin-top: 0 !important;
+  }
+  #piece13 .piece-bg{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #piece13 .piece-bg > div:nth-child(1){
+    -webkit-order: 2;
+        -ms-order: 2;
+            order: 2;
+  }
+  #piece13 .piece-bg > div:nth-child(2){
+    width: 280px !important;
+    padding: 0 !important;
+    -webkit-order: 1;
+        -ms-order: 1;
+            order: 1;
+  }
+  #piece13 .piece-bg > div:nth-child(3){
+    -webkit-order: 3;
+        -ms-order: 3;
+            order: 3;
+  }
+  #piece13 .piece-bg .img-select img{
+    width: 100%;
+  }
+  div#piece14{
+    height: auto;
+  }
+  #piece14 .piece-bg{
+    width: 280px !important;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #piece14 .piece-bg > div:nth-child(1){
+    -webkit-order: 2;
+        -ms-order: 2;
+            order: 2;
+  }
+  #piece14 .piece-bg > div:nth-child(2){
+    width: 280px !important;
+    -webkit-order: 1;
+        -ms-order: 1;
+            order: 1;
+  }
+  #piece14 .piece-bg img{
+    width: 100%;
+    height: auto;
+  }
+  #piece14 .piece-bg ul.lime3{
+    margin-right: -40px;
+  }
+  #piece14 .piece-bg ul.lime3 li{
+    width: 95px;
+    padding: 0 12px;
+    margin: 0 -11px;
+  }
+  #piece14 .piece-bg #holder-labels{
+    width: 320px;
+    margin-left: -20px;
+    margin-top: 20px;
+    height: 480px;
+  }
   .container{
     width: auto;
     margin: 30px 15px;
@@ -6627,7 +6901,7 @@ ul.main-menu li ul.sub-menu{
     margin: 4px 12px 0 0;
   }
   .piece:nth-child(2){
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .piece-inner{
     padding: 0;
