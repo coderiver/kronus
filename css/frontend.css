@@ -4884,17 +4884,18 @@ table.forcontent td.image-holder {
 .calc-table tbody > tr:nth-child(odd) > th {
   background-color: #eaf1f9;
 }
-#custom-customization-img {
+#piece .piece .piece-bg div#custom-customization-img {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -30px;
+  left: -112px;
 }
-#custom-customization-img > div {
+#piece .piece .piece-bg div#custom-customization-img > div {
   position: absolute;
   top: 0;
   left: 0;
   width: 460px;
   height: 270px;
+  padding: 0 !important;
 }
 #custom-customization-img > .color.green {
   background: url('../images/kronus/custom/03-custom-color-green.png') no-repeat left top;
@@ -6467,6 +6468,9 @@ ul.main-menu li ul.sub-menu{
   #piece div:nth-child(3) .piece-bg div:last-child{
     padding: 220px 20px 20px !important;
   }
+  ul.lime2.custom-logo{
+    width: 150px;
+  }
   table#customization td{
     display: block;
     width: 100%;
@@ -6799,7 +6803,7 @@ ul.main-menu li ul.sub-menu{
     width: 100%;
   }
   .reccomend.row-fluid img{
-    width: 100%;
+    margin: 0 35px;
   }
   .container .span6 .media a{
     display: inline-block;
@@ -6810,7 +6814,7 @@ ul.main-menu li ul.sub-menu{
     width: 100%;
   }
   .container .span6 .media img{
-    width: 100%;
+    margin: 0 35px;
   }
   .piece-inner.custom-wrapper{
     height: auto;
@@ -6826,6 +6830,13 @@ ul.main-menu li ul.sub-menu{
   }
   .customcustom{
     padding: 220px 15px 20px !important;
+    text-align: center;
+  }
+  .piece-bg .customcustom h2{
+    text-align: left;
+  }
+  .piece-bg .customcustom .p{
+    text-align: left;
   }
   .customcustom ul.lime2{
     width: 200px;
@@ -6833,6 +6844,7 @@ ul.main-menu li ul.sub-menu{
   .customcustom ul.lime2 li{
     width: 200px;
   }
+
   .slide{
     height: auto;
   }
@@ -6992,12 +7004,13 @@ ul.main-menu li ul.sub-menu{
     width: 300px !important;
     height: auto !important;
     padding: 0 !important;
+    margin: 0 auto;
   }
   table.forcontent td h1, table.forcontent td h2{
     padding-top: 25px;
   }
   .piece-bg.content table.forcontent td.image-holder{
-    margin: 0;
+    margin: 0 auto;
   }
   table.forcontent td.image-holder img{
     width: 100%;
