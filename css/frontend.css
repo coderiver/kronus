@@ -5822,6 +5822,11 @@ ul.main-menu li ul.sub-menu{
   display: none;
 }
 
+table.forcontent td{
+  vertical-align: top;
+}
+
+
 @media screen and (max-width: 980px){
   #page{
     width: 768px;
@@ -7014,19 +7019,12 @@ ul.main-menu li ul.sub-menu{
   }
   table.forcontent td.image-holder img{
     width: 100%;
-    margin: 20px 0;
   }
-  #delivery-map{
-    display: none;
+  #delivery-map, #combined-delivery, #multi-address-delivery, #short-leg-delivery{
+    margin: 20px -80px;
   }
-  #combined-delivery{
-    display: none;
-  }
-  #multi-address-delivery{
-    display: none;
-  }
-  #short-leg-delivery{
-    display: none;
+  table.forcontent td>div>p{
+    padding-bottom: 30px !important;
   }
   .image-overlay{
     display: none;
