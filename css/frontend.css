@@ -6359,7 +6359,11 @@ table.forcontent td{
     padding: 13px;
   }
   .menu-close span{
-    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+       -moz-transform: rotateZ(45deg);
+        -ms-transform: rotateZ(45deg);
+         -o-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
   }
   .menu-close span,
   .menu-close span:before,
