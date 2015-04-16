@@ -6476,11 +6476,14 @@ table.forcontent td{
   ul.lime2.custom-logo{
     width: 150px;
   }
-  table#customization td{
-    display: block;
-    width: 100%;
+  table#customization tr{
+    display: inline-block;
+    margin-top: 20px;
     text-align: center;
-    margin: 0 auto;
+  }
+  table#customization td{
+    display: inline-block;
+    width: 300px!important;
   }
   div#piece2{
     height: auto;
@@ -7036,7 +7039,7 @@ table.forcontent td{
     background: none;
   }
   .inlay:after{
-    bottom: 140px;
+    bottom: 340px;
   }
   .piece.inlay:after{
     bottom: 0;
@@ -7050,8 +7053,9 @@ table.forcontent td{
     background: url("../images/kronus/service-seperator-horiz.png") 50% 210px no-repeat, url(../images/kronus/inlay-bg-overlay.png) 0 100% repeat-x, url("../images/kronus/inlay-bg-tile.jpg");
   }
   #bottom-wrap2{
-    height: auto;
+    height: 400px;
     padding: 20px 0;
+    margin-bottom: 200px;
     background: none;
   }
   #bottom .col{
@@ -7061,6 +7065,7 @@ table.forcontent td{
   }
   #bottom .col3{
     float: none;
+    padding-top: 20px;
   }
   #bottom h3{
     margin: 0;
