@@ -6122,7 +6122,7 @@ table.forcontent td{
   .service-tab {
     background: linear-gradient(#eef1f6, #e2e5ea);
     box-shadow: inset 0 3px 0 -2px #fff, 1px 1px 2px 2px #cacaca;
-    width: 340px;
+    width: 47%;
     height: 340px;
   }
   .service-tab:before {
@@ -6253,10 +6253,6 @@ table.forcontent td{
     width: auto;
     margin: 0;
   }
-  .animated-slide-item li span, .anim-slide-link a, .tags li, .title-text a, .tags_3 li, .title-text-3 a{
-    z-index: 1000;
-    text-shadow: 1px 1px 5px #000;
-  }
 }
 
 
@@ -6305,13 +6301,13 @@ table.forcontent td{
   }
   .menu-mobile p{
     color: #FFF;
-    font-size: 18px;
-    line-height: 1.4;
+    font-size: 24px;
+    line-height: 2.1;
     text-align: left;
   }
   .menu-button{
     display: block;
-    padding: 12px 10px;
+    padding: 24px 20px;
     float: left;
     }
   .menu-button span{
@@ -6356,7 +6352,7 @@ table.forcontent td{
     position: absolute;
     top: 0;
     right: 0;
-    padding: 13px;
+    padding: 25px;
   }
   .menu-close span{
     -webkit-transform: rotateZ(45deg);
@@ -6369,8 +6365,8 @@ table.forcontent td{
   .menu-close span:before,
   .menu-close span:after {
     position: absolute;
-    top: 6px;
-    right: 13px;
+    top: 19px;
+    right: 23px;
     width: 1px;
     height: 15px;
     background: #fafafa;
@@ -6397,8 +6393,6 @@ table.forcontent td{
   }
   ul.main-menu{
     width: 100%;
-    height: 26px;
-    line-height: 26px;
     padding: 0;
     background: #2B374D;
     clear: both;
@@ -6410,8 +6404,9 @@ table.forcontent td{
     padding: 0;
     margin: 0;
     background: none;
-    height: auto;
     width: 100%;
+    height: auto;
+    line-height: 2.5;
     border-top: 1px solid #2b4870;
   }
   ul.main-menu li > a{
@@ -6467,6 +6462,7 @@ table.forcontent td{
   }
   ul.main-menu ul.sub-menu li{
     color: #3E76C0;
+    line-height: 3.1;
   }
   #piece div:nth-child(3){
     -ms-background-position-x: 80% !important;
@@ -6878,7 +6874,7 @@ table.forcontent td{
   .service-tab {
     background: linear-gradient(#eef1f6, #e2e5ea);
     box-shadow: inset 0 3px 0 -2px #fff, 1px 1px 2px 2px #cacaca;
-    width: 300px;
+    width: 93%;
     height: 340px;
     float: none;
     display: block;
