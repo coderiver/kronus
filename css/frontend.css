@@ -5891,6 +5891,13 @@ table.forcontent td{
   .pull-left img{
     margin: 0 auto;
   }
+  #piece div.piece:nth-child(3){
+    margin-left: -120px;
+  }
+  #piece .piece div.piece-bg div#custom-customization-img{
+    top: 0;
+    left: 0;
+  }
   .piece-bg{
     padding-left: 10px;
   }
@@ -6017,6 +6024,16 @@ table.forcontent td{
     -ms-background-position-x: 200% !important;
         background-position-x: 200% !important;
   }
+  #piece10 #anim-holder-6{
+    width: 100%!important;
+    text-align: center;
+  }
+  #piece #anim9-img{
+    display: inline-block;
+  }
+  #piece10 #anim9-text_{
+    width: 100%!important;
+  }
   #piece11 .piece-bg .anim10-img{
     right: -150px;
   }
@@ -6031,11 +6048,8 @@ table.forcontent td{
     margin-left: 50px;
   }
   #piece13 .piece-bg{
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    position: relative;
+    padding-top: 150px;
   }
   #piece13 .piece-bg > div{
     width: auto !important;
@@ -6044,21 +6058,17 @@ table.forcontent td{
   #piece13 .piece-bg > div:nth-child(1){
     width: 50% !important;
     float: left;
-    -webkit-order: 2;
-        -ms-order: 2;
-            order: 2;
+    margin-right: 20px;
   }
   #piece13 .piece-bg > div:nth-child(2){
-    -webkit-order: 1;
-        -ms-order: 1;
-            order: 1;
+    position: absolute;
+    top: 40px;
+    left: 20px;
   }
   #piece13 .piece-bg > div:nth-child(3){
     width: 50% !important;
     float: left;
-    -webkit-order: 3;
-        -ms-order: 3;
-            order: 3;
+    margin-right: -20px;
   }
   #piece14 .piece-bg>div:nth-child(2){
     width: 40% !important;
@@ -6469,6 +6479,7 @@ table.forcontent td{
         background-position-x: 80% !important;
     -ms-background-position-y: -30px !important;
         background-position-y: -30px !important;
+        margin-left: 0;
   }
   #piece div:nth-child(3) .piece-bg div:last-child{
     padding: 220px 20px 20px !important;
@@ -6580,6 +6591,7 @@ table.forcontent td{
   }
   #piece5 .piece-bg .right{
     float: left;
+    margin-bottom: -20px;
   }
   #piece6 .piece-bg{
     width: 100%;
@@ -6609,7 +6621,9 @@ table.forcontent td{
   }
   #piece6 .piece-bg .img-select ul.lime3{
     height: auto;
-    padding-bottom: 20px;
+  }
+  #piece6 .piece-bg .img-select ul.lime3 li{
+    margin-bottom: 20px;
   }
   div#anim3-callout{
     margin: 0 0 0 40px;
@@ -6629,7 +6643,9 @@ table.forcontent td{
   }
   #piece7 .piece-bg .img-select ul.lime3{
     height: auto;
-    padding-bottom: 20px;
+  }
+  #piece7 .piece-bg .img-select ul.lime3 li{
+    margin-bottom: 20px;
   }
   #piece9 .piece-bg{
     width: 100%;
@@ -6666,8 +6682,15 @@ table.forcontent td{
   #piece8 .piece-bg div.p{
     padding: 0;
   } 
+  #piece10 #anim-holder-6{
+    margin-left: -120px;
+  }
   #piece11 .piece-bg{
     padding-bottom: 173px;
+  }
+  #piece11 .piece-bg div.img-select ul#material{
+    padding-left: 0;
+    margin-left: -46px;
   }
   #piece11 .piece-bg .anim10-img{
     top: auto;
@@ -6716,6 +6739,9 @@ table.forcontent td{
         -ms-order: 3;
             order: 3;
   }
+  #piece13 .piece-bg > div:nth-child(3) > .img-select{
+    margin-bottom: -20px;
+  }
   #piece13 .piece-bg .img-select img{
     width: 100%;
   }
@@ -6755,8 +6781,7 @@ table.forcontent td{
   }
   #piece14 .piece-bg #holder-labels{
     width: 320px;
-    margin-left: -20px;
-    margin-top: 20px;
+    margin: 20px 0 -26px -20px;
     height: 480px;
   }
   .container{
