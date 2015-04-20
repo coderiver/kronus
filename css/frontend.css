@@ -5900,6 +5900,17 @@ table.forcontent td{
     top: 0;
     left: 0;
   }
+  #piece .piece > div.piece-bg > div:nth-child(2){
+    padding-left: 440px!important;
+  }
+  table#customization tr{
+    display: block;
+    height: auto;
+    margin: 10px 0;
+  }
+  table#customization tr td{
+    vertical-align: middle;
+  }
   .piece-bg{
     padding-left: 10px;
   }
@@ -6270,7 +6281,7 @@ table.forcontent td{
 
 
 /*mobile 320*/
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   body{
     background: none;
   }
@@ -7114,5 +7125,17 @@ table.forcontent td{
   }
   #logo-cgant{
     bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 590px){
+  ul#prod-menu.lime2{
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 590px) and (max-width: 767px){
+  ul#prod-menu.lime2{
+    width: 530px;
   }
 }
