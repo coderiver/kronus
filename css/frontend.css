@@ -6033,7 +6033,7 @@ table.forcontent td{
     width: 270px;
     margin: 0 auto;
   }
-  #piece10 #anim-holder-6{
+  #piece10 div#anim-holder-6{
     width: 100%!important;
     margin: 0 auto;
   }
@@ -6644,7 +6644,7 @@ table.forcontent td{
     margin-right: 0;
   }
   #piece14{
-    height: auto;
+    height: auto !important;
   }
   #piece14 .piece-bg{
     padding-bottom: 0;
@@ -6663,7 +6663,7 @@ table.forcontent td{
   }
   .social-likes{
     float: right;
-    margin: 4px 0 0 0;
+    margin: 30px 0 0 0;
   }
   .container{
     width: auto;
@@ -7003,7 +7003,7 @@ table.forcontent td{
 
 @media screen and (max-width: 650px){
   #piece14 .piece-bg #holder-labels{
-    width: 300px;
+    width: 280px;
   }
   #piece14 .piece-bg>div:nth-child(2){
     width: 57% !important;
@@ -7089,7 +7089,6 @@ table.forcontent td{
   }
   #piece10 #anim-holder-6 img{
     width: 100%;
-    display: block;
   }
   #piece8 div.piece-bg{
     height: auto;
@@ -7431,9 +7430,15 @@ table.forcontent td{
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 390px){
   #piece11 .piece-bg .img-select ul#material{
     margin: 0 -40px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  #piece11 .piece-bg .img-select ul#material{
+    margin: 0 -50px;
   }
 }
 
@@ -7445,14 +7450,11 @@ table.forcontent td{
     -ms-background-position-x: 100% !important;
     background-position-x: 100% !important;
   }
-  #piece14 .piece-bg ul.lime3{
-    margin-right: -40px;
-  }
-}
-
-@media screen and (max-width: 351px){
   #piece11 div.piece-bg{
     padding-bottom: 192px;
+  }
+  #piece14 .piece-bg ul.lime3{
+    margin-right: -40px;
   }
 }
 
