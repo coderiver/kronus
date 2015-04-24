@@ -5824,8 +5824,11 @@ h3.big-header {
   display: none;
 }
 
-ul.main-menu li ul.sub-menu{
+ul.main-menu li ul.mob-sub-menu{
   display: none;
+}
+ul.main-menu li ul.mob-sub-menu.hidden-menu{
+  display: none !important;
 }
 
 table.forcontent td{
@@ -6125,9 +6128,6 @@ table.forcontent td{
     min-height: 1px;
     border: none;
   }
-  .piece-inner{
-    padding: 0;
-  }
   .piece .p{
     width: 50%;
     display: inline-block;
@@ -6135,9 +6135,6 @@ table.forcontent td{
   }
   .piece .content{
     padding: 0;
-  }
-  .slide-wrap{
-    display: block;
   }
   .slide-mobile{
     display: none;
@@ -6225,7 +6222,7 @@ table.forcontent td{
     padding-bottom: 20px !important;
   }
   .prod-wrapper{
-    padding: 0;
+    padding: 0 20px 0 350px !important;
   }
   .form-container .row-fluid .span6{
     width: 100%;
@@ -6237,6 +6234,15 @@ table.forcontent td{
   ul.lime2{
     display: inline-block;
     padding: 0;
+  }
+  .custom-wrapper ul.lime2{
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .custom-wrapper ul.lime2 li{
+    width: 150px;
+    margin: 10px -17px;
   }
   #bottom{
     width: auto;
@@ -6496,7 +6502,7 @@ table.forcontent td{
   #top>div>ul.sub-menu{
     display: none;
   }
-  ul.main-menu ul.sub-menu{
+  ul.main-menu ul.mob-sub-menu{
     float: none;
     background: #DBDBDB;
     height: auto;
@@ -6504,10 +6510,13 @@ table.forcontent td{
     margin: 0;
     position: static;
   }
-  ul.main-menu ul.sub-menu.active{
+  ul.main-menu ul.mob-sub-menu.hidden-menu{
+    display: none;
+  }
+  ul.main-menu ul.mob-sub-menu.active{
     display: block;
   }
-  ul.main-menu ul.sub-menu li{
+  ul.main-menu ul.mob-sub-menu li{
     color: #3E76C0;
     line-height: 3.1;
   }
@@ -6516,6 +6525,7 @@ table.forcontent td{
     width: 460px;
     height: 270px;
     position: relative;
+    margin-bottom: -40px;
   }
   #piece div:nth-child(3){
     -ms-background-position-x: 80% !important;
@@ -6525,18 +6535,33 @@ table.forcontent td{
         margin-left: 0;
   }
   #piece div:nth-child(3) .piece-bg div:last-child{
-    padding: 20px !important;
+    padding: 0 20px 20px !important;
   }
   #piece div.piece:nth-child(3){
     margin-left: 0;
     background: none!important;
   }
+  .piece.subpage-right{
+    background-position: top;
+    padding: 30px;
+    padding-top: 350px;
+    min-height: 100px;
+    height: auto;
+  }
+  .piece.subpage:last-child{
+    margin-bottom: 0;
+  }
+  .piece.subpage .p{
+    width: 100%;
+    padding-bottom: 0;
+  }
   ul.lime2.custom-logo{
     width: 150px;
+    padding-top: 10px;
   }
   table#customization tr{
     display: inline-block;
-    margin-top: 20px;
+    margin: 5px 0;
     text-align: center;
   }
   table#customization td{
@@ -7019,10 +7044,31 @@ table.forcontent td{
     margin-left: auto;
   }
   .piece > .row-fluid > .span6:first-child{
-    width: 51%;
+    position: absolute;
+    top: 340px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-order: 2;
+        -ms-order: 2;
+            order: 2;
   }
-  .piece > .row-fluid > .span6{
-    width: 45%;
+  .piece > .row-fluid > .span6:nth-child(2){
+    width: 100%;
+    -webkit-order: 1;
+        -ms-order: 1;
+            order: 1;
+  }
+  .row-fluid > .span6{
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+  .piece .row-fluid > .span6 > .content > .row-fluid{
+    margin-bottom: 440px;
+  }
+  #mapcanvas{
+    height: 400px !important;
   }
   #piece3 .piece-bg div.p{
     width: 70%;
@@ -7253,33 +7299,6 @@ table.forcontent td{
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .piece > .row-fluid > .span6:first-child{
-    position: absolute;
-    top: 340px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    -webkit-order: 2;
-        -ms-order: 2;
-            order: 2;
-  }
-  .piece > .row-fluid > .span6:nth-child(2){
-    width: 100%;
-    -webkit-order: 1;
-        -ms-order: 1;
-            order: 1;
-  }
-  .row-fluid > .span6{
-    width: 100%;
-    margin: 0;
-    float: none;
-  }
-  .piece .row-fluid > .span6 > .content > .row-fluid{
-    margin-bottom: 440px;
-  }
-  #mapcanvas{
-    height: 400px !important;
   }
   .service-tab {
     width: 93%;

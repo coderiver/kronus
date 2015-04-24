@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
         var itemSelector    = '.main-menu__item',
             btnSelector     = '.main-menu__btn',
-            contentSelector = '.sub-menu',
+            contentSelector = '.mob-sub-menu',
             activeClass     = 'active';
 
         mainmenu.each(function() {
