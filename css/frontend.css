@@ -6902,9 +6902,7 @@ table.forcontent td{
     bottom: 340px;
   }
   #bottom-wrap2{
-    height: 400px;
     padding: 20px 0;
-    margin-bottom: 200px;
     background: none;
   }
   #bottom .col{
@@ -7037,9 +7035,6 @@ table.forcontent td{
   }
   #piece12 .piece-bg > .right img{
     width: 100%;
-  }
-  #bottom-wrap2{
-    height: 460px;
   }
   #bottom .col{
     width: 320px;
