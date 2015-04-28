@@ -5824,13 +5824,6 @@ h3.big-header {
   display: none;
 }
 
-ul.main-menu li ul.mob-sub-menu{
-  display: none;
-}
-ul.main-menu li ul.mob-sub-menu.hidden-menu{
-  display: none !important;
-}
-
 table.forcontent td{
   vertical-align: top;
 }
@@ -5840,6 +5833,11 @@ table.forcontent td{
   left: auto;
 }
 
+@media screen and (min-width: 768px) {
+  ul.main-menu li ul.sub-menu {
+    display: none !important;
+  }
+}
 
 /*tablet*/
 @media screen and (max-width: 979px){
@@ -6502,7 +6500,7 @@ table.forcontent td{
   #top>div>ul.sub-menu{
     display: none;
   }
-  ul.main-menu ul.mob-sub-menu{
+  ul.main-menu ul.sub-menu{
     float: none;
     background: #DBDBDB;
     height: auto;
@@ -6510,13 +6508,13 @@ table.forcontent td{
     margin: 0;
     position: static;
   }
-  ul.main-menu ul.mob-sub-menu.hidden-menu{
+  ul.main-menu ul.sub-menu.hidden-menu{
     display: none;
   }
-  ul.main-menu ul.mob-sub-menu.active{
+  ul.main-menu ul.sub-menu.active{
     display: block;
   }
-  ul.main-menu ul.mob-sub-menu li{
+  ul.main-menu ul.sub-menu li{
     color: #3E76C0;
     line-height: 3.1;
   }

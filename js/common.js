@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
         var itemSelector    = '.main-menu__item',
             btnSelector     = '.main-menu__btn',
-            contentSelector = '.mob-sub-menu',
+            contentSelector = '.sub-menu',
             activeClass     = 'active';
 
         mainmenu.each(function() {
@@ -50,5 +50,13 @@ jQuery(document).ready(function($) {
 		$(".js-menu-close").css("display", "none");
 		return false;
 	});
+
+
+    btn.on('click', function(event) {
+        var width = window.innerWidth
+        || document.documentElement.clientWidth
+        || document.body.clientWidth;
+        if(width>767) return;
+    });
 
 });
