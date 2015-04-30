@@ -5833,6 +5833,10 @@ table.forcontent td{
   left: auto;
 }
 
+.blog-menu-fixed{
+  z-index: 999;
+}
+
 @media screen and (min-width: 851px) {
   ul.main-menu li ul.sub-menu {
     display: none !important;
@@ -6175,17 +6179,21 @@ table.forcontent td{
   .service-tab .right{
     margin: 4px 12px 0 0;
   }
-  .tech-det{
-    display: inline-block;
-    margin-left: 90px;
-    width: 280px;
-  }
   .row-fluid{
     width: 100%;
   }
   .row-fluid .span4{
-    width: 100%;
-    margin: 20px;
+    width: auto;
+    margin: 0;
+    clear: both;
+    overflow: hidden;
+  }
+  .row-fluid .span4 > .p{
+    float: left;
+  }
+  .row-fluid .span4 > .tech-det{
+    float: right;
+    width: 280px;
   }
   .row-fluid .span6{
     width: 31.901042%;
@@ -6219,7 +6227,7 @@ table.forcontent td{
   .content > .row-fluid > .span6 p{
     padding-bottom: 20px !important;
   }
-  .prod-wrapper{
+  .custom-wrapper .prod-wrapper{
     padding: 0 20px 0 350px !important;
   }
   .form-container .row-fluid .span6{
@@ -6300,6 +6308,7 @@ table.forcontent td{
   }
   #logo a > img{
     margin: 0 auto;
+    padding-left: 30px;
   }
   #top.white{
     height: 100%;
@@ -6809,6 +6818,7 @@ table.forcontent td{
   }
   .prod-wrapper > .span4{
     clear: both;
+    margin: 0 20px;
   }
   .prod-wrapper > .span4 > div.p{
     float: left;
@@ -7101,6 +7111,17 @@ table.forcontent td{
   }
   #piece14 .piece-bg>div:nth-child(2){
     width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 610px){
+  .prod-wrapper > .span4 > div.p{
+    float: none;
+    width: 100%;
+  }
+  .prod-wrapper > .span4 > table.tech-det{
+    float: none;
+    width: 100%;
   }
 }
 
