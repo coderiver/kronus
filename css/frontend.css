@@ -6682,7 +6682,7 @@ table.forcontent td{
     height: auto !important;
   }
   #piece14 .piece-bg{
-    padding-bottom: 0;
+    padding: 0;
   }
   #piece14 .piece-bg #holder-labels{
     width: 340px;
@@ -6978,6 +6978,19 @@ table.forcontent td{
   div.fix-left{
     margin-left: 0;
   }
+  #material .btn-desk   {background:url(/images/kronus/anim/10/m-but-desk.png) 0 0 no-repeat}
+  #material .btn-desk2  {background:url(/images/kronus/anim/10/m-but-doubledesk.png) 0 0 no-repeat}
+  #material .btn-osb    {background:url(/images/kronus/anim/10/m-but-osb.png) 0 0 no-repeat}
+  #material .btn-plastic{background:url(/images/kronus/anim/10/m-but-plastic.png) 0 0 no-repeat}
+  #material .btn-plywood{background:url(/images/kronus/anim/10/m-but-plywood.png) 0 0 no-repeat}
+  .clr88 .hinge-black {background:url(/images/kronus/anim/07/hinges-button-black.png) 0 100% no-repeat}
+  .clr88 .hinge-blue  {background:url(/images/kronus/anim/07/hinges-button-blue.png) 0 100% no-repeat}
+  .clr88 .hinge-green {background:url(/images/kronus/anim/07/hinges-button-green.png) 0 100% no-repeat}
+  .clr88 .hinge-red   {background:url(/images/kronus/anim/07/hinges-button-red.png) 0 100% no-repeat}
+  .clr109 .wood-blue   {background:url(/images/kronus/anim/07/desk-button-blue.png) 0 100% no-repeat}
+  .clr109 .wood-pink   {background:url(/images/kronus/anim/07/desk-button-pink.png) 0 100% no-repeat}
+  .clr109 .wood-yellow {background:url(/images/kronus/anim/07/desk-button-orange.png) 0 100% no-repeat}
+  .clr109 .wood-green {background:url(/images/kronus/anim/07/button-custom-green.png) 0 0 no-repeat}
 }
 
 @media screen and (max-width: 750px){
@@ -7015,7 +7028,7 @@ table.forcontent td{
   }
   #piece11 .piece-bg .anim10-img{
     top: auto;
-    right: -20px;
+    right: 0px;
   }
   #piece11 .piece-bg img{
     width: 380px;
@@ -7157,8 +7170,6 @@ table.forcontent td{
     height: auto;
     padding-top: 250px;
     padding-bottom: 0;
-    -ms-background-position-x: 50% !important;
-    background-position-x: 50% !important;
   }
   #piece8 .piece-bg div:first-child{
     width: 100% !important;
@@ -7211,19 +7222,15 @@ table.forcontent td{
   }
   #piece14 .piece-bg > div:nth-child(2){
     width: 100% !important;
-    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
     -webkit-order: 1;
         -ms-order: 1;
             order: 1;
   }
   #piece14 .piece-bg #holder-labels{
-    width: 320px;
-    margin: 0 0 0 -40px;
-    height: 480px;
-  }
-  #piece14 .piece-bg #holder-labels img{
-    width: 300px;
-    height: auto;
+    width: 100%;
+    margin: -20px 0 0 -50px;
   }
 }
 
@@ -7436,12 +7443,18 @@ table.forcontent td{
     width: auto;
     margin-left: 60px;
   }
+  #piece14 .piece-bg #holder-labels{
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 480px){
   #delivery-map, #combined-delivery, #multi-address-delivery, #short-leg-delivery{
     margin: 20px -20px;
   }
+}
+
+@media screen and (max-width: 460px){
   #piece11 .piece-bg .img-select ul#material{
     padding-left: 0;
   }
@@ -7458,7 +7471,7 @@ table.forcontent td{
 
 @media screen and (max-width: 420px){
   #piece11 .piece-bg .img-select ul#material{
-    margin: 0 -20px;
+    margin: 0 -10px;
   }
   #piece12 div.piece-bg .right img{
     width: 100%;
@@ -7466,15 +7479,15 @@ table.forcontent td{
   }
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 395px){
   #piece11 .piece-bg .img-select ul#material{
-    margin: 0 -40px;
+    margin: 0 -20px;
   }
 }
 
 @media screen and (max-width: 375px){
   #piece11 .piece-bg .img-select ul#material{
-    margin: 0 -50px;
+    margin: 0 -30px;
   }
 }
 
@@ -7486,11 +7499,20 @@ table.forcontent td{
     -ms-background-position-x: 100% !important;
     background-position-x: 100% !important;
   }
-  #piece11 div.piece-bg{
-    padding-bottom: 192px;
+  #piece11 .piece-bg .anim10-img{
+    right: -60px;
   }
   #piece14 .piece-bg ul.lime3{
     margin-right: -40px;
+  }
+}
+
+@media screen and (max-width: 355px){
+  #piece11 div.piece-bg{
+    padding-bottom: 192px;
+  }
+  #piece11 .piece-bg .img-select ul#material{
+    margin: 0 -60px 0 -30px;
   }
 }
 
