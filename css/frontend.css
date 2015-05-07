@@ -5837,6 +5837,10 @@ table.forcontent td{
   z-index: 999;
 }
 
+.anim10-img.tablet, .anim10-img.mobile{
+  display: none;
+}
+
 @media screen and (min-width: 851px) {
   ul.main-menu li ul.sub-menu {
     display: none !important;
@@ -6297,6 +6301,12 @@ table.forcontent td{
   #footer{
     width: auto;
     margin: 0;
+  }
+  .anim10-img, .anim10-img.mobile{
+    display: none;
+  }
+  .anim10-img.tablet.active{
+    display: block;
   }
 }
 
@@ -6977,6 +6987,12 @@ table.forcontent td{
   }
   div.fix-left{
     margin-left: 0;
+  }
+  .anim10-img, .anim10-img.tablet{
+    display: none;
+  }
+  .anim10-img.mobile.active{
+    display: block;
   }
   #material .btn-desk   {background:url(/images/kronus/anim/10/m-but-desk.png) 0 0 no-repeat}
   #material .btn-desk2  {background:url(/images/kronus/anim/10/m-but-doubledesk.png) 0 0 no-repeat}
