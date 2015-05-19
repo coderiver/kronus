@@ -6288,38 +6288,17 @@ table.forcontent td{
   }
 }
 
-@media screen and (max-width: 810px){
-  #piece14 #holder-labels{
-    margin-left: -100px;
-  }
-  #piece14 .piece-bg>div:nth-child(2){
-    width: 44% !important;
-  }
-}
-
-@media screen and (max-width: 790px){
-  #piece9 .piece-bg > div:last-child{
-    width: 300px !important;
-  }
-}
-
-
-/*mobile*/
-@media screen and (max-width: 767px){
-  body{
-    background: none;
-  }
-  #page{
-    width: auto;
-    margin: 0 auto;
-  }
+@media screen and (max-width: 849px){
   #logo{
     margin: 20px;
     text-align: center;
     position: static;
   }
+  #logo a{
+    display: inline-block;
+  }
   #logo a > img{
-    margin: 0 auto;
+    margin-left: 30px;
   }
   #top.white{
     height: 100%;
@@ -6510,6 +6489,33 @@ table.forcontent td{
   ul.main-menu ul.sub-menu li{
     color: #3E76C0;
     line-height: 3.1;
+  }
+}
+
+@media screen and (max-width: 810px){
+  #piece14 #holder-labels{
+    margin-left: -100px;
+  }
+  #piece14 .piece-bg>div:nth-child(2){
+    width: 44% !important;
+  }
+}
+
+@media screen and (max-width: 790px){
+  #piece9 .piece-bg > div:last-child{
+    width: 300px !important;
+  }
+}
+
+
+/*mobile*/
+@media screen and (max-width: 767px){
+  body{
+    background: none;
+  }
+  #page{
+    width: auto;
+    margin: 0 auto;
   }
   #piece .piece .piece-bg div#custom-customization-img{
     background: url('../images/kronus/custom/03-custom-back.png') no-repeat top left;
@@ -7051,6 +7057,19 @@ table.forcontent td{
   .subscribe-wrap{
     width: 90%;
   }
+  #contactModal{
+    display: block;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    right: 0;
+  }
+  .modal-body{
+    max-height: 100%;
+  }
+  .modal-body .row-fluid .span6{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 610px){
@@ -7261,7 +7280,7 @@ table.forcontent td{
   }
   .piece > .row-fluid > .span6:first-child{
     position: absolute;
-    top: 340px;
+    top: 370px;
     left: 0;
     right: 0;
     width: 100%;
@@ -7281,7 +7300,7 @@ table.forcontent td{
     float: none;
   }
   .piece .row-fluid > .span6 > .content > .row-fluid{
-    margin-bottom: 440px;
+    margin-bottom: 470px;
   }
   #mapcanvas{
     height: 400px !important;
@@ -7434,6 +7453,9 @@ table.forcontent td{
   #piece11 .piece-bg .img-select ul#material{
     margin: 0 -40px;
   }
+  .piece > .row-fluid > .span6:first-child{
+    top: 400px;
+  }
 }
 
 @media screen and (max-width: 375px){
@@ -7469,5 +7491,8 @@ table.forcontent td{
 @media screen and (max-width: 335px){
   #piece11 .piece-bg .img-select ul#material li{
     width: 70px;
+  }
+  .piece > .row-fluid > .span6:first-child{
+    top: 420px;
   }
 }
