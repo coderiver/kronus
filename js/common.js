@@ -33,6 +33,13 @@ jQuery(document).ready(function($) {
                     content.slideDown(200);
                 }
             });
+
+            btn.on('click', function(event) {
+                var width = window.innerWidth
+                || document.documentElement.clientWidth
+                || document.body.clientWidth;
+                if(width>851) return;
+            });
         });
     }
 

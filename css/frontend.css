@@ -5824,10 +5824,6 @@ h3.big-header {
   display: none;
 }
 
-ul.main-menu li ul.sub-menu{
-  display: none;
-}
-
 table.forcontent td{
   vertical-align: top;
 }
@@ -5837,6 +5833,19 @@ table.forcontent td{
   left: auto;
 }
 
+.blog-menu-fixed{
+  z-index: 999;
+}
+
+.anim10-img.tablet, .anim10-img.mobile{
+  display: none;
+}
+
+@media screen and (min-width: 851px) {
+  ul.main-menu li ul.sub-menu {
+    display: none !important;
+  }
+}
 
 /*tablet*/
 @media screen and (max-width: 979px){
@@ -6125,9 +6134,6 @@ table.forcontent td{
     min-height: 1px;
     border: none;
   }
-  .piece-inner{
-    padding: 0;
-  }
   .piece .p{
     width: 50%;
     display: inline-block;
@@ -6135,9 +6141,6 @@ table.forcontent td{
   }
   .piece .content{
     padding: 0;
-  }
-  .slide-wrap{
-    display: block;
   }
   .slide-mobile{
     display: none;
@@ -6180,17 +6183,21 @@ table.forcontent td{
   .service-tab .right{
     margin: 4px 12px 0 0;
   }
-  .tech-det{
-    display: inline-block;
-    margin-left: 90px;
-    width: 280px;
-  }
   .row-fluid{
     width: 100%;
   }
   .row-fluid .span4{
-    width: 100%;
-    margin: 20px;
+    width: auto;
+    margin: 0;
+    clear: both;
+    overflow: hidden;
+  }
+  .row-fluid .span4 > .p{
+    float: left;
+  }
+  .row-fluid .span4 > .tech-det{
+    float: right;
+    width: 280px;
   }
   .row-fluid .span6{
     width: 31.901042%;
@@ -6224,8 +6231,8 @@ table.forcontent td{
   .content > .row-fluid > .span6 p{
     padding-bottom: 20px !important;
   }
-  .prod-wrapper{
-    padding: 0;
+  .custom-wrapper .prod-wrapper{
+    padding: 0 20px 0 350px !important;
   }
   .form-container .row-fluid .span6{
     width: 100%;
@@ -6237,6 +6244,15 @@ table.forcontent td{
   ul.lime2{
     display: inline-block;
     padding: 0;
+  }
+  .custom-wrapper ul.lime2{
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .custom-wrapper ul.lime2 li{
+    width: 150px;
+    margin: 10px -17px;
   }
   #bottom{
     width: auto;
@@ -6286,9 +6302,21 @@ table.forcontent td{
     width: auto;
     margin: 0;
   }
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 849px){
+=======
+  .anim10-img, .anim10-img.mobile{
+    display: none;
+  }
+  .anim10-img.tablet.active{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 850px){
+>>>>>>> 9a86897fe8e06d66b3d3f925a6b32f456a304ed2
   #logo{
     margin: 20px;
     text-align: center;
@@ -6298,7 +6326,12 @@ table.forcontent td{
     display: inline-block;
   }
   #logo a > img{
+<<<<<<< HEAD
     margin-left: 30px;
+=======
+    margin: 0 auto;
+    padding-left: 30px;
+>>>>>>> 9a86897fe8e06d66b3d3f925a6b32f456a304ed2
   }
   #top.white{
     height: 100%;
@@ -6483,6 +6516,9 @@ table.forcontent td{
     margin: 0;
     position: static;
   }
+  ul.main-menu ul.sub-menu.hidden-menu{
+    display: none;
+  }
   ul.main-menu ul.sub-menu.active{
     display: block;
   }
@@ -6522,6 +6558,7 @@ table.forcontent td{
     width: 460px;
     height: 270px;
     position: relative;
+    margin-bottom: -40px;
   }
   #piece div:nth-child(3){
     -ms-background-position-x: 80% !important;
@@ -6531,18 +6568,33 @@ table.forcontent td{
         margin-left: 0;
   }
   #piece div:nth-child(3) .piece-bg div:last-child{
-    padding: 20px !important;
+    padding: 0 20px 20px !important;
   }
   #piece div.piece:nth-child(3){
     margin-left: 0;
     background: none!important;
   }
+  .piece.subpage-right{
+    background-position: top;
+    padding: 30px;
+    padding-top: 350px;
+    min-height: 100px;
+    height: auto;
+  }
+  .piece.subpage:last-child{
+    margin-bottom: 0;
+  }
+  .piece.subpage .p{
+    width: 100%;
+    padding-bottom: 0;
+  }
   ul.lime2.custom-logo{
     width: 150px;
+    padding-top: 10px;
   }
   table#customization tr{
     display: inline-block;
-    margin-top: 20px;
+    margin: 5px 0;
     text-align: center;
   }
   table#customization td{
@@ -6653,15 +6705,15 @@ table.forcontent td{
     height: auto !important;
   }
   #piece14 .piece-bg{
-    padding-bottom: 0;
+    padding: 0;
   }
   #piece14 .piece-bg #holder-labels{
     width: 340px;
     margin-left: -60px;
-    margin-top: 0;
+    margin-top: -20px;
   }
   #piece14 .piece-bg #holder-labels img{
-    width: 100%;
+    width: auto;
     height: auto;
   }
   #piece14 .piece-bg>div:nth-child(2){
@@ -6789,6 +6841,7 @@ table.forcontent td{
   }
   .prod-wrapper > .span4{
     clear: both;
+    margin: 0 20px;
   }
   .prod-wrapper > .span4 > div.p{
     float: left;
@@ -6908,9 +6961,7 @@ table.forcontent td{
     bottom: 340px;
   }
   #bottom-wrap2{
-    height: 400px;
     padding: 20px 0;
-    margin-bottom: 200px;
     background: none;
   }
   #bottom .col{
@@ -6950,6 +7001,25 @@ table.forcontent td{
   div.fix-left{
     margin-left: 0;
   }
+  .anim10-img, .anim10-img.tablet{
+    display: none;
+  }
+  .anim10-img.mobile.active{
+    display: block;
+  }
+  #material .btn-desk   {background:url(/images/kronus/anim/10/m-but-desk.png) 0 0 no-repeat}
+  #material .btn-desk2  {background:url(/images/kronus/anim/10/m-but-doubledesk.png) 0 0 no-repeat}
+  #material .btn-osb    {background:url(/images/kronus/anim/10/m-but-osb.png) 0 0 no-repeat}
+  #material .btn-plastic{background:url(/images/kronus/anim/10/m-but-plastic.png) 0 0 no-repeat}
+  #material .btn-plywood{background:url(/images/kronus/anim/10/m-but-plywood.png) 0 0 no-repeat}
+  .clr88 .hinge-black {background:url(/images/kronus/anim/07/hinges-button-black.png) 0 100% no-repeat}
+  .clr88 .hinge-blue  {background:url(/images/kronus/anim/07/hinges-button-blue.png) 0 100% no-repeat}
+  .clr88 .hinge-green {background:url(/images/kronus/anim/07/hinges-button-green.png) 0 100% no-repeat}
+  .clr88 .hinge-red   {background:url(/images/kronus/anim/07/hinges-button-red.png) 0 100% no-repeat}
+  .clr109 .wood-blue   {background:url(/images/kronus/anim/07/desk-button-blue.png) 0 100% no-repeat}
+  .clr109 .wood-pink   {background:url(/images/kronus/anim/07/desk-button-pink.png) 0 100% no-repeat}
+  .clr109 .wood-yellow {background:url(/images/kronus/anim/07/desk-button-orange.png) 0 100% no-repeat}
+  .clr109 .wood-green {background:url(/images/kronus/anim/07/button-custom-green.png) 0 0 no-repeat}
 }
 
 @media screen and (max-width: 750px){
@@ -6987,7 +7057,7 @@ table.forcontent td{
   }
   #piece11 .piece-bg .anim10-img{
     top: auto;
-    right: -20px;
+    right: 0px;
   }
   #piece11 .piece-bg img{
     width: 380px;
@@ -7027,10 +7097,31 @@ table.forcontent td{
     margin-left: auto;
   }
   .piece > .row-fluid > .span6:first-child{
-    width: 51%;
+    position: absolute;
+    top: 340px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-order: 2;
+        -ms-order: 2;
+            order: 2;
   }
-  .piece > .row-fluid > .span6{
-    width: 45%;
+  .piece > .row-fluid > .span6:nth-child(2){
+    width: 100%;
+    -webkit-order: 1;
+        -ms-order: 1;
+            order: 1;
+  }
+  .row-fluid > .span6{
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+  .piece .row-fluid > .span6 > .content > .row-fluid{
+    margin-bottom: 440px;
+  }
+  #mapcanvas{
+    height: 400px !important;
   }
   #piece3 .piece-bg div.p{
     width: 70%;
@@ -7043,9 +7134,6 @@ table.forcontent td{
   }
   #piece12 .piece-bg > .right img{
     width: 100%;
-  }
-  #bottom-wrap2{
-    height: 460px;
   }
   #bottom .col{
     width: 320px;
@@ -7081,6 +7169,17 @@ table.forcontent td{
   }
 }
 
+@media screen and (max-width: 610px){
+  .prod-wrapper > .span4 > div.p{
+    float: none;
+    width: 100%;
+  }
+  .prod-wrapper > .span4 > table.tech-det{
+    float: none;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 590px){
   .custom-wrapper ul.lime2, .customcustom ul.lime2{
     width: 280px;
@@ -7113,8 +7212,6 @@ table.forcontent td{
     height: auto;
     padding-top: 250px;
     padding-bottom: 0;
-    -ms-background-position-x: 50% !important;
-    background-position-x: 50% !important;
   }
   #piece8 .piece-bg div:first-child{
     width: 100% !important;
@@ -7167,19 +7264,15 @@ table.forcontent td{
   }
   #piece14 .piece-bg > div:nth-child(2){
     width: 100% !important;
-    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
     -webkit-order: 1;
         -ms-order: 1;
             order: 1;
   }
   #piece14 .piece-bg #holder-labels{
-    width: 320px;
-    margin: 0 0 0 -40px;
-    height: 480px;
-  }
-  #piece14 .piece-bg #holder-labels img{
-    width: 300px;
-    height: auto;
+    width: 100%;
+    margin: -20px 0 0 -50px;
   }
 }
 
@@ -7278,6 +7371,7 @@ table.forcontent td{
         -ms-flex-direction: column;
             flex-direction: column;
   }
+<<<<<<< HEAD
   .piece > .row-fluid > .span6:first-child{
     position: absolute;
     top: 370px;
@@ -7305,6 +7399,8 @@ table.forcontent td{
   #mapcanvas{
     height: 400px !important;
   }
+=======
+>>>>>>> 9a86897fe8e06d66b3d3f925a6b32f456a304ed2
   .service-tab {
     width: 93%;
   }
@@ -7419,12 +7515,18 @@ table.forcontent td{
     width: auto;
     margin-left: 60px;
   }
+  #piece14 .piece-bg #holder-labels{
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 480px){
   #delivery-map, #combined-delivery, #multi-address-delivery, #short-leg-delivery{
     margin: 20px -20px;
   }
+}
+
+@media screen and (max-width: 460px){
   #piece11 .piece-bg .img-select ul#material{
     padding-left: 0;
   }
@@ -7441,7 +7543,7 @@ table.forcontent td{
 
 @media screen and (max-width: 420px){
   #piece11 .piece-bg .img-select ul#material{
-    margin: 0 -20px;
+    margin: 0 -10px;
   }
   #piece12 div.piece-bg .right img{
     width: 100%;
@@ -7449,9 +7551,9 @@ table.forcontent td{
   }
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 395px){
   #piece11 .piece-bg .img-select ul#material{
-    margin: 0 -40px;
+    margin: 0 -20px;
   }
   .piece > .row-fluid > .span6:first-child{
     top: 400px;
@@ -7460,7 +7562,7 @@ table.forcontent td{
 
 @media screen and (max-width: 375px){
   #piece11 .piece-bg .img-select ul#material{
-    margin: 0 -50px;
+    margin: 0 -30px;
   }
 }
 
@@ -7472,11 +7574,20 @@ table.forcontent td{
     -ms-background-position-x: 100% !important;
     background-position-x: 100% !important;
   }
-  #piece11 div.piece-bg{
-    padding-bottom: 192px;
+  #piece11 .piece-bg .anim10-img{
+    right: -60px;
   }
   #piece14 .piece-bg ul.lime3{
     margin-right: -40px;
+  }
+}
+
+@media screen and (max-width: 355px){
+  #piece11 div.piece-bg{
+    padding-bottom: 192px;
+  }
+  #piece11 .piece-bg .img-select ul#material{
+    margin: 0 -60px 0 -30px;
   }
 }
 
