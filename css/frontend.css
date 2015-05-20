@@ -6021,6 +6021,12 @@ table.forcontent td{
   #piece7 .piece-bg > div h2{
     text-align: center;
   }
+  #piece8 div.piece-bg{
+    height: auto;
+    background: url("../images/kronus/img-distance-keeper.png") left top no-repeat;
+    -ms-background-position-x: 100% !important;
+    background-position-x: 100% !important;
+  }
   #piece9 .piece-bg{
     padding: 60px 10px;
   }
@@ -6302,21 +6308,28 @@ table.forcontent td{
     width: auto;
     margin: 0;
   }
-<<<<<<< HEAD
+  #material .btn-desk   {background:url(/images/kronus/anim/10/m-but-desk.png) 0 0 no-repeat}
+  #material .btn-desk2  {background:url(/images/kronus/anim/10/m-but-doubledesk.png) 0 0 no-repeat}
+  #material .btn-osb    {background:url(/images/kronus/anim/10/m-but-osb.png) 0 0 no-repeat}
+  #material .btn-plastic{background:url(/images/kronus/anim/10/m-but-plastic.png) 0 0 no-repeat}
+  #material .btn-plywood{background:url(/images/kronus/anim/10/m-but-plywood.png) 0 0 no-repeat}
+  .clr88 .hinge-black {background:url(/images/kronus/anim/07/hinges-button-black.png) 0 100% no-repeat}
+  .clr88 .hinge-blue  {background:url(/images/kronus/anim/07/hinges-button-blue.png) 0 100% no-repeat}
+  .clr88 .hinge-green {background:url(/images/kronus/anim/07/hinges-button-green.png) 0 100% no-repeat}
+  .clr88 .hinge-red   {background:url(/images/kronus/anim/07/hinges-button-red.png) 0 100% no-repeat}
+  .clr109 .wood-blue   {background:url(/images/kronus/anim/07/desk-button-blue.png) 0 100% no-repeat}
+  .clr109 .wood-pink   {background:url(/images/kronus/anim/07/desk-button-pink.png) 0 100% no-repeat}
+  .clr109 .wood-yellow {background:url(/images/kronus/anim/07/desk-button-orange.png) 0 100% no-repeat}
+  .clr109 .wood-green {background:url(/images/kronus/anim/07/button-custom-green.png) 0 0 no-repeat}
 }
 
 @media screen and (max-width: 849px){
-=======
   .anim10-img, .anim10-img.mobile{
     display: none;
   }
   .anim10-img.tablet.active{
     display: block;
   }
-}
-
-@media screen and (max-width: 850px){
->>>>>>> 9a86897fe8e06d66b3d3f925a6b32f456a304ed2
   #logo{
     margin: 20px;
     text-align: center;
@@ -6326,12 +6339,9 @@ table.forcontent td{
     display: inline-block;
   }
   #logo a > img{
-<<<<<<< HEAD
     margin-left: 30px;
-=======
     margin: 0 auto;
     padding-left: 30px;
->>>>>>> 9a86897fe8e06d66b3d3f925a6b32f456a304ed2
   }
   #top.white{
     height: 100%;
@@ -6691,10 +6701,6 @@ table.forcontent td{
   #piece7 .piece-bg .img-select img{
     width: 100%;
   }
-  #piece8 .piece-bg{
-    -ms-background-position-x: 200% !important;
-        background-position-x: 200% !important;
-  }
   #piece13 .piece-bg{
     padding-bottom: 0;
   }
@@ -7006,29 +7012,6 @@ table.forcontent td{
   }
   .anim10-img.mobile.active{
     display: block;
-  }
-  #material .btn-desk   {background:url(/images/kronus/anim/10/m-but-desk.png) 0 0 no-repeat}
-  #material .btn-desk2  {background:url(/images/kronus/anim/10/m-but-doubledesk.png) 0 0 no-repeat}
-  #material .btn-osb    {background:url(/images/kronus/anim/10/m-but-osb.png) 0 0 no-repeat}
-  #material .btn-plastic{background:url(/images/kronus/anim/10/m-but-plastic.png) 0 0 no-repeat}
-  #material .btn-plywood{background:url(/images/kronus/anim/10/m-but-plywood.png) 0 0 no-repeat}
-  .clr88 .hinge-black {background:url(/images/kronus/anim/07/hinges-button-black.png) 0 100% no-repeat}
-  .clr88 .hinge-blue  {background:url(/images/kronus/anim/07/hinges-button-blue.png) 0 100% no-repeat}
-  .clr88 .hinge-green {background:url(/images/kronus/anim/07/hinges-button-green.png) 0 100% no-repeat}
-  .clr88 .hinge-red   {background:url(/images/kronus/anim/07/hinges-button-red.png) 0 100% no-repeat}
-  .clr109 .wood-blue   {background:url(/images/kronus/anim/07/desk-button-blue.png) 0 100% no-repeat}
-  .clr109 .wood-pink   {background:url(/images/kronus/anim/07/desk-button-pink.png) 0 100% no-repeat}
-  .clr109 .wood-yellow {background:url(/images/kronus/anim/07/desk-button-orange.png) 0 100% no-repeat}
-  .clr109 .wood-green {background:url(/images/kronus/anim/07/button-custom-green.png) 0 0 no-repeat}
-}
-
-@media screen and (max-width: 750px){
-  #piece8 div.piece-bg{
-    height: auto;
-    background: url("../images/kronus/img-distance-keeper.png") left top no-repeat;
-    -ms-background-position-x: 100% !important;
-    background-position-x: 100% !important;
-
   }
 }
 
@@ -7371,7 +7354,6 @@ table.forcontent td{
         -ms-flex-direction: column;
             flex-direction: column;
   }
-<<<<<<< HEAD
   .piece > .row-fluid > .span6:first-child{
     position: absolute;
     top: 370px;
@@ -7399,8 +7381,6 @@ table.forcontent td{
   #mapcanvas{
     height: 400px !important;
   }
-=======
->>>>>>> 9a86897fe8e06d66b3d3f925a6b32f456a304ed2
   .service-tab {
     width: 93%;
   }
