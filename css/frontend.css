@@ -5820,7 +5820,7 @@ h3.big-header {
 .menu-mobile{
   display: none;
 }
-.slide-mobile{
+.slide-tablet, .slide-mobile{
   display: none;
 }
 
@@ -6147,6 +6147,15 @@ table.forcontent td{
   }
   .piece .content{
     padding: 0;
+  }
+  .flexslider .slides > li{
+    height: auto !important;
+  }
+  .slide-wrap{
+    display: none;
+  }
+  .slide-tablet{
+    display: block;
   }
   .slide-mobile{
     display: none;
@@ -6860,10 +6869,7 @@ table.forcontent td{
     width: 510px;
     margin: 50px auto 0;
   }
-  .slide{
-    height: auto;
-  }
-  .slide-wrap{
+  .slide-tablet{
     display: none;
   }
   .slide-mobile{
