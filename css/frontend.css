@@ -5879,6 +5879,9 @@ table.forcontent td{
   ul.sub-menu li > a > span{
     padding: 0;
   }
+  div.blue-plate > div.title-text{
+    padding-top: 0;
+  }
   .container{
     width: auto;
     margin: 0 15px;
@@ -6875,6 +6878,12 @@ table.forcontent td{
   .slide-mobile{
     display: block;
   }
+  .slide-mobile .title-bg{
+    margin-top: -20px;
+  }
+  div.slide-mobile > div.title-text{
+    padding-top: 28px !important;
+  }
   .slide.inlay{
     background: none;
   }
@@ -6883,6 +6892,9 @@ table.forcontent td{
   }
   .slide.inlay:after{
     background: none;
+  }
+  .blue-plate .title-bg{
+    margin-top: 0;
   }
   #blocks{
     padding: 10px 0 20px 0;
@@ -7210,6 +7222,7 @@ table.forcontent td{
   } 
   #piece13 .piece-bg{
     width: 100%;
+    padding-left: 0;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: column;
@@ -7238,6 +7251,9 @@ table.forcontent td{
   }
   #piece13 .piece-bg > div:nth-child(1) > .img-select{
     margin-top: 20px;
+  }
+  #piece13 .piece-bg > div:nth-child(3) > .img-select > ul.lime3{
+    padding-left: 50px;
   }
   #piece14 .piece-bg{
     display: -webkit-flex;
@@ -7553,6 +7569,9 @@ table.forcontent td{
 }
 
 @media screen and (max-width: 370px){
+  div.blue-plate > div.full.title-text{
+    padding-left: 10px;
+  }
   #delivery-map, #combined-delivery, #multi-address-delivery, #short-leg-delivery{
     margin: 20px -80px;
   }
